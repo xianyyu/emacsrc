@@ -1,0 +1,85 @@
+#+STARTUP: showall
+#+OPTIONS: \n:t
+#+OPTIONS: toc:nil
+
+* 基本说明
+这里的M指的是alt键, C是Control键, -是连接符号, 也就是同时按住多个键
+
+* 基本操作
+M-x 可以调用emacs内置或者外置的函数 (比如查询man文档或者打开文件,修改主题,编译等等..)
+C-x C-f 打开文件
+C-x d 打开dired 进行文件操作
+C-s C-w 会在搜索的时候逐词增加
+C-k 删除当前航
+M-d 删除光标后面的词语
+M-backspace 删除光标前面的词语
+C-g 终止当前要做的操作 (如果emacs执行某个命令可能要卡死, 那么这个命令非常管用)
+
+* Dired 基本操作
+** 基本快捷键
+m mark文件
+u unmark文件
+d 添加删除文件的标记 然后再按x 就会删除被标记的文件
+g 更新当前文件夹的状态 (如果文件夹或者文件被改变的话,那么就需要手动按g进行更新内容)
+shift + w 或者 大写w 可以使用外部程序打开文件 (类似于xdg-open 可能是这么实现的)
+f 打开文件 (不一样的是 这个操作使用emacs本身打开)
+shift + r 或者 大写r 可以重命名文件或者移动文件到别的目录
+h 用来打开dired的帮助 (如果不知道怎么操作, 就可以在这里找到帮助)
+* ido-mode (Dired替代品)
+** 基本的配置文件
+#+BEGIN_SRC elisp
+  (setq ido-enable-flex-matching t)
+  (setq ido-use-filename-at-point 'guess)
+  (setq ido-everywhere t)
+  ;; 打开ido-mode
+  (ido-mode 1)
+  ;; ido-mode 默认是横向显示的, 这个设置可以修改的竖向显示
+  (setq ido-separator "\n")
+  ;; ido模式切换buffer的时候默认忽略一些你不想看到的buffer 比如说*scratch*
+  (setq ido-ignore-buffers '("^ " "*Completions*" "*Shell Command Output*"
+                             "*Messages*" "Async Shell Command" "*scratch*"))
+  (setq ido-auto-merge-work-directories-length -1)
+#+END_SRC
+** 基本操作
+C-j 可以让ido-mode按照你指定的目录打开, 而不是自动提示的
+C-d 在dired中打开目前指定的目录
+~/ 跳转到当前用户的家目录
+// 跳转到系统的根目录
+M-m 在目前目录下新建文件夹
+C-a 显示被隐藏的文件
+
+* semantic-mode (emacs自带的代码跳转分析功能)
+
+** symbol补全
+
+#+BEGIN_SRC elisp
+  (semamtic-complete-analyze-inline)
+#+END_SRC
+这个函数可以帮助你补全symbol或者function
+快捷键是 C-c , space
+
+** 声明定义跳转 
+
+#+BEGIN_SRC elisp
+  (semantic-ia-fast-jump)
+#+END_SRC
+可以跳转到函数声明或者定义, 头文件跳转也可以
+快捷键是 C-c , g or M-.
+ps. 这里的M-.是我自定义的键绑定, 因为比较习惯ggtags的键位
+
+** 函数和头文件高亮 
+#+BEGIN_SRC elisp
+  (semantic-toggle-decoration-mode t)
+#+END_SRC
+函数的上方会有一个横线比较丑但是也挺方便, 头文件会有颜色高亮, 如果是找得到或者存在就是绿色, 如果找不到就是红色
+
+** 其他模式禁用semantic-mode
+#+BEGIN_SRC elisp
+(add-to-list 'semantic-inhibit-functions
+	     (lambda () (not (member major-mode '(c-mode c++-mode)))))
+#+END_SRC
+
+添加如上代码就会在其他模式比如javascript禁用semantic-mode, 如果不用这个代码, 那么别的模式就会偶尔报错
+
+
+* TODO 添加更多的内容

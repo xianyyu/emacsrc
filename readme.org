@@ -1,5 +1,6 @@
 #+startup: showall
 #+options: \n:t
+#+options: toc:nil
 
 * 自己自用的Emacs配置最小化文件
 
