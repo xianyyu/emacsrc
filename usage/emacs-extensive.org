@@ -1,0 +1,9 @@
+* Emacs 高级操作
+
+** Shell命令和Shell
+- ESC/M-! 执行shell命令
+- ESC | 在mark好的region上面执行shell命令 (shell-command-on-region)
+- C-u ESC/M-! 执行一条shell命令,并将结果放到当前的编辑缓冲区里
+- M-x shell 可以打开shell
+- M-n 或者 M-p 可以显示出上一个命令和下一个命令 (从历史记录中)
+- C-c C-o 删除上一条命令的输出结果
