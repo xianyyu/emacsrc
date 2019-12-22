@@ -1,39 +1,141 @@
-
 ;;(load-theme 'adwaita t)
 
 
 (require 'org)
 (with-eval-after-load 'org
   ;; Org 模式相关设定
-;;  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-(setq org-src-fontify-natively t)
-;; 设置默认 Org Agenda 文件目录
-(setq org-agenda-files '("~/Documents/notes/"))
-;; 设置 org-agenda 打开快捷键
-(global-set-key (kbd "C-c a") 'org-agenda)
+  ;;  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+  (setq org-src-fontify-natively t)
+  ;; 设置默认 Org Agenda 文件目录
+  (setq org-agenda-files '("~/Documents/notes/"))
+  ;; 设置 org-agenda 打开快捷键
+  (global-set-key (kbd "C-c a") 'org-agenda)
 
-(setq org-startup-indented t)
+  (setq org-startup-indented t)
 
-(setq org-src-tab-acts-natively t)
+  (setq org-src-tab-acts-natively t)
 
-(add-hook 'org-mode-hook 
-	  (lambda () (setq truncate-lines nil)))
+  (add-hook 'org-mode-hook 
+	    (lambda () (setq truncate-lines nil)))
 
-(org-babel-do-load-languages
-      'org-babel-load-languages
-      '((emacs-lisp . t)
-        (C . t)
-        (java . t)
-        (js . t)
-        (ruby . t)
-        (ditaa . t)
-        (python . t)
-        (shell . t)
-        (latex . t)
-        (plantuml . t)
-        (R . t)))
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((emacs-lisp . t)
+     (C . t)
+     (java . t)
+     (js . t)
+     (ruby . t)
+     (ditaa . t)
+     (python . t)
+     (shell . t)
+     (latex . t)
+     (plantuml . t)
+     (R . t)))
 
-)
+  )
+
+;; better copy word and paste imple
+(defun get-point (symbol &optional arg)
+  "get the point"
+  (funcall symbol arg)
+  (point))
+
+(defun copy-thing (begin-of-thing end-of-thing &optional arg)
+  "Copy thing between beg & end into kill ring."
+  (save-excursion
+    (let ((beg (get-point begin-of-thing 1))
+	  (end (get-point end-of-thing arg)))
+      (copy-region-as-kill beg end))))
+
+(defun paste-to-mark (&optional arg)
+  "Paste things to mark, or to the prompt in shell-mode."
+  (unless (eq arg 1)
+    (if (string= "shell-mode" major-mode)
+	(comint-next-prompt 25535)
+      (goto-char (mark)))
+    (yank)))
+
+(defun copy-word (&optional arg)
+  "Copy words at point into kill-ring"
+  (interactive "P")
+  (copy-thing 'backward-word 'forward-word arg)
+  ;;(paste-to-mark arg)
+  )
+
+
+(defun copy-backward-word ()
+  "copy word before point - rocky @ stackexchange"
+  (interactive "")
+  (save-excursion
+    (let ((end (point))
+	  (beg (get-point 'backward-word 1)))
+      (copy-region-as-kill beg end))))
+
+
+
+(defun copy-line (&optional arg)
+  "Save current line into Kill-Ring without mark the line "
+  (interactive "P")
+  (copy-thing 'beginning-of-line 'end-of-line arg)
+;;  (paste-to-mark arg)
+  )
+
+
+
+(defun beginning-of-string (&optional arg)
+  (when (re-search-backward "[ \t]" (line-beginning-position) :noerror 1)
+    (forward-char 1)))
+(defun end-of-string (&optional arg)
+  (when (re-search-forward "[ \t]" (line-end-position) :noerror arg)
+    (backward-char 1)))
+
+(defun thing-copy-string-to-mark(&optional arg)
+  " Try to copy a string and paste it to the mark
+     When used in shell-mode, it will paste string on shell prompt by default "
+  (interactive "P")
+  (copy-thing 'beginning-of-string 'end-of-string arg)
+  (paste-to-mark arg)
+  )
+
+(defun copy-paragraph (&optional arg)
+  "Copy paragraphes at point"
+  (interactive "P")
+  (copy-thing 'backward-paragraph 'forward-paragraph arg)
+  ;;(paste-to-mark arg)
+  )
+
+(defun beginning-of-parenthesis (&optional arg)
+  (when (re-search-backward "[[<(?\"]" (line-beginning-position) :noerror)
+    (forward-char 1)))
+(defun end-of-parenthesis (&optional arg)
+  (when (re-search-forward "[]>)?\"]" (line-end-position) :noerror arg)
+    (backward-char 1)))
+
+(defun thing-copy-parenthesis-to-mark (&optional arg)
+  " Try to copy a parenthesis and paste it to the mark
+     When used in shell-mode, it will paste parenthesis on shell prompt by default "
+  (interactive "P")
+  (copy-thing 'beginning-of-parenthesis 'end-of-parenthesis arg)
+  (paste-to-mark arg)
+  )
+;;(global-set-key (kbd "C-c a")         (quote thing-copy-parenthesis-to-mark))
+;;(global-set-key (kbd "C-c p") 'copy-paragraph)
+
+(global-set-key (kbd "C-c w") 'copy-word)
+(global-set-key (kbd "C-c W") 'copy-backward-word)
+(global-set-key (kbd "C-c l") 'copy-line)
+;;(global-set-key (kbd "C-c s")         (quote thing-copy-string-to-mark))
+
+
+;; replacing backward delete word
+(defun backward-delete-word (arg)
+  "Delete characters backward until encountering the beginning of a word.
+With argument ARG, do this that many times."
+  (interactive "p")
+  (delete-region (point) (progn (backward-word arg) (point))))
+
+(global-set-key (kbd "C-M-<backspace>") 'backward-kill-word)
+(global-set-key (kbd "M-DEL") 'backward-delete-word)
 
 ;; hide ^M something like that
 (defun hidden-dos-eol ()
@@ -184,12 +286,12 @@
 
 ;;set the way of semantic search
 (setq-mode-local c++-mode
-semanticdb-find-default-throttle
-'(file project local unloaded system recursive))
+		 semanticdb-find-default-throttle
+		 '(file project local unloaded system recursive))
 
 (setq-mode-local c-mode
-semanticdb-find-default-throttle
-'(file project local unloaded system recursive))
+		 semanticdb-find-default-throttle
+		 '(file project local unloaded system recursive))
 
 ;;higlight fun
 (global-semantic-highlight-func-mode)
@@ -216,7 +318,7 @@ semanticdb-find-default-throttle
         global-semantic-mru-bookmark-mode
 	global-semantic-sticky-func-mode
 	global-semantic-show-parser-state-mode 1
-      global-semantic-idle-local-symbol-highlight-mode))
+	global-semantic-idle-local-symbol-highlight-mode))
 (setq semanticdb-default-save-directory "~/.emacs.d/.semanticdb/"
       semantic-complete-inline-analyzer-idle-displayor-class 'semantic-displayor-ghost)
 

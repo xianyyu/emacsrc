@@ -1,3 +1,6 @@
+#+options: toc:nil \n:t
+#+startup: showall
+
 * Emacs 高级操作
 
 ** Shell命令和Shell
