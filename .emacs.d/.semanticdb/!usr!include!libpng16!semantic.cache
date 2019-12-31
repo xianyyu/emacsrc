@@ -1,0 +1,1670 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("PNG_H" variable (:constant-flag t) nil [12861 12866])
+            ("PNG_LIBPNG_VER_STRING" variable (:constant-flag t) nil [13537 13558])
+            ("PNG_HEADER_VERSION_STRING" variable (:constant-flag t) nil [13576 13601])
+            ("PNG_LIBPNG_VER_SONUM" variable (:constant-flag t) nil [13659 13679])
+            ("PNG_LIBPNG_VER_DLLNUM" variable (:constant-flag t) nil [13693 13714])
+            ("PNG_LIBPNG_VER_MAJOR" variable (:constant-flag t) nil [13802 13822])
+            ("PNG_LIBPNG_VER_MINOR" variable (:constant-flag t) nil [13835 13855])
+            ("PNG_LIBPNG_VER_RELEASE" variable (:constant-flag t) nil [13868 13890])
+            ("PNG_LIBPNG_VER_BUILD" variable (:constant-flag t) nil [14025 14045])
+            ("PNG_LIBPNG_BUILD_ALPHA" variable (:constant-flag t) nil [14079 14101])
+            ("PNG_LIBPNG_BUILD_BETA" variable (:constant-flag t) nil [14115 14136])
+            ("PNG_LIBPNG_BUILD_RC" variable (:constant-flag t) nil [14151 14170])
+            ("PNG_LIBPNG_BUILD_STABLE" variable (:constant-flag t) nil [14187 14210])
+            ("PNG_LIBPNG_BUILD_RELEASE_STATUS_MASK" variable (:constant-flag t) nil [14223 14259])
+            ("PNG_LIBPNG_BUILD_PATCH" variable (:constant-flag t) nil [14300 14322])
+            ("PNG_LIBPNG_BUILD_PRIVATE" variable (:constant-flag t) nil [14428 14452])
+            ("PNG_LIBPNG_BUILD_SPECIAL" variable (:constant-flag t) nil [14555 14579])
+            ("PNG_LIBPNG_BUILD_BASE_TYPE" variable (:constant-flag t) nil [14683 14709])
+            ("PNG_LIBPNG_VER" variable (:constant-flag t) nil [15062 15076])
+            ("pnglibconf.h" include nil nil [15312 15338])
+            ("pngconf.h" include nil nil [15415 15437])
+            ("PNG_LIBPNG_BUILD_TYPE" variable (:constant-flag t) nil [16269 16290])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [111783 111795])
+                    ("" variable (:type ("png_get_uint_31" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [111796 111812]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [111767 111868])
+            ("png_composite_16" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [111154 111170])
+            ("png_composite" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [110841 110854])
+            ("PNG_COL_IN_INTERLACE_PASS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [109149 109174])
+            ("PNG_ROW_IN_INTERLACE_PASS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [109060 109085])
+            ("PNG_PASS_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [108919 108932])
+            ("PNG_COL_FROM_PASS_COL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [108491 108512])
+            ("PNG_ROW_FROM_PASS_ROW" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [108382 108403])
+            ("PNG_PASS_COLS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [108058 108071])
+            ("PNG_PASS_ROWS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [107917 107930])
+            ("PNG_PASS_COL_SHIFT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [107587 107605])
+            ("PNG_PASS_ROW_SHIFT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [107527 107545])
+            ("PNG_PASS_COL_OFFSET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [107264 107283])
+            ("PNG_PASS_ROW_OFFSET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [107196 107215])
+            ("PNG_PASS_START_COL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [106820 106838])
+            ("PNG_PASS_START_ROW" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [106752 106770])
+            ("PNG_INTERLACE_ADAM7_PASSES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [106519 106545])
+            ("PNG_HANDLE_CHUNK_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [102751 102772])
+            ("PNG_HANDLE_CHUNK_ALWAYS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [102711 102734])
+            ("PNG_HANDLE_CHUNK_IF_SAFE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [102671 102695])
+            ("PNG_HANDLE_CHUNK_NEVER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [102631 102653])
+            ("PNG_HANDLE_CHUNK_AS_DEFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [102591 102618])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_const_charp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102287 102303])
+                    ("" variable (:type ("png_get_libpng_ver" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102304 102323]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [102271 102358])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_const_charp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102195 102211])
+                    ("" variable (:type ("png_get_header_version" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102212 102235]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [102179 102270])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_const_charp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102107 102123])
+                    ("" variable (:type ("png_get_header_ver" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102124 102143]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [102091 102178])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_const_charp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102020 102036])
+                    ("" variable (:type ("png_get_copyright" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102037 102055]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [102004 102090])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [101477 101482])
+                    ("" variable (:type ("png_set_invalid" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [101483 101499]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [101461 101565])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [90441 90446])
+                    ("" variable (:type ("png_set_PLTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [90447 90460]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [90425 90553])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [90303 90315])
+                    ("" variable (:type ("png_get_PLTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [90316 90329]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [90287 90423])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [88795 88800])
+                    ("" variable (:type ("png_set_IHDR" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [88801 88814]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [88779 89013])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [88539 88551])
+                    ("" variable (:type ("png_get_IHDR" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [88552 88565]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [88523 88777])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [81582 81591])
+                    ("" variable (:type ("png_get_channels" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [81592 81609]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [81566 81671])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80949 80960])
+                    ("" variable (:type ("png_get_rowbytes" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80961 80978]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [80933 81040])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80760 80772])
+                    ("" variable (:type ("png_get_valid" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80773 80787]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [80744 80867])
+            ("png_chunk_benign_error" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [79964 79986])
+            ("png_benign_error" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [79925 79941])
+            ("png_chunk_warning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [79141 79158])
+            ("png_warning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [79099 79110])
+            ("png_chunk_error" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [78656 78671])
+            ("png_error" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [78617 78626])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [78547 78552])
+                    ("" variable (:type ("png_err" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [78553 78561])
+                    ("" variable (:type ("PNG_NORETURN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [78592 78605]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [78530 78606])
+            ("PNG_FREE_MUL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77719 77731])
+            ("PNG_FREE_ALL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77689 77701])
+            ("PNG_FREE_EXIF" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77630 77643])
+            ("PNG_FREE_TEXT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77600 77613])
+            ("PNG_FREE_TRNS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77570 77583])
+            ("PNG_FREE_PLTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77540 77553])
+            ("PNG_FREE_SCAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77355 77368])
+            ("PNG_FREE_PCAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77325 77338])
+            ("PNG_FREE_ROWS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77295 77308])
+            ("PNG_FREE_SPLT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77265 77278])
+            ("PNG_FREE_ICCP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77235 77248])
+            ("PNG_FREE_HIST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77205 77218])
+            ("PNG_USER_WILL_FREE_DATA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77116 77139])
+            ("PNG_SET_WILL_FREE_DATA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77083 77105])
+            ("PNG_DESTROY_WILL_FREE_DATA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [77046 77072])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [76893 76898])
+                    ("" variable (:type ("png_data_freer" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76899 76914]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76878 76999])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [76395 76400])
+                    ("" variable (:type ("png_free_data" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76401 76415]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76380 76501])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [76271 76276])
+                    ("" variable (:type ("png_free" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76277 76286]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76256 76332])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76106 76116])
+                    ("" variable (:type ("png_malloc_warn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76117 76133])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76191 76205]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76090 76206])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75957 75967])
+                    ("" variable (:type ("png_calloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75968 75979])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76037 76051]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [75941 76052])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75809 75819])
+                    ("" variable (:type ("png_malloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75820 75831])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75889 75903]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [75793 75904])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [70426 70431])
+                    ("" variable (:type ("png_set_write_status_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70432 70456]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [70411 70520])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [70318 70323])
+                    ("" variable (:type ("png_set_read_status_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70324 70347]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [70303 70409])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70244 70254])
+                    ("" variable (:type ("png_get_io_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70255 70270]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [70229 70301])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [70069 70074])
+                    ("" variable (:type ("png_set_read_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70075 70091]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [70054 70163])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [69853 69858])
+                    ("" variable (:type ("png_set_write_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69859 69876]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [69838 69980])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69207 69217])
+                    ("" variable (:type ("png_get_error_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69218 69236]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [69192 69267])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [69001 69006])
+                    ("" variable (:type ("png_set_error_fn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69007 69024]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [68986 69124])
+            ("PNG_FILTER_VALUE_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [65099 65120])
+            ("PNG_FILTER_VALUE_PAETH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [65066 65088])
+            ("PNG_FILTER_VALUE_AVG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [65033 65053])
+            ("PNG_FILTER_VALUE_UP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [65000 65019])
+            ("PNG_FILTER_VALUE_SUB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64967 64987])
+            ("PNG_FILTER_VALUE_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64934 64955])
+            ("PNG_ALL_FILTERS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64739 64754])
+            ("PNG_FAST_FILTERS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64663 64679])
+            ("PNG_FILTER_PAETH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64631 64647])
+            ("PNG_FILTER_AVG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64599 64613])
+            ("PNG_FILTER_UP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64567 64580])
+            ("PNG_FILTER_SUB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64535 64549])
+            ("PNG_FILTER_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64503 64518])
+            ("PNG_NO_FILTERS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [64471 64485])
+            ("PNG_CRC_NO_CHANGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63456 63473])
+            ("PNG_CRC_QUIET_USE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63379 63396])
+            ("PNG_CRC_WARN_USE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63302 63318])
+            ("PNG_CRC_WARN_DISCARD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63225 63245])
+            ("PNG_CRC_ERROR_QUIT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63148 63166])
+            ("PNG_CRC_DEFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63071 63086])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [62467 62472])
+                    ("" variable (:type ("png_set_crc_action" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [62473 62492]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [62452 62556])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [62304 62309])
+                    ("" variable (:type ("png_destroy_write_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [62310 62335]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [62289 62393])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [62092 62097])
+                    ("" variable (:type ("png_destroy_read_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [62098 62122]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [62077 62209])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [61907 61912])
+                    ("" variable (:type ("png_destroy_info_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61913 61937]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [61892 61997])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [61600 61605])
+                    ("" variable (:type ("png_write_end" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61606 61620]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [61585 61670])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [61481 61486])
+                    ("" variable (:type ("png_write_image" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61487 61503]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [61466 61546])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [61349 61354])
+                    ("" variable (:type ("png_write_rows" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61355 61370]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [61334 61437])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [60999 61004])
+                    ("" variable (:type ("png_write_row" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61005 61019]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [60984 61069])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [60312 60317])
+                    ("" variable (:type ("png_read_update_info" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60318 60339]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [60297 60389])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [60188 60193])
+                    ("" variable (:type ("png_start_read_image" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60194 60215]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [60173 60240])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [44116 44121])
+                    ("" variable (:type ("png_write_info" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44122 44137]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44101 44193])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [44011 44016])
+                    ("" variable (:type ("png_write_info_before_PLTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44017 44044]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43996 44100])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [43840 43845])
+                    ("" variable (:type ("png_info_init_3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43846 43862])
+                    ("" variable (:type ("PNG_DEPRECATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43923 43938]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43824 43939])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_infop" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43534 43544])
+                    ("" variable (:type ("png_create_info_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43545 43568])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43603 43617]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43518 43618])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [43416 43421])
+                    ("" variable (:type ("png_write_chunk_end" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43422 43442]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43401 43467])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [43228 43233])
+                    ("" variable (:type ("png_write_chunk_data" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43234 43255]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43213 43325])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [43032 43037])
+                    ("" variable (:type ("png_write_chunk_start" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43038 43060]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43017 43137])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [42833 42838])
+                    ("" variable (:type ("png_write_chunk" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42839 42855]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42818 42953])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [42711 42716])
+                    ("" variable (:type ("png_write_sig" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42717 42731]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42696 42756])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [41806 41811])
+                    ("" variable (:type ("png_longjmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41812 41824])
+                    ("" variable (:type ("PNG_NORETURN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41868 41881]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41791 41882])
+            ("png_jmpbuf" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [41478 41488])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [40640 40645])
+                    ("" variable (:type ("png_set_compression_buffer_size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40646 40678]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40626 40724])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40545 40556])
+                    ("" variable (:type ("png_get_compression_buffer_size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40557 40589]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40531 40624])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_structp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40364 40376])
+                    ("" variable (:type ("png_create_write_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40377 40401])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40514 40528]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40349 40529])
+            ("PNG_EXPORTA" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_structp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40104 40116])
+                    ("" variable (:type ("png_create_read_struct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40117 40140])
+                    ("" variable (:type ("PNG_ALLOCATED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40253 40267]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40089 40268])
+            ("png_check_sig" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [39958 39971])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [39735 39739])
+                    ("" variable (:type ("png_sig_cmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [39740 39752]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39721 39823])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [39387 39392])
+                    ("" variable (:type ("png_set_sig_bytes" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [39393 39411]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39373 39451])
+            ("PNG_EXPORT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [39174 39186])
+                    ("" variable (:type ("png_access_version_number" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [39187 39213]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39160 39222])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [37844 37849])
+                    ("" variable (:type ("png_free_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37851 37864]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37831 37891])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("png_voidp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37757 37767])
+                    ("" variable (:type ("png_malloc_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37769 37784]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37744 37822])
+            ("PNG_ALL_MNG_FEATURES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [37402 37422])
+            ("PNG_FLAG_MNG_FILTER_64" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [37361 37383])
+            ("PNG_FLAG_MNG_EMPTY_PLTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [37320 37343])
+            ("PNG_TRANSFORM_EXPAND_16" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [37095 37118])
+            ("PNG_TRANSFORM_GRAY_TO_RGB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [37003 37028])
+            ("PNG_TRANSFORM_STRIP_FILLER_AFTER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36910 36942])
+            ("PNG_TRANSFORM_STRIP_FILLER_BEFORE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36841 36874])
+            ("PNG_TRANSFORM_STRIP_FILLER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36748 36774])
+            ("PNG_TRANSFORM_INVERT_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36680 36706])
+            ("PNG_TRANSFORM_SWAP_ENDIAN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36612 36637])
+            ("PNG_TRANSFORM_SWAP_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36544 36568])
+            ("PNG_TRANSFORM_BGR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36476 36493])
+            ("PNG_TRANSFORM_SHIFT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36408 36427])
+            ("PNG_TRANSFORM_INVERT_MONO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36340 36365])
+            ("PNG_TRANSFORM_EXPAND" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36277 36297])
+            ("PNG_TRANSFORM_PACKSWAP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36209 36231])
+            ("PNG_TRANSFORM_PACKING" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36141 36162])
+            ("PNG_TRANSFORM_STRIP_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36078 36103])
+            ("PNG_TRANSFORM_STRIP_16" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [36015 36037])
+            ("PNG_TRANSFORM_IDENTITY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [35947 35969])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33774 33779])
+                    ("" variable (:type ("png_write_status_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33781 33802]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33761 33840])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33687 33692])
+                    ("" variable (:type ("png_read_status_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33694 33714]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33674 33752])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33628 33633])
+                    ("" variable (:type ("png_flush_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33635 33649]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33615 33665])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33549 33554])
+                    ("" variable (:type ("png_rw_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33556 33567]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33536 33606])
+            ("PNG_CALLBACK" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33473 33478])
+                    ("" variable (:type ("png_error_ptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33480 33494]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33460 33527])
+            ("png_row_infopp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_row_info" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [32898 32938])
+            ("png_row_infop" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_row_info" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [32860 32897])
+            ("png_row_info" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_row_info_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [32480 32858])
+            ("png_row_info_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("width" variable (:type ("png_uint_32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32520 32538])
+                    ("rowbytes" variable (:type ("png_size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32564 32584])
+                    ("color_type" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32618 32638])
+                    ("bit_depth" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32667 32686])
+                    ("channels" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32715 32733])
+                    ("pixel_depth" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32781 32802]))                  )
+                (reparse-symbol extern-c-contents) [32480 32858])
+            ("PNG_INFO_eXIf" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32267 32280])
+            ("PNG_INFO_IDAT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32219 32232])
+            ("PNG_INFO_sCAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32171 32184])
+            ("PNG_INFO_sPLT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32123 32136])
+            ("PNG_INFO_iCCP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32075 32088])
+            ("PNG_INFO_sRGB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [32026 32039])
+            ("PNG_INFO_pCAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31996 32009])
+            ("PNG_INFO_tIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31966 31979])
+            ("PNG_INFO_oFFs" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31936 31949])
+            ("PNG_INFO_pHYs" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31906 31919])
+            ("PNG_INFO_hIST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31876 31889])
+            ("PNG_INFO_bKGD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31846 31859])
+            ("PNG_INFO_tRNS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31816 31829])
+            ("PNG_INFO_PLTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31786 31799])
+            ("PNG_INFO_cHRM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31756 31769])
+            ("PNG_INFO_sBIT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31726 31739])
+            ("PNG_INFO_gAMA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31696 31709])
+            ("PNG_MAX_PALETTE_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31367 31389])
+            ("PNG_KEYWORD_MAX_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31271 31293])
+            ("PNG_sRGB_INTENT_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31179 31199])
+            ("PNG_sRGB_INTENT_ABSOLUTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31142 31166])
+            ("PNG_sRGB_INTENT_SATURATION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31105 31131])
+            ("PNG_sRGB_INTENT_RELATIVE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31068 31092])
+            ("PNG_sRGB_INTENT_PERCEPTUAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [31031 31057])
+            ("PNG_RESOLUTION_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30897 30916])
+            ("PNG_RESOLUTION_METER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30842 30862])
+            ("PNG_RESOLUTION_UNKNOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30765 30787])
+            ("PNG_SCALE_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30631 30645])
+            ("PNG_SCALE_RADIAN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30571 30587])
+            ("PNG_SCALE_METER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30512 30527])
+            ("PNG_SCALE_UNKNOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30443 30460])
+            ("PNG_EQUATION_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30309 30326])
+            ("PNG_EQUATION_HYPERBOLIC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30236 30259])
+            ("PNG_EQUATION_ARBITRARY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30157 30179])
+            ("PNG_EQUATION_BASE_E" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30086 30105])
+            ("PNG_EQUATION_LINEAR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [30022 30041])
+            ("PNG_OFFSET_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29888 29903])
+            ("PNG_OFFSET_MICROMETER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29809 29830])
+            ("PNG_OFFSET_PIXEL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29750 29766])
+            ("PNG_INTERLACE_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29616 29634])
+            ("PNG_INTERLACE_ADAM7" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29556 29575])
+            ("PNG_INTERLACE_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29493 29511])
+            ("PNG_FILTER_TYPE_DEFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29358 29381])
+            ("PNG_INTRAPIXEL_DIFFERENCING" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29284 29311])
+            ("PNG_FILTER_TYPE_BASE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29212 29232])
+            ("PNG_COMPRESSION_TYPE_DEFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29076 29104])
+            ("PNG_COMPRESSION_TYPE_BASE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [29005 29030])
+            ("PNG_COLOR_TYPE_GA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28874 28891])
+            ("PNG_COLOR_TYPE_RGBA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28820 28839])
+            ("PNG_COLOR_TYPE_GRAY_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28749 28774])
+            ("PNG_COLOR_TYPE_RGB_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28669 28693])
+            ("PNG_COLOR_TYPE_RGB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28612 28630])
+            ("PNG_COLOR_TYPE_PALETTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28532 28554])
+            ("PNG_COLOR_TYPE_GRAY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28502 28521])
+            ("PNG_COLOR_MASK_ALPHA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28404 28424])
+            ("PNG_COLOR_MASK_COLOR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28368 28388])
+            ("PNG_COLOR_MASK_PALETTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28332 28354])
+            ("PNG_FP_MIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28219 28229])
+            ("PNG_FP_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28168 28178])
+            ("PNG_FP_HALF" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28141 28152])
+            ("PNG_FP_1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28114 28122])
+            ("PNG_SIZE_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27970 27982])
+            ("PNG_UINT_32_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27926 27941])
+            ("PNG_UINT_31_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27875 27890])
+            ("PNG_AFTER_IDAT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27791 27805])
+            ("PNG_HAVE_PLTE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27763 27776])
+            ("PNG_HAVE_IHDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27735 27748])
+            ("png_timepp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_time" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [26426 26458])
+            ("png_const_timep" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_time" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [26384 26425])
+            ("png_timep" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_time" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [26354 26383])
+            ("png_time" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_time_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [25994 26353])
+            ("png_time_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("year" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26030 26047])
+                    ("month" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26080 26095])
+                    ("day" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26129 26142])
+                    ("hour" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26177 26191])
+                    ("minute" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26224 26240])
+                    ("second" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [26274 26290]))                  )
+                (reparse-symbol extern-c-contents) [25994 26353])
+            ("PNG_TEXT_COMPRESSION_LAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25597 25622])
+            ("PNG_ITXT_COMPRESSION_zTXt" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25557 25582])
+            ("PNG_ITXT_COMPRESSION_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25517 25542])
+            ("PNG_TEXT_COMPRESSION_zTXt" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25477 25502])
+            ("PNG_TEXT_COMPRESSION_NONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25437 25462])
+            ("PNG_TEXT_COMPRESSION_zTXt_WR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25397 25425])
+            ("PNG_TEXT_COMPRESSION_NONE_WR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25357 25385])
+            ("png_sPLT_tpp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_sPLT_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [23031 23067])
+            ("png_const_sPLT_tp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_sPLT_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22985 23030])
+            ("png_sPLT_tp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_sPLT_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22951 22984])
+            ("png_sPLT_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_sPLT_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [22684 22950])
+            ("png_sPLT_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("name" variable (:type ("png_charp" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22720 22735])
+                    ("depth" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22768 22783])
+                    ("entries" variable (:type ("png_sPLT_entryp" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22828 22852])
+                    ("nentries" variable (:type ("png_int_32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22879 22899]))                  )
+                (reparse-symbol extern-c-contents) [22684 22950])
+            ("png_sPLT_entrypp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_sPLT_entry" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22404 22448])
+            ("png_const_sPLT_entryp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_sPLT_entry" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22350 22403])
+            ("png_sPLT_entryp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_sPLT_entry" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22308 22349])
+            ("png_sPLT_entry" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_sPLT_entry_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [22140 22307])
+            ("png_sPLT_entry_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("red" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22182 22198])
+                    ("green" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22202 22220])
+                    ("blue" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22224 22241])
+                    ("alpha" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22245 22263])
+                    ("frequency" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22267 22289]))                  )
+                (reparse-symbol extern-c-contents) [22140 22307])
+            ("png_color_8pp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_color_8" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [22002 22040])
+            ("png_const_color_8p" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color_8" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21954 22001])
+            ("png_color_8p" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color_8" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21918 21953])
+            ("png_color_8" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_color_8_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [21672 21917])
+            ("png_color_8_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("red" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21711 21724])
+                    ("green" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21768 21783])
+                    ("blue" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21787 21801])
+                    ("gray" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21805 21819])
+                    ("alpha" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21857 21872]))                  )
+                (reparse-symbol extern-c-contents) [21672 21917])
+            ("png_color_16pp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_color_16" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21630 21670])
+            ("png_const_color_16p" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color_16" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21580 21629])
+            ("png_color_16p" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color_16" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21542 21579])
+            ("png_color_16" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_color_16_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [21280 21541])
+            ("png_color_16_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("index" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21320 21335])
+                    ("red" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21371 21387])
+                    ("green" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21431 21449])
+                    ("blue" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21453 21470])
+                    ("gray" variable (:type ("png_uint_16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21474 21491]))                  )
+                (reparse-symbol extern-c-contents) [21280 21541])
+            ("png_colorpp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_color" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21244 21278])
+            ("png_const_colorp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21200 21243])
+            ("png_colorp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_color" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [21168 21199])
+            ("png_color" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_color_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [21067 21167])
+            ("png_color_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("red" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21104 21117])
+                    ("green" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21121 21136])
+                    ("blue" variable (:type ("png_byte" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21140 21154]))                  )
+                (reparse-symbol extern-c-contents) [21067 21167])
+            ("png_const_inforp" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ((((1) "PNG_RESTRICT")) type (:superclasses ("png_info" type (:type "class") nil nil) :type "typedef") nil nil))
+                (reparse-symbol extern-c-contents) [20806 20861])
+            ("png_inforp" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ((((1) "PNG_RESTRICT")) type (:superclasses ("png_info" type (:type "class") nil nil) :type "typedef") nil nil))
+                (reparse-symbol extern-c-contents) [20762 20805])
+            ("png_const_structrp" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ((((1) "PNG_RESTRICT")) type (:superclasses ("png_struct" type (:type "class") nil nil) :type "typedef") nil nil))
+                (reparse-symbol extern-c-contents) [20702 20761])
+            ("png_structrp" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ((((1) "PNG_RESTRICT")) type (:superclasses ("png_struct" type (:type "class") nil nil) :type "typedef") nil nil))
+                (reparse-symbol extern-c-contents) [20654 20701])
+            ("png_infopp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_info" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19878 19910])
+            ("png_const_infop" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_info" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19836 19877])
+            ("png_infop" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_info" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19806 19835])
+            ("png_info" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_info_def" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [19768 19805])
+            ("png_structpp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 2
+                :typedef ("png_struct" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19183 19219])
+            ("png_structp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_struct" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19149 19182])
+            ("png_const_structp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("png_struct" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [19103 19148])
+            ("png_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("png_struct_def" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [19061 19102])
+            ("png_libpng_version_1_6_34" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("char"))
+                (reparse-symbol extern-c-contents) [18723 18763])
+            ("png_libpng_ver" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [16615 16629]))          
+      :file "png.h"
+      :pointmax 144150
+      :fsize 144149
+      :lastmodtime '(23752 25103 0 0)
+      :unmatched-syntax '((semantic-list 111813 . 111866) (number 111778 . 111781) (semantic-list 102328 . 102356) (number 102282 . 102285) (semantic-list 102240 . 102268) (number 102190 . 102193) (semantic-list 102148 . 102176) (number 102102 . 102105) (semantic-list 102060 . 102088) (number 102015 . 102018) (semantic-list 101500 . 101563) (number 101472 . 101475) (semantic-list 90461 . 90551) (number 90436 . 90439) (semantic-list 90330 . 90421) (number 90298 . 90301) (semantic-list 88815 . 89011) (number 88790 . 88793) (semantic-list 88566 . 88775) (number 88534 . 88537) (semantic-list 81610 . 81669) (number 81577 . 81580) (semantic-list 80979 . 81038) (number 80944 . 80947) (semantic-list 80788 . 80865) (number 80755 . 80758) (semantic-list 78562 . 78590) (number 78542 . 78545) (semantic-list 76915 . 76997) (number 76889 . 76891) (semantic-list 76416 . 76499) (number 76391 . 76393) (semantic-list 76287 . 76330) (number 76267 . 76269) (semantic-list 76134 . 76189) (number 76102 . 76104) (semantic-list 75980 . 76035) (number 75953 . 75955) (semantic-list 75832 . 75887) (number 75805 . 75807) (semantic-list 70457 . 70518) (number 70422 . 70424) (semantic-list 70348 . 70407) (number 70314 . 70316) (semantic-list 70271 . 70299) (number 70240 . 70242) (semantic-list 70092 . 70161) (number 70065 . 70067) (semantic-list 69877 . 69978) (number 69849 . 69851) (semantic-list 69237 . 69265) (number 69203 . 69205) (semantic-list 69025 . 69122) (number 68997 . 68999) (semantic-list 62493 . 62554) (number 62463 . 62465) (semantic-list 62336 . 62391) (number 62300 . 62302) (semantic-list 62123 . 62207) (number 62088 . 62090) (semantic-list 61938 . 61995) (number 61903 . 61905) (semantic-list 61621 . 61668) (number 61596 . 61598) (semantic-list 61504 . 61544) (number 61477 . 61479) (semantic-list 61371 . 61435) (number 61345 . 61347) (semantic-list 61020 . 61067) (number 60995 . 60997) (semantic-list 60340 . 60387) (number 60308 . 60310) (semantic-list 60216 . 60238) (number 60184 . 60186) (semantic-list 44142 . 44191) (number 44112 . 44114) (semantic-list 44049 . 44098) (number 44007 . 44009) (semantic-list 43863 . 43921) (number 43836 . 43838) (semantic-list 43569 . 43597) (number 43530 . 43532) (semantic-list 43443 . 43465) (number 43412 . 43414) (semantic-list 43256 . 43323) (number 43224 . 43226) (semantic-list 43061 . 43135) (number 43028 . 43030) (semantic-list 42856 . 42951) (number 42829 . 42831) (semantic-list 42732 . 42754) (number 42707 . 42709) (semantic-list 41825 . 41862) (number 41803 . 41804) (semantic-list 40679 . 40722) (number 40637 . 40638) (semantic-list 40594 . 40622) (number 40542 . 40543) (semantic-list 40406 . 40508) (number 40361 . 40362) (semantic-list 40145 . 40247) (number 40101 . 40102) (semantic-list 39753 . 39821) (number 39732 . 39733) (semantic-list 39412 . 39449) (number 39384 . 39385) (semantic-list 39214 . 39220) (number 39171 . 39172) (semantic-list 37865 . 37889) (punctuation 37850 . 37851) (TYPEDEF 37823 . 37830) (semantic-list 37785 . 37820) (punctuation 37768 . 37769) (TYPEDEF 37736 . 37743) (semantic-list 33803 . 33838) (punctuation 33780 . 33781) (TYPEDEF 33753 . 33760) (semantic-list 33715 . 33750) (punctuation 33693 . 33694) (TYPEDEF 33666 . 33673) (semantic-list 33650 . 33663) (punctuation 33634 . 33635) (TYPEDEF 33607 . 33614) (semantic-list 33568 . 33604) (punctuation 33555 . 33556) (TYPEDEF 33528 . 33535) (semantic-list 33495 . 33525) (punctuation 33479 . 33480) (TYPEDEF 33452 . 33459))
+      :lexical-table 
+        '(("PNG_LIBPNG_VER_MINOR" . ((number "6" 13858 . 13859)))
+          ("PNG_SIZE_MAX" . ((semantic-list "((png_size_t)(-1))" 27983 . 28001)))
+          ("PNG_FP_1" . ((number "100000" 28126 . 28132)))
+          ("PNG_COLOR_TYPE_RGB_ALPHA" . ((semantic-list "(PNG_COLOR_MASK_COLOR | PNG_COLOR_MASK_ALPHA)" 28695 . 28740)))
+          ("PNG_SCALE_METER" . ((number "1" 30538 . 30539)))
+          ("PNG_sRGB_INTENT_RELATIVE" . ((number "1" 31095 . 31096)))
+          ("PNG_TRANSFORM_SHIFT" . ((number "0x0040" 36437 . 36443)))
+          ("PNG_TRANSFORM_SWAP_ALPHA" . ((number "0x0100" 36573 . 36579)))
+          ("PNG_TRANSFORM_STRIP_FILLER_AFTER" . ((number "0x1000" 36943 . 36949)))
+          ("PNG_FAST_FILTERS" . ((semantic-list "(PNG_FILTER_NONE | PNG_FILTER_SUB | PNG_FILTER_UP)" 64680 . 64730)))
+          ("PNG_ALL_FILTERS" . ((semantic-list "(PNG_FAST_FILTERS | PNG_FILTER_AVG | PNG_FILTER_PAETH)" 64755 . 64809)))
+          ("PNG_FREE_SPLT" . ((symbol "0x0020U" 77279 . 77286)))
+          ("png_error" (spp-arg-list ("s1" "s2") 78626 . 78633) . ((symbol "png_err" 78634 . 78641) (semantic-list "(s1)" 78641 . 78645)))
+          ("PNG_H")
+          ("PNG_LIBPNG_VER_RELEASE" . ((number "34" 13891 . 13893)))
+          ("PNG_LIBPNG_BUILD_TYPE" . ((semantic-list "(PNG_LIBPNG_BUILD_BASE_TYPE)" 16291 . 16319)))
+          ("PNG_ITXT_COMPRESSION_NONE" . ((number "1" 25547 . 25548)))
+          ("PNG_COMPRESSION_TYPE_DEFAULT" . ((symbol "PNG_COMPRESSION_TYPE_BASE" 29105 . 29130)))
+          ("PNG_RESOLUTION_METER" . ((number "1" 30868 . 30869)))
+          ("PNG_sRGB_INTENT_LAST" . ((number "4" 31206 . 31207)))
+          ("PNG_INFO_gAMA" . ((symbol "0x0001U" 31710 . 31717)))
+          ("PNG_TRANSFORM_STRIP_FILLER" . ((number "0x0800" 36777 . 36783)))
+          ("PNG_LIBPNG_VER_BUILD" . ((number "0" 14047 . 14048)))
+          ("PNG_TEXT_COMPRESSION_zTXt_WR" . ((punctuation "-" 25426 . 25427) (number "2" 25427 . 25428)))
+          ("PNG_FP_MAX" . ((semantic-list "((png_fixed_point)0x7fffffffL)" 28180 . 28210)))
+          ("PNG_sRGB_INTENT_ABSOLUTE" . ((number "3" 31169 . 31170)))
+          ("PNG_TRANSFORM_STRIP_16" . ((number "0x0001" 36044 . 36050)))
+          ("PNG_TRANSFORM_INVERT_MONO" . ((number "0x0020" 36369 . 36375)))
+          ("PNG_NO_FILTERS" . ((number "0x00" 64490 . 64494)))
+          ("PNG_PASS_COL_OFFSET" (spp-arg-list ("pass") 107283 . 107289) . ((semantic-list "(1<<((7-(pass))>>1))" 107290 . 107310)))
+          ("PNG_LIBPNG_VER_DLLNUM" . ((number "16" 13716 . 13718)))
+          ("PNG_TEXT_COMPRESSION_zTXt" . ((number "0" 25507 . 25508)))
+          ("PNG_FP_MIN" . ((semantic-list "(-PNG_FP_MAX)" 28231 . 28244)))
+          ("PNG_COLOR_TYPE_GRAY" . ((number "0" 28522 . 28523)))
+          ("PNG_COMPRESSION_TYPE_BASE" . ((number "0" 29031 . 29032)))
+          ("PNG_FILTER_TYPE_BASE" . ((number "0" 29238 . 29239)))
+          ("PNG_FILTER_TYPE_DEFAULT" . ((symbol "PNG_FILTER_TYPE_BASE" 29384 . 29404)))
+          ("PNG_INTERLACE_LAST" . ((number "2" 29642 . 29643)))
+          ("PNG_KEYWORD_MAX_LENGTH" . ((number "79" 31298 . 31300)))
+          ("PNG_INFO_sBIT" . ((symbol "0x0002U" 31740 . 31747)))
+          ("PNG_INFO_pHYs" . ((symbol "0x0080U" 31920 . 31927)))
+          ("PNG_INFO_pCAL" . ((symbol "0x0400U" 32010 . 32017)))
+          ("PNG_TRANSFORM_GRAY_TO_RGB" . ((number "0x2000" 37031 . 37037)))
+          ("PNG_CRC_QUIET_USE" . ((number "4" 63401 . 63402)))
+          ("PNG_FREE_TEXT" . ((symbol "0x4000U" 77614 . 77621)))
+          ("png_chunk_error" (spp-arg-list ("s1" "s2") 78671 . 78678) . ((symbol "png_err" 78679 . 78686) (semantic-list "(s1)" 78686 . 78690)))
+          ("png_chunk_benign_error" . ((symbol "png_chunk_error" 79987 . 80002)))
+          ("PNG_PASS_START_COL" (spp-arg-list ("pass") 106838 . 106844) . ((semantic-list "(((1& (pass))<<(3-(((pass)+1)>>1)))&7)" 106845 . 106883)))
+          ("PNG_LIBPNG_BUILD_RC" . ((number "3" 14177 . 14178)))
+          ("PNG_LIBPNG_BUILD_RELEASE_STATUS_MASK" . ((number "7" 14260 . 14261)))
+          ("PNG_LIBPNG_BUILD_PATCH" . ((number "8" 14326 . 14327)))
+          ("PNG_LIBPNG_BUILD_PRIVATE" . ((number "16" 14453 . 14455)))
+          ("PNG_EQUATION_BASE_E" . ((number "1" 30112 . 30113)))
+          ("PNG_SCALE_LAST" . ((number "3" 30657 . 30658)))
+          ("PNG_TRANSFORM_EXPAND" . ((number "0x0010" 36306 . 36312)))
+          ("PNG_CRC_ERROR_QUIT" . ((number "1" 63170 . 63171)))
+          ("PNG_FILTER_VALUE_NONE" . ((number "0" 64957 . 64958)))
+          ("PNG_LIBPNG_VER_STRING" . ((string "\"1.6.34\"" 13559 . 13567)))
+          ("PNG_LIBPNG_BUILD_STABLE" . ((number "4" 14213 . 14214)))
+          ("PNG_TEXT_COMPRESSION_NONE_WR" . ((punctuation "-" 25386 . 25387) (number "3" 25387 . 25388)))
+          ("PNG_SCALE_UNKNOWN" . ((number "0" 30469 . 30470)))
+          ("PNG_SCALE_RADIAN" . ((number "2" 30597 . 30598)))
+          ("PNG_INFO_oFFs" . ((symbol "0x0100U" 31950 . 31957)))
+          ("PNG_TRANSFORM_EXPAND_16" . ((number "0x4000" 37123 . 37129)))
+          ("PNG_CRC_NO_CHANGE" . ((number "5" 63478 . 63479)))
+          ("PNG_FILTER_NONE" . ((number "0x08" 64522 . 64526)))
+          ("PNG_DESTROY_WILL_FREE_DATA" . ((number "1" 77073 . 77074)))
+          ("png_chunk_warning" (spp-arg-list ("s1" "s2") 79158 . 79165) . ((semantic-list "((void)(s1))" 79166 . 79178)))
+          ("PNG_HANDLE_CHUNK_AS_DEFAULT" . ((number "0" 102621 . 102622)))
+          ("PNG_HANDLE_CHUNK_IF_SAFE" . ((number "2" 102701 . 102702)))
+          ("PNG_LIBPNG_BUILD_BETA" . ((number "2" 14141 . 14142)))
+          ("PNG_LIBPNG_BUILD_SPECIAL" . ((number "32" 14580 . 14582)))
+          ("PNG_TEXT_COMPRESSION_NONE" . ((punctuation "-" 25466 . 25467) (number "1" 25467 . 25468)))
+          ("PNG_HAVE_IHDR" . ((number "0x01" 27750 . 27754)))
+          ("PNG_HAVE_PLTE" . ((number "0x02" 27778 . 27782)))
+          ("PNG_INTRAPIXEL_DIFFERENCING" . ((number "64" 29312 . 29314)))
+          ("PNG_INFO_tRNS" . ((symbol "0x0010U" 31830 . 31837)))
+          ("PNG_INFO_bKGD" . ((symbol "0x0020U" 31860 . 31867)))
+          ("PNG_INFO_sRGB" . ((symbol "0x0800U" 32040 . 32047)))
+          ("PNG_INFO_iCCP" . ((symbol "0x1000U" 32089 . 32096)))
+          ("PNG_INFO_sCAL" . ((symbol "0x4000U" 32185 . 32192)))
+          ("PNG_TRANSFORM_PACKSWAP" . ((number "0x0008" 36238 . 36244)))
+          ("PNG_FLAG_MNG_FILTER_64" . ((number "0x04" 37389 . 37393)))
+          ("png_check_sig" (spp-arg-list ("sig" "n") 39971 . 39979) . 
+              ((punctuation "!" 39980 . 39981) (symbol "png_sig_cmp" 39981 . 39992) (semantic-list "((sig), 0, (n))" 39992 . 40007)))
+          ("PNG_FILTER_VALUE_UP" . ((number "2" 65023 . 65024)))
+          ("PNG_FREE_ALL" . ((symbol "0xffffU" 77703 . 77710)))
+          ("png_benign_error" . ((symbol "png_error" 79942 . 79951)))
+          ("PNG_HANDLE_CHUNK_ALWAYS" . ((number "3" 102741 . 102742)))
+          ("PNG_PASS_START_ROW" (spp-arg-list ("pass") 106770 . 106776) . ((semantic-list "(((1&~(pass))<<(3-((pass)>>1)))&7)" 106777 . 106811)))
+          ("PNG_PASS_ROWS" (spp-arg-list ("height" "pass") 107930 . 107944) . ((semantic-list "(((height)+(((1<<PNG_PASS_ROW_SHIFT(pass))\\
+   -1)-PNG_PASS_START_ROW(pass)))>>PNG_PASS_ROW_SHIFT(pass))" 107945 . 108049)))
+          ("PNG_ROW_FROM_PASS_ROW" (spp-arg-list ("y_in" "pass") 108403 . 108415) . ((semantic-list "(((y_in)<<PNG_PASS_ROW_SHIFT(pass))+PNG_PASS_START_ROW(pass))" 108421 . 108482)))
+          ("PNG_COL_FROM_PASS_COL" (spp-arg-list ("x_in" "pass") 108512 . 108524) . ((semantic-list "(((x_in)<<PNG_PASS_COL_SHIFT(pass))+PNG_PASS_START_COL(pass))" 108530 . 108591)))
+          ("PNG_LIBPNG_BUILD_ALPHA" . ((number "1" 14105 . 14106)))
+          ("PNG_AFTER_IDAT" . ((number "0x08" 27806 . 27810)))
+          ("PNG_UINT_31_MAX" . ((semantic-list "((png_uint_32)0x7fffffffL)" 27891 . 27917)))
+          ("PNG_COLOR_MASK_PALETTE" . ((number "1" 28358 . 28359)))
+          ("PNG_COLOR_TYPE_PALETTE" . ((semantic-list "(PNG_COLOR_MASK_COLOR | PNG_COLOR_MASK_PALETTE)" 28556 . 28603)))
+          ("PNG_INTERLACE_ADAM7" . ((number "1" 29582 . 29583)))
+          ("PNG_EQUATION_ARBITRARY" . ((number "2" 30183 . 30184)))
+          ("PNG_RESOLUTION_LAST" . ((number "2" 30923 . 30924)))
+          ("PNG_INFO_hIST" . ((symbol "0x0040U" 31890 . 31897)))
+          ("PNG_INFO_IDAT" . ((symbol "0x8000U" 32233 . 32240)))
+          ("PNG_TRANSFORM_PACKING" . ((number "0x0004" 36170 . 36176)))
+          ("PNG_TRANSFORM_INVERT_ALPHA" . ((number "0x0400" 36709 . 36715)))
+          ("PNG_FILTER_PAETH" . ((number "0x80" 64650 . 64654)))
+          ("PNG_PASS_COL_SHIFT" (spp-arg-list ("pass") 107605 . 107611) . ((semantic-list "((pass)>1?(7-(pass))>>1:3)" 107612 . 107638)))
+          ("PNG_LIBPNG_VER_MAJOR" . ((number "1" 13825 . 13826)))
+          ("PNG_COLOR_TYPE_RGB" . ((semantic-list "(PNG_COLOR_MASK_COLOR)" 28638 . 28660)))
+          ("PNG_COLOR_TYPE_GA" . ((symbol "PNG_COLOR_TYPE_GRAY_ALPHA" 28893 . 28918)))
+          ("PNG_MAX_PALETTE_LENGTH" . ((number "256" 31393 . 31396)))
+          ("PNG_INFO_sPLT" . ((symbol "0x2000U" 32137 . 32144)))
+          ("PNG_TRANSFORM_IDENTITY" . ((number "0x0000" 35976 . 35982)))
+          ("PNG_TRANSFORM_BGR" . ((number "0x0080" 36505 . 36511)))
+          ("PNG_CRC_WARN_DISCARD" . ((number "2" 63247 . 63248)))
+          ("PNG_FILTER_SUB" . ((number "0x10" 64554 . 64558)))
+          ("PNG_USER_WILL_FREE_DATA" . ((number "2" 77140 . 77141)))
+          ("PNG_FREE_PCAL" . ((symbol "0x0080U" 77339 . 77346)))
+          ("png_warning" (spp-arg-list ("s1" "s2") 79110 . 79117) . ((semantic-list "((void)(s1))" 79118 . 79130)))
+          ("PNG_HANDLE_CHUNK_NEVER" . ((number "1" 102661 . 102662)))
+          ("PNG_HANDLE_CHUNK_LAST" . ((number "4" 102781 . 102782)))
+          ("png_composite" (spp-arg-list ("composite" "fg" "alpha" "bg") 110854 . 110880) . 
+              ((semantic-list "(composite)" 110907 . 110918) (punctuation "=" 110919 . 110920) (semantic-list "(png_byte)" 110984 . 110994) (semantic-list "(0xff & (((png_uint_16)(fg) * (png_uint_16)(alpha) +  \\
+       (png_uint_16)(bg) * (png_uint_16)(255 - (png_uint_16)(alpha)) + \\
+       127) / 255))" 110994 . 111142)))
+          ("PNG_HEADER_VERSION_STRING" . ((string "\" libpng version 1.6.34 - September 29, 2017\\n\"" 13602 . 13649)))
+          ("PNG_FP_HALF" . ((number "50000" 28154 . 28159)))
+          ("PNG_COLOR_MASK_COLOR" . ((number "2" 28394 . 28395)))
+          ("PNG_OFFSET_PIXEL" . ((number "0" 29776 . 29777)))
+          ("PNG_OFFSET_LAST" . ((number "2" 29914 . 29915)))
+          ("PNG_INFO_cHRM" . ((symbol "0x0004U" 31770 . 31777)))
+          ("PNG_ALL_MNG_FEATURES" . ((number "0x05" 37430 . 37434)))
+          ("png_jmpbuf" (spp-arg-list ("png_ptr") 41488 . 41497) . ((semantic-list "(LIBPNG_WAS_COMPILED_WITH__PNG_NO_SETJMP)" 41506 . 41547)))
+          ("PNG_CRC_DEFAULT" . ((number "0" 63093 . 63094)))
+          ("PNG_SET_WILL_FREE_DATA" . ((number "1" 77106 . 77107)))
+          ("PNG_FREE_ROWS" . ((symbol "0x0040U" 77309 . 77316)))
+          ("PNG_FREE_PLTE" . ((symbol "0x1000U" 77554 . 77561)))
+          ("PNG_FREE_EXIF" . ((symbol "0x8000U" 77644 . 77651)))
+          ("PNG_COL_IN_INTERLACE_PASS" (spp-arg-list ("x" "pass") 109174 . 109183) . ((semantic-list "((PNG_PASS_MASK(pass,1) >> ((x)&7)) & 1)" 109189 . 109229)))
+          ("PNG_LIBPNG_BUILD_BASE_TYPE" . ((symbol "PNG_LIBPNG_BUILD_STABLE" 14710 . 14733)))
+          ("PNG_LIBPNG_VER" . ((number "10634" 15077 . 15082)))
+          ("png_libpng_ver" . ((symbol "png_get_header_ver" 16630 . 16648) (semantic-list "(NULL)" 16648 . 16654)))
+          ("PNG_UINT_32_MAX" . ((semantic-list "((png_uint_32)(-1))" 27942 . 27961)))
+          ("PNG_INTERLACE_NONE" . ((number "0" 29519 . 29520)))
+          ("PNG_OFFSET_MICROMETER" . ((number "1" 29835 . 29836)))
+          ("PNG_EQUATION_LINEAR" . ((number "0" 30048 . 30049)))
+          ("PNG_sRGB_INTENT_SATURATION" . ((number "2" 31132 . 31133)))
+          ("PNG_INFO_eXIf" . ((symbol "0x10000U" 32281 . 32289)))
+          ("PNG_TRANSFORM_STRIP_ALPHA" . ((number "0x0002" 36107 . 36113)))
+          ("PNG_TRANSFORM_STRIP_FILLER_BEFORE" . ((symbol "PNG_TRANSFORM_STRIP_FILLER" 36875 . 36901)))
+          ("PNG_CRC_WARN_USE" . ((number "3" 63324 . 63325)))
+          ("PNG_FILTER_AVG" . ((number "0x40" 64618 . 64622)))
+          ("PNG_FILTER_VALUE_SUB" . ((number "1" 64990 . 64991)))
+          ("PNG_FILTER_VALUE_LAST" . ((number "5" 65122 . 65123)))
+          ("PNG_PASS_ROW_SHIFT" (spp-arg-list ("pass") 107545 . 107551) . ((semantic-list "((pass)>2?(8-(pass))>>1:3)" 107552 . 107578)))
+          ("PNG_PASS_COLS" (spp-arg-list ("width" "pass") 108071 . 108084) . ((semantic-list "(((width)+(((1<<PNG_PASS_COL_SHIFT(pass))\\
+   -1)-PNG_PASS_START_COL(pass)))>>PNG_PASS_COL_SHIFT(pass))" 108085 . 108188)))
+          ("PNG_ROW_IN_INTERLACE_PASS" (spp-arg-list ("y" "pass") 109085 . 109094) . ((semantic-list "((PNG_PASS_MASK(pass,0) >> ((y)&7)) & 1)" 109100 . 109140)))
+          ("png_composite_16" (spp-arg-list ("composite" "fg" "alpha" "bg") 111170 . 111196) . 
+              ((semantic-list "(composite)" 111224 . 111235) (punctuation "=" 111236 . 111237) (semantic-list "(png_uint_16)" 111305 . 111318) (semantic-list "(0xffff & (((png_uint_32)(fg) * (png_uint_32)(alpha) + \\
+       (png_uint_32)(bg)*(png_uint_32)(65535 - (png_uint_32)(alpha)) +     \\
+       32767) / 65535))" 111318 . 111475)))
+          ("PNG_LIBPNG_VER_SONUM" . ((number "16" 13682 . 13684)))
+          ("PNG_ITXT_COMPRESSION_zTXt" . ((number "2" 25587 . 25588)))
+          ("PNG_COLOR_MASK_ALPHA" . ((number "4" 28430 . 28431)))
+          ("PNG_COLOR_TYPE_RGBA" . ((symbol "PNG_COLOR_TYPE_RGB_ALPHA" 28841 . 28865)))
+          ("PNG_EQUATION_HYPERBOLIC" . ((number "3" 30262 . 30263)))
+          ("PNG_RESOLUTION_UNKNOWN" . ((number "0" 30791 . 30792)))
+          ("PNG_sRGB_INTENT_PERCEPTUAL" . ((number "0" 31058 . 31059)))
+          ("PNG_INFO_PLTE" . ((symbol "0x0008U" 31800 . 31807)))
+          ("PNG_FLAG_MNG_EMPTY_PLTE" . ((number "0x01" 37348 . 37352)))
+          ("PNG_FREE_ICCP" . ((symbol "0x0010U" 77249 . 77256)))
+          ("PNG_FREE_SCAL" . ((symbol "0x0100U" 77369 . 77376)))
+          ("PNG_FREE_TRNS" . ((symbol "0x2000U" 77584 . 77591)))
+          ("PNG_FREE_MUL" . ((symbol "0x4220U" 77733 . 77740)))
+          ("PNG_PASS_ROW_OFFSET" (spp-arg-list ("pass") 107215 . 107221) . ((semantic-list "((pass)>2?(8>>(((pass)-1)>>1)):8)" 107222 . 107255)))
+          ("PNG_PASS_MASK" (spp-arg-list ("pass" "off") 108932 . 108942) . ((semantic-list "( \\
+   ((0x110145AF>>(((7-(off))-(pass))<<2)) & 0xF) | \\
+   ((0x01145AF0>>(((7-(off))-(pass))<<2)) & 0xF0))" 108943 . 109050)))
+          ("PNG_TEXT_COMPRESSION_LAST" . ((number "3" 25627 . 25628)))
+          ("PNG_COLOR_TYPE_GRAY_ALPHA" . ((semantic-list "(PNG_COLOR_MASK_ALPHA)" 28775 . 28797)))
+          ("PNG_EQUATION_LAST" . ((number "4" 30335 . 30336)))
+          ("PNG_INFO_tIME" . ((symbol "0x0200U" 31980 . 31987)))
+          ("PNG_TRANSFORM_SWAP_ENDIAN" . ((number "0x0200" 36641 . 36647)))
+          ("PNG_FILTER_UP" . ((number "0x20" 64586 . 64590)))
+          ("PNG_FILTER_VALUE_AVG" . ((number "3" 65056 . 65057)))
+          ("PNG_FILTER_VALUE_PAETH" . ((number "4" 65089 . 65090)))
+          ("PNG_FREE_HIST" . ((symbol "0x0008U" 77219 . 77226)))
+          ("PNG_INTERLACE_ADAM7_PASSES" . ((number "7" 106546 . 106547)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "pnglibconf.h"
+      :fsize 7564
+      :lastmodtime '(23752 25103 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "pngconf.h"
+      :fsize 22845
+      :lastmodtime '(23752 25103 0 0)))
+  :file "!usr!include!libpng16!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

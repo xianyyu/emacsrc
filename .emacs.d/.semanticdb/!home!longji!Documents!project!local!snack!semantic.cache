@@ -1,0 +1,141 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("keyboard.hpp" include nil nil [1 24])
+            ("SFML/Graphics.hpp" include (:system-flag t) nil [26 54])
+            ("SFML/Window.hpp" include (:system-flag t) nil [55 81])
+            ("iostream" include (:system-flag t) nil [83 102])
+            ("main" function (:type "int") nil [140 366]))          
+      :file "main.cpp"
+      :pointmax 367
+      :fsize 366
+      :lastmodtime '(24071 34255 861717 575000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("KEYBOARD_H" variable (:constant-flag t) nil [29 39])
+            ("iostream" include (:system-flag t) nil [42 61])
+            ("fcntl.h" include (:system-flag t) nil [62 80])
+            ("pthread.h" include (:system-flag t) nil [81 101])
+            ("unistd.h" include (:system-flag t) nil [102 121])
+            ("linux/input.h" include (:system-flag t) nil [122 146])
+            ("KEYBOARD_DEV" variable (:constant-flag t) nil [157 169])
+            ("keyboard_state" type
+               (:members 
+                  ( ("keys" variable
+                       (:dereference 1
+                        :type "signed short")
+                        (reparse-symbol classsubparts) [220 247]))                  
+                :type "struct")
+                nil [192 250])
+            ("cKeyboard" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [273 281])
+                    ("thread" variable (:type ("pthread_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [286 303])
+                    ("active" variable (:type "bool") (reparse-symbol classsubparts) [308 320])
+                    ("keyboard_fd" variable (:type "int") (reparse-symbol classsubparts) [325 341])
+                    ("keyboard_ev" variable
+                       (:pointer 1
+                        :type ("input_event" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [346 371])
+                    ("keyboard_st" variable
+                       (:pointer 1
+                        :type ("keyboard_state" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [376 404])
+                    ("name" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [409 424])
+                    ("protected" label nil (reparse-symbol classsubparts) [429 439])
+                    ("public" label nil (reparse-symbol classsubparts) [442 449])
+                    ("cKeyboard" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("cKeyboard" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [454 466])
+                    ("cKeyboard" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [471 484])
+                    ("loop" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("obj" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [507 517]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [489 518])
+                    ("readEv" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [523 537])
+                    ("getKeyState" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("key" variable (:type "short") (reparse-symbol arg-sub-list) [560 570]))                          
+                        :type "short")
+                        (reparse-symbol classsubparts) [542 571]))                  
+                :type "class")
+                nil [253 574]))          
+      :file "keyboard.hpp"
+      :pointmax 584
+      :fsize 583
+      :lastmodtime '(24071 31108 84123 873000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("KEYBOARD_DEV" . ((string "\"/dev/input/event0\"" 150 . 169)))
+          ("KEYBOARD_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("keyboard.hpp" include nil nil [2 25])
+            ("cKeyboard" function
+               (:constructor-flag t
+                :parent "cKeyboard"
+                :type ("cKeyboard" type (:type "class") nil nil))
+                nil [29 456])
+            ("loop" function
+               (:pointer 1
+                :parent "cKeyboard"
+                :arguments 
+                  ( ("obj" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [480 490]))                  
+                :type "void")
+                nil [458 595])
+            ("readEv" function
+               (:parent "cKeyboard"
+                :type "void")
+                nil [598 846])
+            ("getKeyState" function
+               (:parent "cKeyboard"
+                :arguments 
+                  ( ("key" variable (:type "short") (reparse-symbol arg-sub-list) [878 888]))                  
+                :type "short")
+                nil [849 927])
+            ("cKeyboard" function
+               (:destructor-flag t
+                :parent "cKeyboard"
+                :type "void")
+                nil [929 1143]))          
+      :file "keyboard.cpp"
+      :pointmax 1144
+      :fsize 1143
+      :lastmodtime '(24071 30759 321314 289000)
+      :unmatched-syntax nil))
+  :file "!home!longji!Documents!project!local!snack!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

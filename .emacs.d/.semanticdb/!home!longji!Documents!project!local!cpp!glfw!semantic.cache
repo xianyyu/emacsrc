@@ -1,0 +1,54 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GLFW/glfw3.h" include (:system-flag t) nil [1 24])
+            ("GL/glut.h" include (:system-flag t) nil [25 45])
+            ("SDL2/SDL.h" include (:system-flag t) nil [47 68])
+            ("stdio.h" include (:system-flag t) nil [70 88])
+            ("vector" include (:system-flag t) nil [89 106])
+            ("string" include (:system-flag t) nil [108 125])
+            ("key_callback" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("window" variable
+                       (:pointer 1
+                        :type ("GLFWwindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [152 171])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [172 180])
+                    ("scancode" variable (:type "int") (reparse-symbol arg-sub-list) [181 194])
+                    ("action" variable (:type "int") (reparse-symbol arg-sub-list) [195 206])
+                    ("mods" variable (:type "int") (reparse-symbol arg-sub-list) [207 216]))                  
+                :type "void")
+                nil [127 217])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [228 233]))                  
+                :type "int")
+                nil [219 1049])
+            ("key_callback" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("window" variable
+                       (:pointer 1
+                        :type ("GLFWwindow" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1076 1095])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [1096 1104])
+                    ("scancode" variable (:type "int") (reparse-symbol arg-sub-list) [1105 1118])
+                    ("action" variable (:type "int") (reparse-symbol arg-sub-list) [1119 1130])
+                    ("mods" variable (:type "int") (reparse-symbol arg-sub-list) [1131 1140]))                  
+                :type "void")
+                nil [1051 1349]))          
+      :file "main.cpp"
+      :pointmax 1350
+      :fsize 1357
+      :lastmodtime '(24063 32126 15546 483000)
+      :unmatched-syntax nil))
+  :file "!home!longji!Documents!project!local!cpp!glfw!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

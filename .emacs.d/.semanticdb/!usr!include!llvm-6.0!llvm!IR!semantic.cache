@@ -1,0 +1,253 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("LLVM_IR_CALLINGCONV_H" variable (:constant-flag t) nil [524 545])
+            ("llvm" type
+               (:members 
+                  ( ("CallingConv" type
+                       (:members 
+                          ( ("" type
+                               (:members 
+                                  ( ("C" variable
+                                       (:constant-flag t
+                                        :default-value (1272 1273)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1268 1273])
+                                    ("Fast" variable
+                                       (:constant-flag t
+                                        :default-value (1597 1598)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1590 1598])
+                                    ("Cold" variable
+                                       (:constant-flag t
+                                        :default-value (1912 1913)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1905 1913])
+                                    ("GHC" variable
+                                       (:constant-flag t
+                                        :default-value (2002 2004)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1996 2004])
+                                    ("HiPE" variable
+                                       (:constant-flag t
+                                        :default-value (2111 2113)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2104 2113])
+                                    ("WebKit_JS" variable
+                                       (:constant-flag t
+                                        :default-value (2203 2205)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2191 2205])
+                                    ("AnyReg" variable
+                                       (:constant-flag t
+                                        :default-value (2339 2341)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2330 2341])
+                                    ("PreserveMost" variable
+                                       (:constant-flag t
+                                        :default-value (2460 2462)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2445 2462])
+                                    ("PreserveAll" variable
+                                       (:constant-flag t
+                                        :default-value (2587 2589)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2573 2589])
+                                    ("Swift" variable
+                                       (:constant-flag t
+                                        :default-value (2649 2651)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2641 2651])
+                                    ("CXX_FAST_TLS" variable
+                                       (:constant-flag t
+                                        :default-value (2736 2738)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2721 2738])
+                                    ("FirstTargetCC" variable
+                                       (:constant-flag t
+                                        :default-value (2881 2883)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [2865 2883])
+                                    ("X86_StdCall" variable
+                                       (:constant-flag t
+                                        :default-value (3156 3158)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3142 3158])
+                                    ("X86_FastCall" variable
+                                       (:constant-flag t
+                                        :default-value (3360 3362)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3345 3362])
+                                    ("ARM_APCS" variable
+                                       (:constant-flag t
+                                        :default-value (3501 3503)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3490 3503])
+                                    ("ARM_AAPCS" variable
+                                       (:constant-flag t
+                                        :default-value (3645 3647)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3633 3647])
+                                    ("ARM_AAPCS_VFP" variable
+                                       (:constant-flag t
+                                        :default-value (3747 3749)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3731 3749])
+                                    ("MSP430_INTR" variable
+                                       (:constant-flag t
+                                        :default-value (3847 3849)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [3833 3849])
+                                    ("X86_ThisCall" variable
+                                       (:constant-flag t
+                                        :default-value (4074 4076)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4059 4076])
+                                    ("PTX_Kernel" variable
+                                       (:constant-flag t
+                                        :default-value (4188 4190)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4175 4190])
+                                    ("PTX_Device" variable
+                                       (:constant-flag t
+                                        :default-value (4323 4325)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4310 4325])
+                                    ("SPIR_FUNC" variable
+                                       (:constant-flag t
+                                        :default-value (4858 4860)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [4846 4860])
+                                    ("SPIR_KERNEL" variable
+                                       (:constant-flag t
+                                        :default-value (5159 5161)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5145 5161])
+                                    ("Intel_OCL_BI" variable
+                                       (:constant-flag t
+                                        :default-value (5253 5255)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5238 5255])
+                                    ("X86_64_SysV" variable
+                                       (:constant-flag t
+                                        :default-value (5409 5411)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5395 5411])
+                                    ("Win64" variable
+                                       (:constant-flag t
+                                        :default-value (5909 5911)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [5901 5911])
+                                    ("X86_VectorCall" variable
+                                       (:constant-flag t
+                                        :default-value (6042 6044)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6025 6044])
+                                    ("HHVM" variable
+                                       (:constant-flag t
+                                        :default-value (6297 6299)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6290 6299])
+                                    ("HHVM_C" variable
+                                       (:constant-flag t
+                                        :default-value (6382 6384)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6373 6384])
+                                    ("X86_INTR" variable
+                                       (:constant-flag t
+                                        :default-value (6736 6738)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6725 6738])
+                                    ("AVR_INTR" variable
+                                       (:constant-flag t
+                                        :default-value (6797 6799)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6786 6799])
+                                    ("AVR_SIGNAL" variable
+                                       (:constant-flag t
+                                        :default-value (6876 6878)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [6863 6878])
+                                    ("AVR_BUILTIN" variable
+                                       (:constant-flag t
+                                        :default-value (7031 7033)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7017 7033])
+                                    ("AMDGPU_VS" variable
+                                       (:constant-flag t
+                                        :default-value (7278 7280)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7266 7280])
+                                    ("AMDGPU_GS" variable
+                                       (:constant-flag t
+                                        :default-value (7365 7367)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7353 7367])
+                                    ("AMDGPU_PS" variable
+                                       (:constant-flag t
+                                        :default-value (7449 7451)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7437 7451])
+                                    ("AMDGPU_CS" variable
+                                       (:constant-flag t
+                                        :default-value (7535 7537)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7523 7537])
+                                    ("AMDGPU_KERNEL" variable
+                                       (:constant-flag t
+                                        :default-value (7619 7621)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7603 7621])
+                                    ("X86_RegCall" variable
+                                       (:constant-flag t
+                                        :default-value (7720 7722)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7706 7722])
+                                    ("AMDGPU_HS" variable
+                                       (:constant-flag t
+                                        :default-value (7844 7846)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7832 7846])
+                                    ("MSP430_BUILTIN" variable
+                                       (:constant-flag t
+                                        :default-value (8010 8012)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [7993 8012])
+                                    ("AMDGPU_LS" variable
+                                       (:constant-flag t
+                                        :default-value (8123 8125)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8111 8125])
+                                    ("AMDGPU_ES" variable
+                                       (:constant-flag t
+                                        :default-value (8377 8379)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8365 8379])
+                                    ("MaxID" variable
+                                       (:constant-flag t
+                                        :default-value (8468 8472)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [8460 8472]))                                  
+                                :type "enum")
+                                (reparse-symbol namespacesubparts) [975 8477]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [686 8480]))                  
+                :type "namespace")
+                nil [547 8512]))          
+      :file "CallingConv.h"
+      :pointmax 8568
+      :fsize 8567
+      :lastmodtime '(23193 16989 0 0)
+      :unmatched-syntax '((punctuation 813 . 814) (UNSIGNED 805 . 813) (punctuation 803 . 804) (symbol 800 . 802) (USING 794 . 799))
+      :lexical-table 
+        '(("LLVM_IR_CALLINGCONV_H")
+          )
+))
+  :file "!usr!include!llvm-6.0!llvm!IR!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

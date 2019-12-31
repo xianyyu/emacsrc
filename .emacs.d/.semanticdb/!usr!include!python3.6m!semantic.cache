@@ -1,0 +1,2614 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_ERRORS_H" variable (:constant-flag t) nil [29 40])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17123 17164])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16969 17010])
+            ("stdarg.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [16845 16864])
+            ("PyUnicodeTranslateError_SetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exc" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16217 16231])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16236 16296]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16178 16297])
+            ("PyUnicodeDecodeError_SetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exc" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16081 16095])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16100 16160]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16045 16161])
+            ("PyUnicodeEncodeError_SetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exc" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15948 15962])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [15967 16027]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15912 16028])
+            ("PyUnicodeTranslateError_GetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15795 15806]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15761 15807])
+            ("PyUnicodeDecodeError_GetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15725 15736]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15694 15737])
+            ("PyUnicodeEncodeError_GetReason" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15658 15669]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15627 15670])
+            ("PyUnicodeTranslateError_SetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15534 15545])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15546 15557]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15503 15558])
+            ("PyUnicodeDecodeError_SetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15462 15473])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15474 15485]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15434 15486])
+            ("PyUnicodeEncodeError_SetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15393 15404])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15405 15416]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15365 15417])
+            ("PyUnicodeTranslateError_GetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15237 15248])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15249 15262]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15206 15263])
+            ("PyUnicodeDecodeError_GetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15163 15174])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15175 15188]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15135 15189])
+            ("PyUnicodeEncodeError_GetEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15092 15103])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15104 15117]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15064 15118])
+            ("PyUnicodeTranslateError_SetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14918 14929])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14930 14941]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14885 14942])
+            ("PyUnicodeDecodeError_SetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14844 14855])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14856 14867]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14814 14868])
+            ("PyUnicodeEncodeError_SetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14773 14784])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14785 14796]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14743 14797])
+            ("PyUnicodeTranslateError_GetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14613 14624])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14625 14638]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14580 14639])
+            ("PyUnicodeDecodeError_GetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14537 14548])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14549 14562]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14507 14563])
+            ("PyUnicodeEncodeError_GetStart" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14464 14475])
+                    ("" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14476 14489]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14434 14490])
+            ("PyUnicodeTranslateError_GetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14295 14306]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14261 14307])
+            ("PyUnicodeDecodeError_GetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14225 14236]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14194 14237])
+            ("PyUnicodeEncodeError_GetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14158 14169]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14127 14170])
+            ("PyUnicodeDecodeError_GetEncoding" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14059 14070]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14026 14071])
+            ("PyUnicodeEncodeError_GetEncoding" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13990 14001]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13957 14002])
+            ("_PyUnicodeTranslateError_Create" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("object" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13767 13784])
+                    ("start" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13789 13806])
+                    ("end" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13811 13826])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13831 13891]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13730 13892])
+            ("PyUnicodeTranslateError_Create" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("object" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Py_UNICODE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13550 13575])
+                    ("length" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13580 13598])
+                    ("start" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13603 13620])
+                    ("end" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13625 13640])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13645 13705]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13514 13706])
+            ("PyUnicodeEncodeError_Create" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("encoding" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13200 13221])
+                    ("object" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Py_UNICODE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13259 13284])
+                    ("length" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13289 13307])
+                    ("start" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13312 13329])
+                    ("end" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13334 13349])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13354 13414]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13167 13415])
+            ("PyUnicodeDecodeError_Create" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("encoding" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12869 12890])
+                    ("object" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12928 12947])
+                    ("length" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12952 12970])
+                    ("start" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12975 12992])
+                    ("end" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12997 13012])
+                    ("reason" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13017 13077]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12836 13078])
+            ("PyErr_ProgramTextObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12637 12656])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [12661 12672]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12608 12673])
+            ("PyErr_ProgramText" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12474 12495])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [12549 12560]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12451 12561])
+            ("PyErr_SyntaxLocationObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12364 12383])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [12388 12399])
+                    ("col_offset" variable (:type "int") (reparse-symbol arg-sub-list) [12404 12419]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12332 12420])
+            ("PyErr_SyntaxLocationEx" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12184 12205])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [12259 12270])
+                    ("col_offset" variable (:type "int") (reparse-symbol arg-sub-list) [12275 12290]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12156 12291])
+            ("PyErr_SyntaxLocation" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12051 12072])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [12126 12137]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12025 12138])
+            ("PySignal_SetWakeupFd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [11937 11944]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11912 11945])
+            ("PyErr_SetInterrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [11857 11862]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11838 11863])
+            ("PyErr_CheckSignals" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [11814 11819]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11795 11820])
+            ("_PyErr_TrySetFromCause" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("prefix_format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11660 11686])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [11721 11730]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11632 11731])
+            ("PyErr_WriteUnraisable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11013 11024]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10991 11025])
+            ("PyErr_NewExceptionWithDoc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10906 10923])
+                    ("doc" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10924 10940])
+                    ("base" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10941 10956])
+                    ("dict" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10957 10972]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10875 10973])
+            ("PyErr_NewException" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10801 10818])
+                    ("base" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10819 10834])
+                    ("dict" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10835 10850]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10777 10851])
+            ("PyErr_BadInternalCall" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10645 10666])
+            ("_PyErr_BadInternalCall" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10513 10534])
+                    ("lineno" variable (:type "int") (reparse-symbol arg-sub-list) [10535 10546]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10490 10547])
+            ("PyErr_BadInternalCall" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10466 10471]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10444 10472])
+            ("PyErr_SetImportError" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10304 10315])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10316 10327])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10332 10343]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10283 10344])
+            ("PyErr_SetImportErrorSubclass" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10137 10148])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10149 10160])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10165 10176])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10177 10188]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10108 10189])
+            ("_PyErr_FormatFromCause" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exception" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8836 8856])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8861 8880])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [8915 8924]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8808 8925])
+            ("PyErr_FormatV" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exception" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8600 8620])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8625 8644])
+                    ("vargs" variable (:type ("va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8649 8663]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8581 8664])
+            ("PyErr_Format" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exception" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8405 8425])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8430 8449])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [8484 8493]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8387 8494])
+            ("PyErr_SetFromErrnoWithFilename" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exc" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8096 8110])
+                    ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8115 8186]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8060 8187])
+            ("PyErr_SetFromErrnoWithFilenameObjects" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7993 8004])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8005 8016])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8017 8028]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7950 8029])
+            ("PyErr_SetFromErrnoWithFilenameObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7839 7850])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7851 7862]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7797 7863])
+            ("PyErr_SetFromErrno" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7761 7772]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7742 7773])
+            ("PyErr_NoMemory" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7712 7717]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7697 7718])
+            ("PyErr_BadArgument" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7667 7672]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7649 7673])
+            ("PyExc_ResourceWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7579 7601])
+            ("PyExc_BytesWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7536 7555])
+            ("PyExc_UnicodeWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7491 7512])
+            ("PyExc_ImportWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7447 7467])
+            ("PyExc_FutureWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7403 7423])
+            ("PyExc_RuntimeWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7358 7379])
+            ("PyExc_SyntaxWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7314 7334])
+            ("PyExc_PendingDeprecationWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7258 7290])
+            ("PyExc_DeprecationWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7209 7234])
+            ("PyExc_UserWarning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7167 7185])
+            ("PyExc_Warning" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7129 7143])
+            ("PyExc_IOError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6986 7000])
+            ("PyExc_EnvironmentError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6939 6962])
+            ("PyExc_TimeoutError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6859 6878])
+            ("PyExc_ProcessLookupError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6810 6835])
+            ("PyExc_PermissionError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6764 6786])
+            ("PyExc_NotADirectoryError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6715 6740])
+            ("PyExc_IsADirectoryError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6667 6691])
+            ("PyExc_InterruptedError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6620 6643])
+            ("PyExc_FileNotFoundError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6572 6596])
+            ("PyExc_FileExistsError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6526 6548])
+            ("PyExc_ConnectionResetError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6475 6502])
+            ("PyExc_ConnectionRefusedError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6422 6451])
+            ("PyExc_ConnectionAbortedError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6369 6398])
+            ("PyExc_ConnectionError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6323 6345])
+            ("PyExc_ChildProcessError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6275 6299])
+            ("PyExc_BrokenPipeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6229 6251])
+            ("PyExc_BlockingIOError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6183 6205])
+            ("PyExc_ZeroDivisionError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6071 6095])
+            ("PyExc_ValueError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6030 6047])
+            ("PyExc_UnicodeTranslateError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5978 6006])
+            ("PyExc_UnicodeDecodeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5929 5954])
+            ("PyExc_UnicodeEncodeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5880 5905])
+            ("PyExc_UnicodeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5837 5856])
+            ("PyExc_UnboundLocalError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5789 5813])
+            ("PyExc_TypeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5749 5765])
+            ("PyExc_SystemExit" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5708 5725])
+            ("PyExc_SystemError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5666 5684])
+            ("PyExc_ReferenceError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5621 5642])
+            ("PyExc_TabError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5582 5597])
+            ("PyExc_IndentationError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5535 5558])
+            ("PyExc_SyntaxError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5493 5511])
+            ("PyExc_NotImplementedError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5443 5469])
+            ("PyExc_RecursionError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5391 5412])
+            ("PyExc_RuntimeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5285 5304])
+            ("PyExc_OverflowError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5241 5261])
+            ("PyExc_NameError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5201 5217])
+            ("PyExc_MemoryError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5159 5177])
+            ("PyExc_KeyboardInterrupt" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5111 5135])
+            ("PyExc_KeyError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5072 5087])
+            ("PyExc_IndexError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5031 5048])
+            ("PyExc_ModuleNotFoundError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4974 5000])
+            ("PyExc_ImportError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4869 4887])
+            ("PyExc_OSError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4831 4845])
+            ("PyExc_FloatingPointError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4782 4807])
+            ("PyExc_EOFError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4743 4758])
+            ("PyExc_BufferError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4701 4719])
+            ("PyExc_AttributeError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4656 4677])
+            ("PyExc_AssertionError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4611 4632])
+            ("PyExc_LookupError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4568 4586])
+            ("PyExc_ArithmeticError" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4522 4544])
+            ("PyExc_GeneratorExit" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4478 4498])
+            ("PyExc_StopIteration" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4434 4454])
+            ("PyExc_StopAsyncIteration" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4378 4403])
+            ("PyExc_Exception" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4275 4291])
+            ("PyExc_BaseException" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4231 4251])
+            ("PyExceptionInstance_Class" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4120 4145])
+            ("PyExceptionClass_Name" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4037 4058])
+            ("PyExceptionInstance_Check" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3910 3935])
+            ("PyExceptionClass_Check" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3685 3707])
+            ("_PyErr_ChainExceptions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3625 3636])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3637 3648])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3649 3660]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3602 3661])
+            ("PyException_SetContext" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3537 3548])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3549 3560]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3514 3561])
+            ("PyException_GetContext" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3484 3495]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3461 3496])
+            ("PyException_SetCause" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3374 3385])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3386 3397]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3353 3398])
+            ("PyException_GetCause" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3323 3334]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3302 3335])
+            ("PyException_GetTraceback" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3229 3240]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3204 3241])
+            ("PyException_SetTraceback" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3156 3167])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3168 3179]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3131 3180])
+            ("PyErr_NormalizeException" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3037 3048])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3049 3060])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3061 3072]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3012 3073])
+            ("PyErr_ExceptionMatches" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2982 2993]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2959 2994])
+            ("PyErr_GivenExceptionMatches" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2918 2929])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2930 2941]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2890 2942])
+            ("_PyErr_OCCURRED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2775 2790])
+            ("Py_FatalError" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("message" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2632 2652]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2618 2667])
+            ("_Py_NO_RETURN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2483 2496])
+            ("PyErr_SetExcInfo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2298 2309])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2310 2321])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2322 2333]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2281 2334])
+            ("PyErr_GetExcInfo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2224 2236])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2237 2249])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2250 2262]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2207 2263])
+            ("PyErr_Restore" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2090 2101])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2102 2113])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2114 2125]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2076 2126])
+            ("PyErr_Fetch" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2019 2031])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2032 2044])
+                    ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2045 2057]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2007 2058])
+            ("PyErr_Clear" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1983 1988]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1971 1989])
+            ("PyErr_Occurred" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1947 1952]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1932 1953])
+            ("PyErr_SetString" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("exception" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1831 1851])
+                    ("string" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1856 1907]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1810 1908])
+            ("_PyErr_SetKeyError" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1773 1784]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1754 1785])
+            ("PyErr_SetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1689 1700])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1701 1712]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1673 1713])
+            ("PyErr_SetNone" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1643 1654]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1629 1655])
+            ("PyEnvironmentErrorObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("PyOSErrorObject" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1427 1476])
+            ("PyStopIterationObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1334 1350])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1334 1350])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1334 1350])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1334 1350])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1334 1350])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [1334 1350])
+                          ("value" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1355 1371]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1313 1396])
+            ("PyOSErrorObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1060 1076])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1060 1076])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1060 1076])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1060 1076])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1060 1076])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [1060 1076])
+                          ("myerrno" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1081 1099])
+                          ("strerror" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1104 1123])
+                          ("filename" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1128 1147])
+                          ("filename2" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1152 1172])
+                          ("written" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1226 1245]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1039 1311])
+            ("PySystemExitObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [979 995])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [979 995])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [979 995])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [979 995])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [979 995])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [979 995])
+                          ("code" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1000 1015]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [958 1037])
+            ("PyUnicodeErrorObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [806 822])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [806 822])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [806 822])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [806 822])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [806 822])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [806 822])
+                          ("encoding" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [827 846])
+                          ("object" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [851 868])
+                          ("start" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [873 890])
+                          ("end" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [895 910])
+                          ("reason" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [915 932]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [785 956])
+            ("PyImportErrorObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [685 701])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [685 701])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [685 701])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [685 701])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [685 701])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [685 701])
+                          ("msg" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [706 720])
+                          ("name" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [725 740])
+                          ("path" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [745 760]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [664 783])
+            ("PySyntaxErrorObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [481 497])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [481 497])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [481 497])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [481 497])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [481 497])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [481 497])
+                          ("msg" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [502 516])
+                          ("filename" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [521 540])
+                          ("lineno" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [545 562])
+                          ("offset" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [567 584])
+                          ("text" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [589 604])
+                          ("print_file_and_line" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [609 639]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [460 662])
+            ("PyBaseExceptionObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("dict" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [417 433])
+                          ("args" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [417 433])
+                          ("traceback" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [417 433])
+                          ("context" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [417 433])
+                          ("cause" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [417 433])
+                          ("suppress_context" variable (:type "char") (reparse-symbol classsubparts) [417 433]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [396 458])
+            ("PyException_HEAD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [210 226]))          
+      :file "pyerrors.h"
+      :pointmax 17220
+      :fsize 17219
+      :lastmodtime '(24003 62834 0 0)
+      :unmatched-syntax '((semantic-list 17140 . 17162) (semantic-list 17041 . 17098) (symbol 17027 . 17041) (semantic-list 17021 . 17026) (symbol 17011 . 17021) (semantic-list 16986 . 17008) (semantic-list 16894 . 16944) (symbol 16881 . 16894) (semantic-list 16875 . 16880) (symbol 16865 . 16875) (semantic-list 16172 . 16177) (symbol 16162 . 16172) (semantic-list 16039 . 16044) (symbol 16029 . 16039) (semantic-list 15906 . 15911) (symbol 15896 . 15906) (semantic-list 15748 . 15760) (symbol 15738 . 15748) (semantic-list 15681 . 15693) (symbol 15671 . 15681) (semantic-list 15614 . 15626) (symbol 15604 . 15614) (semantic-list 15497 . 15502) (symbol 15487 . 15497) (semantic-list 15428 . 15433) (symbol 15418 . 15428) (semantic-list 15359 . 15364) (symbol 15349 . 15359) (semantic-list 15200 . 15205) (symbol 15190 . 15200) (semantic-list 15129 . 15134) (symbol 15119 . 15129) (semantic-list 15058 . 15063) (symbol 15048 . 15058) (semantic-list 14879 . 14884) (symbol 14869 . 14879) (semantic-list 14808 . 14813) (symbol 14798 . 14808) (semantic-list 14737 . 14742) (symbol 14727 . 14737) (semantic-list 14574 . 14579) (symbol 14564 . 14574) (semantic-list 14501 . 14506) (symbol 14491 . 14501) (semantic-list 14428 . 14433) (symbol 14418 . 14428) (semantic-list 14248 . 14260) (symbol 14238 . 14248) (semantic-list 14181 . 14193) (symbol 14171 . 14181) (semantic-list 14114 . 14126) (symbol 14104 . 14114) (semantic-list 14013 . 14025) (symbol 14003 . 14013) (semantic-list 13944 . 13956) (symbol 13934 . 13944) (semantic-list 13717 . 13729) (symbol 13707 . 13717) (semantic-list 13501 . 13513) (symbol 13491 . 13501) (semantic-list 13154 . 13166) (symbol 13144 . 13154) (semantic-list 12823 . 12835) (symbol 12813 . 12823) (semantic-list 12595 . 12607) (symbol 12585 . 12595) (semantic-list 12438 . 12450) (symbol 12428 . 12438) (semantic-list 12325 . 12331) (symbol 12315 . 12325) (semantic-list 12149 . 12155) (symbol 12139 . 12149) (semantic-list 12018 . 12024) (symbol 12008 . 12018) (semantic-list 11831 . 11837) (symbol 11821 . 11831) (semantic-list 11789 . 11794) (symbol 11779 . 11789) (semantic-list 11619 . 11631) (symbol 11609 . 11619) (semantic-list 10984 . 10990) (symbol 10974 . 10984) (semantic-list 10862 . 10874) (symbol 10852 . 10862) (semantic-list 10764 . 10776) (symbol 10754 . 10764) (semantic-list 10483 . 10489) (symbol 10473 . 10483) (semantic-list 10437 . 10443) (symbol 10427 . 10437) (semantic-list 10270 . 10282) (symbol 10260 . 10270) (semantic-list 10095 . 10107) (symbol 10085 . 10095) (semantic-list 8795 . 8807) (symbol 8785 . 8795) (semantic-list 8568 . 8580) (symbol 8558 . 8568) (semantic-list 8374 . 8386) (symbol 8364 . 8374) (semantic-list 8047 . 8059) (symbol 8037 . 8047) (semantic-list 7937 . 7949) (symbol 7927 . 7937) (semantic-list 7784 . 7796) (symbol 7774 . 7784) (semantic-list 7729 . 7741) (symbol 7719 . 7729) (semantic-list 7684 . 7696) (symbol 7674 . 7684) (semantic-list 7643 . 7648) (symbol 7633 . 7643) (semantic-list 7566 . 7578) (symbol 7556 . 7566) (semantic-list 7523 . 7535) (symbol 7513 . 7523) (semantic-list 7478 . 7490) (symbol 7468 . 7478) (semantic-list 7434 . 7446) (symbol 7424 . 7434) (semantic-list 7390 . 7402) (symbol 7380 . 7390) (semantic-list 7345 . 7357) (symbol 7335 . 7345) (semantic-list 7301 . 7313) (symbol 7291 . 7301) (semantic-list 7245 . 7257) (symbol 7235 . 7245) (semantic-list 7196 . 7208) (symbol 7186 . 7196) (semantic-list 7154 . 7166) (symbol 7144 . 7154) (semantic-list 7116 . 7128) (symbol 7106 . 7116) (semantic-list 6973 . 6985) (symbol 6963 . 6973) (semantic-list 6926 . 6938) (symbol 6916 . 6926) (semantic-list 6846 . 6858) (symbol 6836 . 6846) (semantic-list 6797 . 6809) (symbol 6787 . 6797) (semantic-list 6751 . 6763) (symbol 6741 . 6751) (semantic-list 6702 . 6714) (symbol 6692 . 6702) (semantic-list 6654 . 6666) (symbol 6644 . 6654) (semantic-list 6607 . 6619) (symbol 6597 . 6607) (semantic-list 6559 . 6571) (symbol 6549 . 6559) (semantic-list 6513 . 6525) (symbol 6503 . 6513) (semantic-list 6462 . 6474) (symbol 6452 . 6462) (semantic-list 6409 . 6421) (symbol 6399 . 6409) (semantic-list 6356 . 6368) (symbol 6346 . 6356) (semantic-list 6310 . 6322) (symbol 6300 . 6310) (semantic-list 6262 . 6274) (symbol 6252 . 6262) (semantic-list 6216 . 6228) (symbol 6206 . 6216) (semantic-list 6170 . 6182) (symbol 6160 . 6170) (semantic-list 6058 . 6070) (symbol 6048 . 6058) (semantic-list 6017 . 6029) (symbol 6007 . 6017) (semantic-list 5965 . 5977) (symbol 5955 . 5965) (semantic-list 5916 . 5928) (symbol 5906 . 5916) (semantic-list 5867 . 5879) (symbol 5857 . 5867) (semantic-list 5824 . 5836) (symbol 5814 . 5824) (semantic-list 5776 . 5788) (symbol 5766 . 5776) (semantic-list 5736 . 5748) (symbol 5726 . 5736) (semantic-list 5695 . 5707) (symbol 5685 . 5695) (semantic-list 5653 . 5665) (symbol 5643 . 5653) (semantic-list 5608 . 5620) (symbol 5598 . 5608) (semantic-list 5569 . 5581) (symbol 5559 . 5569) (semantic-list 5522 . 5534) (symbol 5512 . 5522) (semantic-list 5480 . 5492) (symbol 5470 . 5480) (semantic-list 5430 . 5442) (symbol 5420 . 5430) (semantic-list 5378 . 5390) (symbol 5368 . 5378) (semantic-list 5272 . 5284) (symbol 5262 . 5272) (semantic-list 5228 . 5240) (symbol 5218 . 5228) (semantic-list 5188 . 5200) (symbol 5178 . 5188) (semantic-list 5146 . 5158) (symbol 5136 . 5146) (semantic-list 5098 . 5110) (symbol 5088 . 5098) (semantic-list 5059 . 5071) (symbol 5049 . 5059) (semantic-list 5018 . 5030) (symbol 5008 . 5018) (semantic-list 4961 . 4973) (symbol 4951 . 4961) (semantic-list 4856 . 4868) (symbol 4846 . 4856) (semantic-list 4818 . 4830) (symbol 4808 . 4818) (semantic-list 4769 . 4781) (symbol 4759 . 4769) (semantic-list 4730 . 4742) (symbol 4720 . 4730) (semantic-list 4688 . 4700) (symbol 4678 . 4688) (semantic-list 4643 . 4655) (symbol 4633 . 4643) (semantic-list 4598 . 4610) (symbol 4588 . 4598) (semantic-list 4555 . 4567) (symbol 4545 . 4555) (semantic-list 4509 . 4521) (symbol 4499 . 4509) (semantic-list 4465 . 4477) (symbol 4455 . 4465) (semantic-list 4421 . 4433) (symbol 4411 . 4421) (semantic-list 4365 . 4377) (symbol 4355 . 4365) (semantic-list 4262 . 4274) (symbol 4252 . 4262) (semantic-list 4218 . 4230) (symbol 4208 . 4218) (semantic-list 3595 . 3601) (symbol 3585 . 3595) (semantic-list 3507 . 3513) (symbol 3497 . 3507) (semantic-list 3448 . 3460) (symbol 3438 . 3448) (semantic-list 3346 . 3352) (symbol 3336 . 3346) (semantic-list 3289 . 3301) (symbol 3279 . 3289) (semantic-list 3191 . 3203) (symbol 3181 . 3191) (semantic-list 3125 . 3130) (symbol 3115 . 3125) (semantic-list 3005 . 3011) (symbol 2995 . 3005) (semantic-list 2953 . 2958) (symbol 2943 . 2953) (semantic-list 2884 . 2889) (symbol 2874 . 2884) (semantic-list 2611 . 2617) (symbol 2601 . 2611) (semantic-list 2375 . 2474) (semantic-list 2274 . 2280) (symbol 2264 . 2274) (semantic-list 2200 . 2206) (symbol 2190 . 2200) (semantic-list 2069 . 2075) (symbol 2059 . 2069) (semantic-list 2000 . 2006) (symbol 1990 . 2000) (semantic-list 1964 . 1970) (symbol 1954 . 1964) (semantic-list 1919 . 1931) (symbol 1909 . 1919) (semantic-list 1803 . 1809) (symbol 1793 . 1803) (semantic-list 1747 . 1753) (symbol 1737 . 1747) (semantic-list 1666 . 1672) (symbol 1656 . 1666) (semantic-list 1622 . 1628) (symbol 1612 . 1622) (symbol "PyObject_HEAD" 1334 . 1350) (symbol "PyObject_HEAD" 1060 . 1076) (symbol "PyObject_HEAD" 979 . 995) (symbol "PyObject_HEAD" 806 . 822) (symbol "PyObject_HEAD" 685 . 701) (symbol "PyObject_HEAD" 481 . 497) (symbol "PyObject_HEAD" 417 . 433))
+      :lexical-table 
+        '(("Py_ERRORS_H")
+          ("PyExceptionClass_Name" (spp-arg-list ("x") 4058 . 4061) . ((semantic-list "((char *)(((PyTypeObject*)(x))->tp_name))" 4069 . 4110)))
+          ("PyExceptionInstance_Class" (spp-arg-list ("x") 4145 . 4148) . ((semantic-list "((PyObject*)((x)->ob_type))" 4149 . 4176)))
+          ("_Py_NO_RETURN" . ((symbol "__attribute__" 2497 . 2510) (semantic-list "((__noreturn__))" 2510 . 2526)))
+          ("PyException_HEAD" . 
+              ((symbol "PyObject_HEAD" 227 . 240) (symbol "PyObject" 241 . 249) (punctuation "*" 250 . 251) (symbol "dict" 251 . 255) (punctuation ";" 255 . 256) (symbol "PyObject" 271 . 279) (punctuation "*" 280 . 281) (symbol "args" 281 . 285) (punctuation ";" 285 . 286) (symbol "PyObject" 287 . 295) (punctuation "*" 296 . 297) (symbol "traceback" 297 . 306) (punctuation ";" 306 . 307) (symbol "PyObject" 322 . 330) (punctuation "*" 331 . 332) (symbol "context" 332 . 339) (punctuation ";" 339 . 340) (symbol "PyObject" 341 . 349) (punctuation "*" 350 . 351) (symbol "cause" 351 . 356) (punctuation ";" 356 . 357) (CHAR "char" 372 . 376) (symbol "suppress_context" 377 . 393) (punctuation ";" 393 . 394)))
+          ("PyExceptionInstance_Check" (spp-arg-list ("x") 3935 . 3938) . ((symbol "PyType_FastSubclass" 3964 . 3983) (semantic-list "((x)->ob_type, Py_TPFLAGS_BASE_EXC_SUBCLASS)" 3983 . 4027)))
+          ("PyExceptionClass_Check" (spp-arg-list ("x") 3707 . 3710) . ((semantic-list "(PyType_Check((x)) &&                                               \\
+     PyType_FastSubclass((PyTypeObject*)(x), Py_TPFLAGS_BASE_EXC_SUBCLASS))" 3755 . 3900)))
+          ("_PyErr_OCCURRED" (spp-arg-list nil 2790 . 2792) . ((semantic-list "(PyThreadState_GET()->curexc_type)" 2793 . 2827)))
+          ("PyErr_BadInternalCall" (spp-arg-list nil 10666 . 10668) . ((symbol "_PyErr_BadInternalCall" 10669 . 10691) (semantic-list "(__FILE__, __LINE__)" 10691 . 10711)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_SYSMODULE_H" variable (:constant-flag t) nil [64 78])
+            ("_PySys_GetSizeOf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1278 1289]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1261 1290])
+            ("PySys_GetXOptions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1211 1216]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1193 1217])
+            ("PySys_AddXOption" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [1152 1168]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1135 1169])
+            ("PySys_HasWarnOptions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1110 1115]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1089 1116])
+            ("PySys_AddWarnOptionUnicode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1060 1071]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1033 1072])
+            ("PySys_AddWarnOption" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [998 1014]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [978 1015])
+            ("PySys_ResetWarnOptions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [954 959]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [931 960])
+            ("PySys_FormatStderr" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [887 906])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [907 911]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [868 912])
+            ("PySys_FormatStdout" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [825 844])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [845 849]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [806 850])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [747 788])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [628 669])
+            ("PySys_SetPath" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [532 548]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [518 549])
+            ("PySys_SetArgvEx" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [478 482])
+                    ("" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [483 494])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [495 499]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [462 500])
+            ("PySys_SetArgv" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [427 431])
+                    ("" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [432 443]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [413 444])
+            ("_PySys_SetObjectId" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("key" variable
+                       (:pointer 1
+                        :type ("_Py_Identifier" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [354 374])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [375 386]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [335 387])
+            ("_PySys_GetObjectId" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("key" variable
+                       (:pointer 1
+                        :type ("_Py_Identifier" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [297 317]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [278 318])
+            ("PySys_SetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [205 218])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [219 230]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [189 231])
+            ("PySys_GetObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [158 171]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [142 172]))          
+      :file "sysmodule.h"
+      :pointmax 1356
+      :fsize 1355
+      :lastmodtime '(24003 62834 0 0)
+      :unmatched-syntax '((semantic-list 1252 . 1260) (symbol 1242 . 1252) (semantic-list 1180 . 1192) (symbol 1170 . 1180) (semantic-list 1128 . 1134) (symbol 1118 . 1128) (semantic-list 1083 . 1088) (symbol 1073 . 1083) (semantic-list 1026 . 1032) (symbol 1016 . 1026) (semantic-list 971 . 977) (symbol 961 . 971) (semantic-list 924 . 930) (symbol 914 . 924) (semantic-list 861 . 867) (symbol 851 . 861) (semantic-list 799 . 805) (symbol 789 . 799) (semantic-list 764 . 786) (semantic-list 704 . 729) (symbol 687 . 704) (semantic-list 680 . 686) (symbol 670 . 680) (semantic-list 645 . 667) (semantic-list 585 . 610) (symbol 568 . 585) (semantic-list 561 . 567) (symbol 551 . 561) (semantic-list 511 . 517) (symbol 501 . 511) (semantic-list 455 . 461) (symbol 445 . 455) (semantic-list 406 . 412) (symbol 396 . 406) (semantic-list 329 . 334) (symbol 319 . 329) (semantic-list 265 . 277) (symbol 255 . 265) (semantic-list 183 . 188) (symbol 173 . 183) (semantic-list 129 . 141) (symbol 119 . 129))
+      :lexical-table 
+        '(("Py_SYSMODULE_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_PGENHEADERS_H" variable (:constant-flag t) nil [34 50])
+            ("translatelabels" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1085 1100])
+            ("tok_dump" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1055 1063])
+            ("showtree" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1025 1033])
+            ("samebitset" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [991 1001])
+            ("printtree" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [959 968])
+            ("printnonterminals" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [911 928])
+            ("printgrammar" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [873 885])
+            ("pgen" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [851 855])
+            ("newgrammar" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [817 827])
+            ("newbitset" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [785 794])
+            ("meta_grammar" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [747 759])
+            ("mergebitset" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [711 722])
+            ("freegrammar" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [675 686])
+            ("findlabel" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [643 652])
+            ("dumptree" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [613 621])
+            ("delbitset" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [581 590])
+            ("addstate" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [551 559])
+            ("addlabel" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [521 529])
+            ("addfirstsets" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [483 495])
+            ("adddfa" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [457 463])
+            ("addbit" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [431 437])
+            ("addarc" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [405 411])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [354 395])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [249 290])
+            ("Python.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [165 184]))          
+      :file "pgenheaders.h"
+      :pointmax 1181
+      :fsize 1180
+      :lastmodtime '(24003 62834 0 0)
+      :unmatched-syntax '((semantic-list 371 . 393) (semantic-list 325 . 350) (symbol 308 . 325) (semantic-list 301 . 307) (symbol 291 . 301) (semantic-list 266 . 288) (semantic-list 220 . 245) (symbol 203 . 220) (semantic-list 196 . 202) (symbol 186 . 196))
+      :lexical-table 
+        '(("addarc" . ((symbol "_Py_addarc" 412 . 422)))
+          ("meta_grammar" . ((symbol "_Py_meta_grammar" 760 . 776)))
+          ("printnonterminals" . ((symbol "_Py_printnonterminals" 929 . 950)))
+          ("newgrammar" . ((symbol "_Py_newgrammar" 828 . 842)))
+          ("printgrammar" . ((symbol "_Py_printgrammar" 886 . 902)))
+          ("adddfa" . ((symbol "_Py_adddfa" 464 . 474)))
+          ("addlabel" . ((symbol "_Py_addlabel" 530 . 542)))
+          ("translatelabels" . ((symbol "_Py_translatelabels" 1101 . 1120)))
+          ("mergebitset" . ((symbol "_Py_mergebitset" 723 . 738)))
+          ("Py_PGENHEADERS_H")
+          ("addfirstsets" . ((symbol "_Py_addfirstsets" 496 . 512)))
+          ("dumptree" . ((symbol "_Py_dumptree" 622 . 634)))
+          ("findlabel" . ((symbol "_Py_findlabel" 653 . 666)))
+          ("addstate" . ((symbol "_Py_addstate" 560 . 572)))
+          ("newbitset" . ((symbol "_Py_newbitset" 795 . 808)))
+          ("delbitset" . ((symbol "_Py_delbitset" 591 . 604)))
+          ("pgen" . ((symbol "_Py_pgen" 856 . 864)))
+          ("freegrammar" . ((symbol "_Py_freegrammar" 687 . 702)))
+          ("printtree" . ((symbol "_Py_printtree" 969 . 982)))
+          ("samebitset" . ((symbol "_Py_samebitset" 1002 . 1016)))
+          ("showtree" . ((symbol "_Py_showtree" 1034 . 1046)))
+          ("tok_dump" . ((symbol "_Py_tok_dump" 1064 . 1076)))
+          ("addbit" . ((symbol "_Py_addbit" 438 . 448)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "Python.h"
+      :fsize 3221
+      :lastmodtime '(24003 62834 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_PYPORT_H" variable (:constant-flag t) nil [29 40])
+            ("pyconfig.h" include nil nil [42 63])
+            ("inttypes.h" include (:system-flag t) nil [91 112])
+            ("HAVE_LONG_LONG" variable (:constant-flag t) nil [1479 1493])
+            ("PY_LONG_LONG" variable (:constant-flag t) nil [1532 1544])
+            ("PY_LLONG_MIN" variable (:constant-flag t) nil [1616 1628])
+            ("PY_LLONG_MAX" variable (:constant-flag t) nil [1647 1659])
+            ("PY_ULLONG_MAX" variable (:constant-flag t) nil [1678 1691])
+            ("PY_UINT32_T" variable (:constant-flag t) nil [1719 1730])
+            ("PY_UINT64_T" variable (:constant-flag t) nil [1748 1759])
+            ("PY_INT32_T" variable (:constant-flag t) nil [1813 1823])
+            ("PY_INT64_T" variable (:constant-flag t) nil [1840 1850])
+            ("PYLONG_BITS_IN_DIGIT" variable (:constant-flag t) nil [2186 2206])
+            ("Py_uintptr_t" type
+               (:typedef ("uintptr_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2462 2499])
+            ("Py_intptr_t" type
+               (:typedef ("intptr_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2500 2536])
+            ("Py_ssize_t" type
+               (:typedef ("Py_intptr_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2836 2871])
+            ("SIZEOF_PY_HASH_T" variable (:constant-flag t) nil [3004 3020])
+            ("Py_hash_t" type
+               (:typedef ("Py_ssize_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3035 3064])
+            ("SIZEOF_PY_UHASH_T" variable (:constant-flag t) nil [3151 3168])
+            ("Py_uhash_t" type
+               (:typedef ("size_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3183 3209])
+            ("Py_ssize_clean_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [3356 3385])
+            ("PY_SIZE_MAX" variable (:constant-flag t) nil [3442 3453])
+            ("PY_SSIZE_T_MAX" variable (:constant-flag t) nil [3521 3535])
+            ("PY_SSIZE_T_MIN" variable (:constant-flag t) nil [3626 3640])
+            ("PY_FORMAT_SIZE_T" variable (:constant-flag t) nil [4725 4741])
+            ("PY_FORMAT_SIZE_T" variable (:constant-flag t) nil [4798 4814])
+            ("Py_LOCAL" variable (:constant-flag t) nil [6274 6282])
+            ("Py_LOCAL_INLINE" variable (:constant-flag t) nil [6309 6324])
+            ("Py_MEMCPY" variable (:constant-flag t) nil [6454 6463])
+            ("stdlib.h" include (:system-flag t) nil [6472 6491])
+            ("math.h" include (:system-flag t) nil [6599 6616])
+            ("time.h" include (:system-flag t) nil [6988 7005])
+            ("S_IFMT" variable (:constant-flag t) nil [7586 7592])
+            ("S_IFLNK" variable (:constant-flag t) nil [7732 7739])
+            ("S_ISREG" variable (:constant-flag t) nil [7780 7787])
+            ("S_ISDIR" variable (:constant-flag t) nil [7851 7858])
+            ("S_ISCHR" variable (:constant-flag t) nil [7922 7929])
+            ("LONG_BIT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25338 25346])
+            ("LONG_MIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25282 25290])
+            ("INT_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25038 25045])
+            ("PyMODINIT_FUNC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24813 24827])
+            ("PyAPI_DATA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24697 24707])
+            ("PyAPI_FUNC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24632 24642])
+            ("Py_DEPRECATED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [18850 18863])
+            ("PY_NO_SHORT_FLOAT_REPR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [18147 18169])
+            ("_Py_SET_53BIT_PRECISION_END" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [17509 17536])
+            ("_Py_SET_53BIT_PRECISION_START" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [17471 17500])
+            ("_Py_SET_53BIT_PRECISION_HEADER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [17432 17462])
+            ("Py_ADJUST_ERANGE2" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [12214 12231])
+            ("Py_ADJUST_ERANGE1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [11606 11623])
+            ("Py_SET_ERANGE_IF_OVERFLOW" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10846 10871])
+            ("Py_SET_ERRNO_ON_MATH_ERROR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10495 10521])
+            ("_Py_SET_EDOM_FOR_NAN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10454 10474])
+            ("Py_SAFE_DOWNCAST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9845 9861])
+            ("Py_FORCE_EXPANSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9463 9481])
+            ("Py_ARITHMETIC_RIGHT_SHIFT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9173 9198])
+            ("Py_GCC_ATTRIBUTE" variable (:constant-flag t) nil [25956 25972])
+            ("Py_ALIGNED" variable (:constant-flag t) nil [26106 26116])
+            ("Py_LL" variable (:constant-flag t) nil [26398 26403])
+            ("Py_ULL" variable (:constant-flag t) nil [26444 26450])
+            ("Py_VA_COPY" variable (:constant-flag t) nil [26482 26492])
+            ("PY_BIG_ENDIAN" variable (:constant-flag t) nil [26802 26815])
+            ("PY_LITTLE_ENDIAN" variable (:constant-flag t) nil [26826 26842]))          
+      :file "pyport.h"
+      :pointmax 27574
+      :fsize 27573
+      :lastmodtime '(24003 62834 0 0)
+      :unmatched-syntax '((string 25205 . 25241) (symbol 25199 . 25204) (punctuation 25198 . 25199) (semantic-list 18819 . 18840) (punctuation 18817 . 18818) (punctuation 18816 . 18817) (semantic-list 18800 . 18815) (semantic-list 18102 . 18138) (symbol 18095 . 18102) (punctuation 18094 . 18095) (punctuation 18086 . 18087) (punctuation 18085 . 18086) (semantic-list 18054 . 18084) (symbol 18047 . 18054) (punctuation 18046 . 18047) (string 4907 . 4968) (symbol 4901 . 4906) (punctuation 4893 . 4894))
+      :lexical-table 
+        '(("_Py_SET_53BIT_PRECISION_HEADER")
+          ("PY_NO_SHORT_FLOAT_REPR")
+          ("SIZEOF_PY_HASH_T" . ((symbol "SIZEOF_SIZE_T" 3021 . 3034)))
+          ("_Py_SET_EDOM_FOR_NAN" (spp-arg-list ("X") 10474 . 10477) . ((punctuation ";" 10478 . 10479)))
+          ("PY_LONG_LONG" . ((LONG "long" 1545 . 1549) (LONG "long" 1550 . 1554)))
+          ("Py_FORCE_EXPANSION" (spp-arg-list ("X") 9481 . 9484) . ((symbol "X" 9485 . 9486)))
+          ("Py_DEPRECATED" (spp-arg-list ("VERSION_UNUSED") 18863 . 18879) . ((symbol "__attribute__" 18880 . 18893) (semantic-list "((__deprecated__))" 18893 . 18911)))
+          ("PyAPI_DATA" (spp-arg-list ("RTYPE") 24707 . 24714) . ((EXTERN "extern" 24715 . 24721) (symbol "RTYPE" 24722 . 24727)))
+          ("PyMODINIT_FUNC" . 
+              ((EXTERN "extern" 24828 . 24834) (string "\"C\"" 24835 . 24838) (symbol "PyObject" 24839 . 24847) (punctuation "*" 24847 . 24848)))
+          ("PY_LLONG_MAX" . ((symbol "LLONG_MAX" 1660 . 1669)))
+          ("PY_ULLONG_MAX" . ((symbol "ULLONG_MAX" 1692 . 1702)))
+          ("PY_UINT64_T" . ((symbol "uint64_t" 1760 . 1768)))
+          ("PY_INT64_T" . ((symbol "int64_t" 1851 . 1858)))
+          ("PYLONG_BITS_IN_DIGIT" . ((number "15" 2207 . 2209)))
+          ("HAVE_LONG_LONG" . ((number "1" 1494 . 1495)))
+          ("PY_LLONG_MIN" . ((symbol "LLONG_MIN" 1629 . 1638)))
+          ("LONG_BIT" . ((semantic-list "(8 * SIZEOF_LONG)" 25347 . 25364)))
+          ("Py_PYPORT_H")
+          ("Py_LOCAL" (spp-arg-list ("type") 6282 . 6288) . ((STATIC "static" 6289 . 6295) (symbol "type" 6296 . 6300)))
+          ("INT_MAX" . ((number "2147483647" 25046 . 25056)))
+          ("PY_SIZE_MAX" . ((symbol "SIZE_MAX" 3454 . 3462)))
+          ("Py_MEMCPY" . ((symbol "memcpy" 6464 . 6470)))
+          ("Py_SAFE_DOWNCAST" (spp-arg-list ("VALUE" "WIDE" "NARROW") 9861 . 9882) . ((semantic-list "(NARROW)" 9883 . 9891) (semantic-list "(VALUE)" 9891 . 9898)))
+          ("LONG_MIN" . ((semantic-list "(-LONG_MAX-1)" 25291 . 25304)))
+          ("S_ISREG" (spp-arg-list ("x") 7787 . 7790) . ((semantic-list "(((x) & S_IFMT) == S_IFREG)" 7791 . 7818)))
+          ("Py_VA_COPY" . ((symbol "va_copy" 26493 . 26500)))
+          ("PY_BIG_ENDIAN" . ((number "0" 26816 . 26817)))
+          ("PY_LITTLE_ENDIAN" . ((number "1" 26843 . 26844)))
+          ("_Py_SET_53BIT_PRECISION_END")
+          ("PY_UINT32_T" . ((symbol "uint32_t" 1731 . 1739)))
+          ("PY_INT32_T" . ((symbol "int32_t" 1824 . 1831)))
+          ("S_ISDIR" (spp-arg-list ("x") 7858 . 7861) . ((semantic-list "(((x) & S_IFMT) == S_IFDIR)" 7862 . 7889)))
+          ("Py_ADJUST_ERANGE1" (spp-arg-list ("X") 11623 . 11626) . 
+              ((DO "do" 11676 . 11678) (semantic-list "{                                                                \\
+        if (errno == 0) {                                               \\
+            if ((X) == Py_HUGE_VAL || (X) == -Py_HUGE_VAL)              \\
+                errno = ERANGE;                                         \\
+        }                                                               \\
+        else if (errno == ERANGE && (X) == 0.0)                         \\
+            errno = 0;                                                  \\
+    }" 11679 . 12195) (WHILE "while" 12196 . 12201) (semantic-list "(0)" 12201 . 12204)))
+          ("Py_LOCAL_INLINE" (spp-arg-list ("type") 6324 . 6330) . ((STATIC "static" 6331 . 6337) (symbol "type" 6338 . 6342)))
+          ("S_IFMT" . ((number "0170000" 7593 . 7600)))
+          ("S_ISCHR" (spp-arg-list ("x") 7929 . 7932) . ((semantic-list "(((x) & S_IFMT) == S_IFCHR)" 7933 . 7960)))
+          ("Py_SET_ERRNO_ON_MATH_ERROR" (spp-arg-list ("X") 10521 . 10524) . 
+              ((DO "do" 10531 . 10533) (semantic-list "{ \\
+        if (errno == 0) { \\
+            if ((X) == Py_HUGE_VAL || (X) == -Py_HUGE_VAL) \\
+                errno = ERANGE; \\
+            else _Py_SET_EDOM_FOR_NAN(X) \\
+        } \\
+    }" 10534 . 10721) (WHILE "while" 10722 . 10727) (semantic-list "(0)" 10727 . 10730)))
+          ("Py_ADJUST_ERANGE2" (spp-arg-list ("X" "Y") 12231 . 12237) . 
+              ((DO "do" 12284 . 12286) (semantic-list "{                                                                \\
+        if ((X) == Py_HUGE_VAL || (X) == -Py_HUGE_VAL ||                \\
+            (Y) == Py_HUGE_VAL || (Y) == -Py_HUGE_VAL) {                \\
+                        if (errno == 0)                                 \\
+                                errno = ERANGE;                         \\
+        }                                                               \\
+        else if (errno == ERANGE)                                       \\
+            errno = 0;                                                  \\
+    }" 12287 . 12877) (WHILE "while" 12878 . 12883) (semantic-list "(0)" 12883 . 12886)))
+          ("SIZEOF_PY_UHASH_T" . ((symbol "SIZEOF_SIZE_T" 3169 . 3182)))
+          ("PY_SSIZE_T_MAX" . ((semantic-list "((Py_ssize_t)(((size_t)-1)>>1))" 3536 . 3567)))
+          ("S_IFLNK" . ((number "0120000" 7740 . 7747)))
+          ("Py_GCC_ATTRIBUTE" (spp-arg-list ("x") 25972 . 25975) . ((symbol "__attribute__" 25976 . 25989) (semantic-list "(x)" 25989 . 25992)))
+          ("Py_SET_ERANGE_IF_OVERFLOW" (spp-arg-list ("X") 10871 . 10874) . ((symbol "Py_SET_ERRNO_ON_MATH_ERROR" 10875 . 10901) (semantic-list "(X)" 10901 . 10904)))
+          ("PY_SSIZE_T_MIN" . ((semantic-list "(-PY_SSIZE_T_MAX-1)" 3641 . 3660)))
+          ("Py_ULL" (spp-arg-list ("x") 26450 . 26453) . ((symbol "Py_LL" 26454 . 26459) (semantic-list "(x##U)" 26459 . 26465)))
+          ("Py_ARITHMETIC_RIGHT_SHIFT" (spp-arg-list ("TYPE" "I" "J") 9198 . 9210) . ((semantic-list "((I) >> (J))" 9211 . 9223)))
+          ("_Py_SET_53BIT_PRECISION_START")
+          ("PY_FORMAT_SIZE_T" . ((string "\"l\"" 4815 . 4818)))
+          ("Py_ALIGNED" (spp-arg-list ("x") 26116 . 26119) . ((symbol "__attribute__" 26120 . 26133) (semantic-list "((aligned(x)))" 26133 . 26147)))
+          ("Py_LL" (spp-arg-list ("x") 26403 . 26406) . ((spp-symbol-merge ((symbol "x" 26407 . 26408) (symbol "LL" 26410 . 26412)) 26407 . 26412)))
+          ("PyAPI_FUNC" (spp-arg-list ("RTYPE") 24642 . 24649) . ((symbol "RTYPE" 24650 . 24655)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "pyconfig.h"
+      :fsize 4086
+      :lastmodtime '(24003 62834 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Py_BYTESOBJECT_H" variable (:constant-flag t) nil [74 90])
+            ("_PyBytesWriter_WriteBytes" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8190 8213])
+                    ("str" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [8218 8228])
+                    ("bytes" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [8233 8251])
+                    ("size" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8256 8272]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8164 8273])
+            ("_PyBytesWriter_Resize" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8017 8040])
+                    ("str" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [8045 8055])
+                    ("size" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8060 8076]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7995 8077])
+            ("_PyBytesWriter_Prepare" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7493 7516])
+                    ("str" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [7521 7531])
+                    ("size" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7536 7552]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7470 7553])
+            ("_PyBytesWriter_Alloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7121 7144])
+                    ("size" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7149 7165]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7100 7166])
+            ("_PyBytesWriter_Dealloc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6906 6929]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6883 6930])
+            ("_PyBytesWriter_Finish" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6760 6783])
+                    ("str" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [6788 6798]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6738 6799])
+            ("_PyBytesWriter_Init" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("writer" variable
+                       (:pointer 1
+                        :type ("_PyBytesWriter" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6512 6535]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6492 6536])
+            ("_PyBytesWriter" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("buffer" variable
+                             (:pointer 1
+                              :type ("PyObject" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [5779 5796])
+                          ("allocated" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5838 5859])
+                          ("min_size" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5957 5977])
+                          ("use_bytearray" variable (:type "int") (reparse-symbol classsubparts) [6060 6078])
+                          ("overallocate" variable (:type "int") (reparse-symbol classsubparts) [6205 6222])
+                          ("use_small_buffer" variable (:type "int") (reparse-symbol classsubparts) [6251 6272])
+                          ("small_buffer" variable
+                             (:dereference 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [6277 6300]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [5691 6318])
+            ("F_ZERO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5435 5441])
+            ("F_ALT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5414 5419])
+            ("F_BLANK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5391 5398])
+            ("F_SIGN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5369 5375])
+            ("F_LJUST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5346 5353])
+            ("_PyBytes_InsertThousandsGrouping" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4844 4857])
+                    ("n_buffer" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4909 4929])
+                    ("digits" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4981 4994])
+                    ("n_digits" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5046 5066])
+                    ("min_width" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5118 5139])
+                    ("grouping" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5191 5212])
+                    ("thousands_sep" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5264 5290]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4811 5291])
+            ("_PyBytes_InsertThousandsGroupingLocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4310 4323])
+                    ("n_buffer" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4375 4395])
+                    ("digits" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4447 4460])
+                    ("n_digits" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4512 4532])
+                    ("min_width" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4584 4605]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4271 4606])
+            ("PyBytes_AsStringAndSize" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("obj" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3776 3790])
+                    ("s" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3831 3840])
+                    ("len" variable
+                       (:pointer 1
+                        :type ("Py_ssize_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3888 4049]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3747 4050])
+            ("_PyBytes_Join" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("sep" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3398 3412])
+                    ("x" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3413 3425]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3384 3426])
+            ("PyBytes_GET_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3157 3173])
+            ("PyBytes_AS_STRING" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3029 3046])
+            ("_PyBytes_DecodeEscape" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2735 2748])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2749 2760])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2806 2819])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2820 2831])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2877 2890])
+                    ("" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2936 2950]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2713 2951])
+            ("PyBytes_DecodeEscape" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2509 2522])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2523 2534])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2544 2557])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2558 2569])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2579 2592]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2488 2593])
+            ("_PyBytes_FromHex" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("string" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2416 2433])
+                    ("use_bytearray" variable (:type "int") (reparse-symbol arg-sub-list) [2438 2456]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2394 2457])
+            ("_PyBytes_FormatEx" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2281 2300])
+                    ("format_len" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2305 2327])
+                    ("args" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2332 2347])
+                    ("use_bytearray" variable (:type "int") (reparse-symbol arg-sub-list) [2352 2370]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2258 2371])
+            ("_PyBytes_Resize" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2210 2222])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2223 2234]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2194 2235])
+            ("PyBytes_ConcatAndDel" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2129 2141])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2142 2153]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2108 2154])
+            ("PyBytes_Concat" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2065 2077])
+                    ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2078 2089]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2050 2090])
+            ("PyBytes_Repr" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2015 2026])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [2027 2031]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2002 2032])
+            ("PyBytes_AsString" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1966 1977]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1949 1978])
+            ("PyBytes_Size" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1917 1928]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1904 1929])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1839 1880])
+            ("Py_GCC_ATTRIBUTE" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1733 1774])
+            ("PyBytes_FromObject" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("PyObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1651 1662]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1632 1663])
+            ("PyBytes_FromString" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1594 1607]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1575 1608])
+            ("PyBytes_FromStringAndSize" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1525 1538])
+                    ("" variable (:type ("Py_ssize_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1539 1550]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1499 1551])
+            ("PyBytes_CheckExact" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1421 1439])
+            ("PyBytes_Check" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1316 1329])
+            ("PyBytesIter_Type" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [1289 1306])
+            ("PyBytes_Type" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [1250 1263])
+            ("PyBytesObject" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("ob_shash" variable (:type ("Py_hash_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [964 983])
+                          ("ob_sval" variable
+                             (:dereference 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [988 1004]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [921 1216])
+            ("stdarg.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [131 150]))          
+      :file "bytesobject.h"
+      :pointmax 8364
+      :fsize 8363
+      :lastmodtime '(24003 62834 0 0)
+      :unmatched-syntax '((semantic-list 8156 . 8163) (symbol 8146 . 8156) (semantic-list 7987 . 7994) (symbol 7977 . 7987) (semantic-list 7462 . 7469) (symbol 7452 . 7462) (semantic-list 7092 . 7099) (symbol 7082 . 7092) (semantic-list 6876 . 6882) (symbol 6866 . 6876) (semantic-list 6725 . 6737) (symbol 6715 . 6725) (semantic-list 6485 . 6491) (symbol 6475 . 6485) (semantic-list 4798 . 4810) (symbol 4788 . 4798) (semantic-list 4258 . 4270) (symbol 4248 . 4258) (semantic-list 3741 . 3746) (symbol 3731 . 3741) (semantic-list 3371 . 3383) (symbol 3361 . 3371) (semantic-list 2700 . 2712) (symbol 2690 . 2700) (semantic-list 2475 . 2487) (symbol 2465 . 2475) (semantic-list 2382 . 2393) (symbol 2372 . 2382) (semantic-list 2246 . 2257) (symbol 2236 . 2246) (semantic-list 2188 . 2193) (symbol 2178 . 2188) (semantic-list 2101 . 2107) (symbol 2091 . 2101) (semantic-list 2043 . 2049) (symbol 2033 . 2043) (semantic-list 1989 . 2001) (symbol 1979 . 1989) (semantic-list 1940 . 1948) (symbol 1930 . 1940) (semantic-list 1891 . 1903) (symbol 1881 . 1891) (semantic-list 1856 . 1878) (semantic-list 1816 . 1834) (symbol 1798 . 1816) (semantic-list 1785 . 1797) (symbol 1775 . 1785) (semantic-list 1750 . 1772) (semantic-list 1706 . 1728) (symbol 1687 . 1706) (semantic-list 1674 . 1686) (symbol 1664 . 1674) (semantic-list 1619 . 1631) (symbol 1609 . 1619) (semantic-list 1562 . 1574) (symbol 1552 . 1562) (semantic-list 1486 . 1498) (symbol 1476 . 1486) (semantic-list 1274 . 1288) (symbol 1264 . 1274) (semantic-list 1235 . 1249) (symbol 1225 . 1235) (symbol 942 . 959))
+      :lexical-table 
+        '(("F_BLANK" . ((semantic-list "(1<<2)" 5399 . 5405)))
+          ("F_ZERO" . ((semantic-list "(1<<4)" 5442 . 5448)))
+          ("Py_BYTESOBJECT_H")
+          ("PyBytes_Check" (spp-arg-list ("op") 1329 . 1333) . ((symbol "PyType_FastSubclass" 1353 . 1372) (semantic-list "(Py_TYPE(op), Py_TPFLAGS_BYTES_SUBCLASS)" 1372 . 1412)))
+          ("PyBytes_CheckExact" (spp-arg-list ("op") 1439 . 1443) . ((semantic-list "(Py_TYPE(op) == &PyBytes_Type)" 1444 . 1474)))
+          ("PyBytes_AS_STRING" (spp-arg-list ("op") 3046 . 3050) . ((semantic-list "(assert(PyBytes_Check(op)), \\
+                                (((PyBytesObject *)(op))->ob_sval))" 3051 . 3148)))
+          ("F_ALT" . ((semantic-list "(1<<3)" 5420 . 5426)))
+          ("PyBytes_GET_SIZE" (spp-arg-list ("op") 3173 . 3177) . ((semantic-list "(assert(PyBytes_Check(op)),Py_SIZE(op))" 3179 . 3218)))
+          ("F_SIGN" . ((semantic-list "(1<<1)" 5376 . 5382)))
+          ("F_LJUST" . ((semantic-list "(1<<0)" 5354 . 5360)))
+          )
+))
+  :file "!usr!include!python3.6m!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

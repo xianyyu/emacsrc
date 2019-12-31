@@ -1,0 +1,54 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("GL3_PROTOTYPES" variable (:constant-flag t) nil [122 136])
+            ("GL/gl.h" include (:system-flag t) nil [139 157])
+            ("SDL2/SDL.h" include (:system-flag t) nil [159 180])
+            ("PROGRAM_NAME" variable (:constant-flag t) nil [189 201])
+            ("sdldie" function
+               (:arguments 
+                  ( ("msg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [335 351]))                  
+                :type "void")
+                nil [323 423])
+            ("checkSDLError" function
+               (:arguments 
+                  ( ("line" variable
+                       (:default-value "-1"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [445 458]))                  
+                :type "void")
+                nil [426 668])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [713 722])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [723 736]))                  
+                :type "int")
+                nil [704 2905]))          
+      :file "main.cpp"
+      :pointmax 2906
+      :fsize 2905
+      :lastmodtime '(24068 30055 369087 646000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GL3_PROTOTYPES" . ((number "1" 137 . 138)))
+          ("PROGRAM_NAME" . ((string "\"Tutorial1\"" 202 . 213)))
+          )
+))
+  :file "!home!longji!Documents!project!local!cpp!sdl2!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

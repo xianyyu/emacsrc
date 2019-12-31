@@ -1,0 +1,1 @@
+("~/Documents/project/repos/frontend_learning/" "~/Documents/project/repos/emacsrc/" "~/Documents/project/repos/bongocat-osu/" "~/Documents/project/local/cpp/bongocat-osu/" "~/Documents/project/local/cpp/test/")

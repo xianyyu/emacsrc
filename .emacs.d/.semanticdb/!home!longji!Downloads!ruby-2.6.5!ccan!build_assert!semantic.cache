@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CCAN_BUILD_ASSERT_H" variable (:constant-flag t) nil [104 123])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT" variable (:constant-flag t) nil [620 632])
+            ("BUILD_ASSERT_OR_ZERO" variable (:constant-flag t) nil [1140 1160]))          
+      :file "build_assert.h"
+      :pointmax 1239
+      :fsize 1238
+      :lastmodtime '(23955 12781 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BUILD_ASSERT" (spp-arg-list ("cond") 632 . 638) . 
+              ((DO "do" 642 . 644) (semantic-list "{ (void) sizeof(char [1 - 2*!(cond)]); }" 645 . 685) (WHILE "while" 686 . 691) (semantic-list "(0)" 691 . 694)))
+          ("CCAN_BUILD_ASSERT_H")
+          ("BUILD_ASSERT_OR_ZERO" (spp-arg-list ("cond") 1160 . 1166) . ((semantic-list "(sizeof(char [1 - 2*!(cond)]) - 1)" 1170 . 1204)))
+          )
+))
+  :file "!home!longji!Downloads!ruby-2.6.5!ccan!build_assert!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

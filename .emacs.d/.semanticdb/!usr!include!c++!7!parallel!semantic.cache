@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1297 1314])
+            ("_GLIBCXX_VERBOSE_LEVEL" variable (:constant-flag t) nil [1462 1484])
+            ("_GLIBCXX_CALL" variable (:constant-flag t) nil [1681 1694])
+            ("_GLIBCXX_SCALE_DOWN_FPU" variable (:constant-flag t) nil [2097 2120])
+            ("_GLIBCXX_PARALLEL_ASSERTIONS" variable (:constant-flag t) nil [2292 2320])
+            ("_GLIBCXX_RANDOM_SHUFFLE_CONSIDER_L1" variable (:constant-flag t) nil [2569 2604])
+            ("_GLIBCXX_RANDOM_SHUFFLE_CONSIDER_TLB" variable (:constant-flag t) nil [2826 2862]))          
+      :file "compiletime_settings.h"
+      :pointmax 2872
+      :fsize 2871
+      :lastmodtime '(23762 64351 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GLIBCXX_SCALE_DOWN_FPU" . ((number "0" 2121 . 2122)))
+          ("_GLIBCXX_RANDOM_SHUFFLE_CONSIDER_L1" . ((number "0" 2605 . 2606)))
+          ("_GLIBCXX_VERBOSE_LEVEL" . ((number "0" 1485 . 1486)))
+          ("_GLIBCXX_PARALLEL_ASSERTIONS" . ((semantic-list "(_GLIBCXX_ASSERTIONS+0)" 2321 . 2344)))
+          ("_GLIBCXX_RANDOM_SHUFFLE_CONSIDER_TLB" . ((number "0" 2863 . 2864)))
+          ("_GLIBCXX_CALL" (spp-arg-list ("__n") 1694 . 1699))
+          )
+))
+  :file "!usr!include!c++!7!parallel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,105 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [15 34])
+            ("fstream" include (:system-flag t) nil [35 53])
+            ("string" include (:system-flag t) nil [54 71])
+            ("vector" include (:system-flag t) nil [72 89])
+            ("sstream" include (:system-flag t) nil [90 108])
+            ("map" include (:system-flag t) nil [109 123])
+            ("time.h" include (:system-flag t) nil [125 142])
+            ("windows.h" include (:system-flag t) nil [143 163])
+            ("math.h" include (:system-flag t) nil [164 181])
+            ("string.h" include (:system-flag t) nil [182 201])
+            ("SFML/Graphics.hpp" include (:system-flag t) nil [203 231])
+            ("json/json.h" include nil nil [232 254])
+            ("window" variable
+               (:typemodifiers ("extern")
+                :type ("sf::RenderWindow" type (:type "class") nil nil))
+                nil [256 287])
+            ("data" type
+               (:members 
+                  ( ("cfg" variable
+                       (:typemodifiers ("extern")
+                        :type ("Json::Value" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [306 329])
+                    ("error_msg" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("error" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [346 364])
+                            ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [365 383]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [331 384])
+                    ("init" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [386 398])
+                    ("load_texture" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("path" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [426 443]))                          
+                        :type ("sf::Texture" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [400 444]))                  
+                :type "namespace")
+                nil [289 446])
+            ("osu" type
+               (:members 
+                  ( ("init" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [483 495])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [497 509]))                  
+                :type "namespace")
+                nil [467 511])
+            ("taiko" type
+               (:members 
+                  ( ("init" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [549 561])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [563 575]))                  
+                :type "namespace")
+                nil [531 577])
+            ("ctb" type
+               (:members 
+                  ( ("init" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [615 627])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [629 641]))                  
+                :type "namespace")
+                nil [599 643])
+            ("mania" type
+               (:members 
+                  ( ("init" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [681 693])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [695 707]))                  
+                :type "namespace")
+                nil [663 709]))          
+      :file "header.hpp"
+      :pointmax 730
+      :fsize 729
+      :lastmodtime '(24072 13844 78092 860000)
+      :unmatched-syntax '((punctuation 709 . 710) (punctuation 643 . 644) (punctuation 577 . 578) (punctuation 511 . 512) (punctuation 446 . 447) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!longji!Documents!project!local!cpp!bongocat-osu!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

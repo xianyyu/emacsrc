@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("header.hpp" include nil nil [1 22])
+            ("ctb" type
+               (:members 
+                  ( ("left_key_value" variable (:type ("Json::Value" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [40 100])
+                    ("right_key_value" variable (:type ("Json::Value" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [40 100])
+                    ("dash_key_value" variable (:type ("Json::Value" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [40 100])
+                    ("bg" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("mid" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("left" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("right" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("dash" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("up" variable (:type ("sf::Sprite" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [101 143])
+                    ("key_state" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [145 163])
+                    ("left_key_state" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [164 192])
+                    ("right_key_state" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [193 222])
+                    ("timer_left_key" variable
+                       (:default-value "-1"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [223 250])
+                    ("timer_right_key" variable
+                       (:default-value "-1"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [251 279])
+                    ("init" function (:type "bool") (reparse-symbol namespacesubparts) [281 1217])
+                    ("draw" function (:type "void") (reparse-symbol namespacesubparts) [1219 2869]))                  
+                :type "namespace")
+                nil [24 2871]))          
+      :file "ctb.cpp"
+      :pointmax 2890
+      :fsize 2889
+      :lastmodtime '(24072 13844 78092 860000)
+      :unmatched-syntax '((punctuation 2871 . 2872))))
+  :file "!home!longji!Documents!project!local!cpp!bongocat-osu!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

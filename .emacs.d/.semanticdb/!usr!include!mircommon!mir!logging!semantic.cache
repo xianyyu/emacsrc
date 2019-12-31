@@ -1,0 +1,108 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("MIR_LOGGING_LOGGER_H_" variable (:constant-flag t) nil [756 777])
+            ("memory" include (:system-flag t) nil [779 796])
+            ("string" include (:system-flag t) nil [797 814])
+            ("mir" type
+               (:members 
+                  ( ("logging" type
+                       (:members 
+                          ( ("Severity" type (:type "class") (reparse-symbol namespacesubparts) [858 964])
+                            ("Logger" type
+                               (:members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [1103 1110])
+                                    ("log" function
+                                       (:pure-virtual-flag t
+                                        :prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("severity" variable (:type ("Severity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1132 1150])
+                                            ("message" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("std::string" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1172 1199])
+                                            ("component" variable
+                                               (:reference 1
+                                                :constant-flag t
+                                                :type ("std::string" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [1221 1250]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1115 1255])
+                                    ("log" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("component" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type "char")
+                                                (reparse-symbol arg-sub-list) [1570 1592])
+                                            ("severity" variable (:type ("Severity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1593 1611])
+                                            ("format" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type "char")
+                                                (reparse-symbol arg-sub-list) [1612 1631])
+                                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1632 1636]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1553 1686])
+                                    ("protected" label nil (reparse-symbol classsubparts) [1688 1698])
+                                    ("Logger" function
+                                       (:constructor-flag t
+                                        :type ("Logger" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1703 1714]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [1088 1833])
+                            ("log" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("severity" variable (:type ("Severity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1844 1862])
+                                    ("message" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1863 1890])
+                                    ("component" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1891 1920]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1835 1921])
+                            ("set_logger" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("new_logger" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::shared_ptr" type
+                                             (:template-specifier 
+                                                ( ("Logger" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1938 1980]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1922 1981]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [832 1984]))                  
+                :type "namespace")
+                nil [816 1986]))          
+      :file "logger.h"
+      :pointmax 2020
+      :fsize 2021
+      :lastmodtime '(23228 35866 0 0)
+      :unmatched-syntax '((punctuation 1829 . 1830) (DELETE 1823 . 1829) (punctuation 1821 . 1822) (semantic-list 1805 . 1820) (punctuation 1804 . 1805) (OPERATOR 1796 . 1804) (punctuation 1794 . 1795) (symbol 1788 . 1794) (punctuation 1782 . 1783) (DELETE 1776 . 1782) (punctuation 1774 . 1775) (semantic-list 1758 . 1773) (symbol 1752 . 1758) (punctuation 1746 . 1747) (DEFAULT 1739 . 1746) (punctuation 1737 . 1738) (semantic-list 1734 . 1736) (symbol 1728 . 1734) (punctuation 1727 . 1728) (VIRTUAL 1719 . 1726) (number 960 . 961) (punctuation 958 . 959) (symbol 952 . 957) (punctuation 946 . 947) (number 945 . 946) (punctuation 943 . 944) (symbol 929 . 942) (punctuation 923 . 924) (number 922 . 923) (punctuation 920 . 921) (symbol 912 . 919) (punctuation 906 . 907) (number 905 . 906) (punctuation 903 . 904) (symbol 897 . 902) (punctuation 891 . 892) (number 890 . 891) (punctuation 888 . 889) (symbol 879 . 887) (ENUM 853 . 857))
+      :lexical-table 
+        '(("MIR_LOGGING_LOGGER_H_")
+          )
+))
+  :file "!usr!include!mircommon!mir!logging!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

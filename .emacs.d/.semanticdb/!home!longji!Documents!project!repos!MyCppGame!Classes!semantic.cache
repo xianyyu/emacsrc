@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("HelloWorldScene.h" include nil nil [1281 1309])
+            ("USING_NS_CC" variable (:type "int") nil [1311 1323])
+            ("createScene" function
+               (:pointer 1
+                :parent "HelloWorld"
+                :type ("Scene" type (:type "class") nil nil))
+                nil [1325 1390])
+            ("problemLoading" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1498 1519]))                  
+                :type "void")
+                nil [1471 1709])
+            ("init" function
+               (:parent "HelloWorld"
+                :type "bool")
+                nil [1761 3984])
+            ("menuCloseCallback" function
+               (:parent "HelloWorld"
+                :arguments 
+                  ( ("pSender" variable
+                       (:pointer 1
+                        :type ("Ref" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4021 4034]))                  
+                :type "void")
+                nil [3986 4484]))          
+      :file "HelloWorldScene.cpp"
+      :pointmax 4485
+      :fsize 4484
+      :lastmodtime '(24063 26197 847204 954000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("__HELLOWORLD_SCENE_H__" variable (:constant-flag t) nil [1320 1342])
+            ("cocos2d.h" include nil nil [1344 1364])
+            ("HelloWorld" type
+               (:superclasses 
+                  ( ("cocos2d::Scene" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [1409 1416])
+                    ("createScene" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("static")
+                        :type ("cocos2d::Scene" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1419 1456])
+                    ("init" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1460 1480])
+                    ("menuCloseCallback" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("pSender" variable
+                               (:pointer 1
+                                :type ("cocos2d::Ref" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1532 1554]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1509 1555])
+                    ("CREATE_FUNC" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("HelloWorld" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1624 1635]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [1612 1636]))                  
+                :type "class")
+                nil [1366 1639]))          
+      :file "HelloWorldScene.h"
+      :pointmax 1674
+      :fsize 1673
+      :lastmodtime '(24063 26227 75384 178000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__HELLOWORLD_SCENE_H__")
+          )
+))
+  :file "!home!longji!Documents!project!repos!MyCppGame!Classes!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

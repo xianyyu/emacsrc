@@ -1,0 +1,208 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/longji/Documents/project/local/cpp/test/includes/" . "mathfuncs/")
+ ("/home/longji/Documents/project/local/cpp/test/build/" . "CMakeFiles/")
+ ("/home/longji/Documents/project/local/cpp/test/" . "src/")
+ ("/home/longji/Documents/project/repos/emacsrc/" . "usage/")
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/fundamental/" . "html/")
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/" . "fundamental/")
+ ("/home/longji/Documents/notes/" . "emacs/")
+ ("/home/longji/Videos/porns/hotpics/" . "gymsuit/")
+ ("/home/longji/Videos/porns/" . "hotpics/")
+ ("/home/longji/Videos/" . "porns/")
+ ("/home/longji/Downloads/" . "ruby-2.6.5/")
+ ("/home/longji/Documents/project/local/cpp/fuck/" . "includes/")
+ ("/home/longji/Documents/project/local/cpp/edetest/" . "src/")
+ ("/usr/include/" . "GLFW/")
+ ("/usr/" . "include/")
+ ("/home/longji/Documents/project/repos/frontend_learning/" . "javascript/")
+ ("/home/longji/Documents/project/repos/" . "frontend_learning/")
+ ("/home/longji/Documents/project/local/cpp/" . "test/")
+ ("/home/longji/Documents/project/local/" . "cpp/")
+ ("/home/longji/Documents/project/" . "local/")
+ ("/home/longji/Documents/" . "project/")
+ ("/home/longji/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/longji/Documents/project/"
+ "/home/longji/"
+ "/home/longji/Documents/project/local/cpp/test/"
+ "/home/longji/Documents/project/local/cpp/test/src/"
+ "/home/longji/Documents/project/local/cpp/test/build/"
+ "/home/longji/Documents/project/local/cpp/test/src/libmath/"
+ "/home/longji/Documents/project/local/cpp/test/includes/"
+ "/home/longji/Documents/project/local/cpp/test/includes/mathfuncs/"
+ "/home/longji/Documents/project/local/cpp/test/build/CMakeFiles/"
+ "/home/longji/Documents/project/local/cpp/"
+ "/home/longji/Documents/project/local/cpp/fuck/includes/"
+ "/home/longji/Documents/project/local/cpp/fuck/src/"
+ "/home/longji/Documents/project/local/cpp/fuck/"
+ "/home/longji/Documents/project/repos/emacsrc/usage/"
+ "/home/longji/Games/"
+ "/home/longji/Documents/project/local/cpp/glfw/"
+ "/home/longji/Documents/project/repos/frontend_learning/"
+ "/home/longji/.emacs.d/"
+ "/home/longji/Documents/project/local/cpp/sdl2/"
+ "/home/longji/Documents/project/repos/frontend_learning/javascript/fundamental/html/"
+ "/home/longji/Documents/project/repos/emacsrc/"
+ "/home/longji/Documents/project/repos/"
+ "/home/longji/Documents/notes/emacs/"
+ "/home/longji/Videos/porns/hotpics/gymsuit/"
+ "/home/longji/Documents/project/local/"
+ "/home/longji/Downloads/ruby-2.6.5/"
+ "/home/longji/Documents/project/local/html/"
+ "/home/longji/Documents/project/local/cpp/sdl2/src/"
+ "/home/longji/Xresources-theme/"
+ "/home/longji/Documents/project/local/cpp/edetest/"
+ "/home/longji/Documents/project/local/cpp/edetest/src/"
+ "/home/longji/Documents/project/local/cpp/edetest/includes/"
+ "/home/longji/Documents/project/local/cpp/edetest/include/"
+ "/usr/include/GLFW/"
+ "/home/longji/Documents/notes/"
+ "/home/longji/Documents/.emacs.d/"
+ "/home/longji/Documents/"
+ "/home/longji/Documents/project/local/shell/"
+ "/home/longji/Documents/project/repos/frontend_learning/html/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "config.h.in"
+ "CMakeLists.txt"
+ "main.cpp"
+ "math_funcs.cpp"
+ "math_funcs.h"
+ "CMakeOutput.log"
+ "config.h"
+ "math_func.cpp"
+ "math_func.hpp"
+ "CmakeLists.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/usr/include/" (24063 4071 655266 927000) "dirent.h" "wait.h" "uv-linux.h" "expat_external.h" "mcheck.h" "ImageMagick-6/" "gmpxx.h" "glib-2.0/" "wayland-egl-core.h" "drm/" "wayland-client.h" "monetary.h" "fenv.h" "wchar.h" "iconv.h" "asm-generic/" "wayland-util.h" "python2.7/" "netrom/" "clang/" "sysexits.h" "libgen.h" "link.h" "jpeglib.h" "tinyxml.h" "cairo/" "alloca.h" "pwd.h" "stdio_ext.h" "xkbcommon/" "stdlib.h" "GL/" "uv-version.h" "icu-le-hb/" "xf86drm.h" "pthread.h" "btrfs/" "alsa/" "linux/" "mntent.h" "termios.h" "dbus-1.0/" "webkitgtk-4.0/" "_G_config.h" "layout/" "lastlog.h" "wctype.h" "pnglibconf.h" "FlexLexer.h" "gnu-versions.h" "autoopts/" "wordexp.h" "uv.h" "ucontext.h" "tgmath.h" "libdrm/" "ctype.h" "poll.h" "ftw.h" "thread_db.h" "wayland-egl.h" "gshadow.h" "video/" "grp.h" "sched.h" "memory.h" "libpng/" "librsvg-2.0/" "misc/" "sqlite3.h" "stab.h" "libsoup-2.4/" "features.h" "at-spi2-atk/" "reglib/" "wayland-version.h" "gconv.h" "elf.h" "sqlite3ext.h" "stropts.h" "ustat.h" "proc_service.h" "wayland-client-protocol.h" "libwmf/" "GLFW/" "pcre_stringpiece.h" "byteswap.h" "ltdl.h" "rpcsvc/" "netipx/" "xcb/" "netdb.h" "graphite2/" "malloc.h" "atk-1.0/" "c++/" "nl_types.h" "llvm-6.0/" "printf.h" "mqueue.h" "argp.h" "ibus-1.0/" "math.h" "pulse/" "dlfcn.h" "gnumake.h" "jpegint.h" "crypt.h" "signal.h" "resolv.h" "arpa/" "numpy/" "fts.h" "sound/" "xf86drmMode.h" "utmpx.h" "xen/" "unistd.h" "xorg/" "lcms2_plugin.h" "zlib.h" "ar.h" "values.h" "pixman-1/" "getopt.h" "setjmp.h" "complex.h" "stdio.h" "libtasn1.h" "mircore/" "wayland-server-core.h" "envz.h" "idn2.h" "utmp.h" "KHR/" "omp.h" "aio.h" "protocols/" "fmtmsg.h" "sudo_plugin.h" "pty.h" "argz.h" "regexp.h" "termio.h" "harfbuzz/" "libltdl/" "X11/" "mtd/" "fnmatch.h" "freetype2/" "execinfo.h" "rpc/" "pcre_scanner.h" "syscall.h" "stdint.h" "jbig.h" "pcre.h" "wayland-cursor.h" "llvm-c-6.0/" "cpio.h" "jerror.h" "openvpn/" "libsync.h" "semaphore.h" "inttypes.h" "ulimit.h" "libdjvu/" "pango-1.0/" "x86_64-linux-gnu/" "uv-threadpool.h" "err.h" "fstab.h" "strings.h" "gawkapi.h" "unicode/" "jbig85.h" "ttyent.h" "time.h" "GLES3/" "jbig_ar.h" "python3.6m/" "libio.h" "lzma/" "lcms2.h" "fcntl.h" "at-spi-2.0/" "p11-kit-1/" "SDL2/" "GLES2/" "syslog.h" "tar.h" "netash/" "aliases.h" "gdk-pixbuf-2.0/" "lqr-1/" "glvnd/" "libxml2/" "wayland-server.h" "regex.h" "langinfo.h" "google/" "string.h" "nfs/" "libexif/" "re_comp.h" "jmorecfg.h" "sndio.h" "pcreposix.h" "assert.h" "gnutls/" "stdc-predef.h" "wayland-server-protocol.h" "libintl.h" "obstack.h" "sgtty.h" "glob.h" "gif_lib.h" "locale.h" "uchar.h" "endian.h" "python3.6/" "netinet/" "search.h" "net/" "pcrecpp.h" "pcrecpparg.h" "epoxy/" "scsi/" "uv-errno.h" "libudev.h" "OpenEXR/" "pngconf.h" "shadow.h" "ifaddrs.h" "sys/" "uv-unix.h" "bzlib.h" "error.h" "png.h" "gtk-3.0/" "EGL/" "netiucv/" "errno.h" "rdma/" "mircommon/" "netatalk/" "netax25/" "mircookie/" "zconf.h" "libpng16/" "nettle/" "expat.h" "paths.h" "utime.h" "lzma.h" "wayland-client-core.h" "fontconfig/" "netpacket/" "gio-unix-2.0/" "spawn.h" "nss.h" "netrose/" "mirclient/" "neteconet/" "limits.h" "../" "./")
+
+ ("/home/longji/" (24067 36521 203945 523000) ".zprofile" ".gconf/" ".gnome/" "baidunetdisk/" "Xresources-theme/" ".audacity-data/" ".wget-hsts" ".omnisharp/" ".profile" "node_modules/" ".dbus/" ".local/" ".thumbnails/" ".icons/" ".vscode/" ".byteexec/" "data-integration/" ".pam_environment" "StudioProjects/" ".kettle/" "virtualmachines/" ".mono/" ".bash_logout" ".lesshst" ".openshot_qt/" ".gitconfig" "package-lock.json" ".CLion2019.3/" ".p2/" "cocos2d-x-4.0/" ".zshrc.pre-oh-my-zsh" ".elinks/" ".Xauthority" ".cache/" ".eclipse/" ".aMule/" ".lantern/" "../" "android-ndk-r10e/" ".shell.pre-oh-my-zsh" ".ICEauthority" ".Upwork/" "Games/" ".pki/" "Documents/" ".emacs.d/" "Recordings/" ".python_history" ".zsh_history" ".pentaho/" ".tooling/" ".gvfs/" ".zcompdump" "Music/" ".AndroidStudio3.5/" "bin/" "todos/" "clion-2019.3/" ".accelerate/" ".zshrc" ".bash_history" "./" ".mldonkey/" "snap/" ".npm/" ".oh-my-zsh/" ".Xresources" "baidunetdiskdownload/" ".var/" ".thunderbird/" ".node_repl_history" ".mednafen/" ".ssh/" ".xsession-errors.old" ".gimp-2.8/" "Pictures/" ".xinputrc" ".xsession-errors" ".android/" ".zcompdump-x1carbon-5.4.2" "Desktop/" ".java/" ".sbd/" ".presage/" ".dmrc" ".config/" "Downloads/" ".cocos/" ".gnupg/" "android-studio/" ".mysql_history" "Videos/" "Qt5.13.2/" "Templates/" ".gradle/" ".subversion/" ".sudo_as_admin_successful" ".mozilla/" ".sogouinput/" "Public/" ".bashrc" "Android/" ".swt/")
+
+ ("/home/longji/Documents/project/local/cpp/test/" (24067 36532 524066 43000) "src/" "TAGS" "includes/" "../" "config.h.in" "./" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/test/src/" (24067 35391 36900 924000) "main.cpp" "../" "./" "libmath/" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/test/build/" (24067 24628 822730 109000) "src/" "CMakeCache.txt" "Makefile" "includes/" "../" "cmake_install.cmake" "./" "CMakeFiles/" "config.h")
+
+ ("/home/longji/Documents/project/local/cpp/test/src/libmath/" (24067 24289 727671 191000) "math_funcs.cpp" "../" "./" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/test/includes/" (24067 22802 522852 590000) "../" "./")
+
+ ("/home/longji/Documents/project/local/cpp/test/includes/mathfuncs/" (24067 20303 611066 426000) "math_funcs.h" "math_funcs.cpp" "../" "./" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/test/build/CMakeFiles/" (24067 16340 594368 369000) "CMakeDirectoryInformation.cmake" "feature_tests.bin" "../" "3.10.2/" "progress.marks" "feature_tests.c" "feature_tests.cxx" "./" "CMakeOutput.log" "Makefile2" "TargetDirectories.txt" "CMakeTmp/" "cmake.check_cache" "Makefile.cmake" "helloworld.dir/")
+
+ ("/home/longji/Documents/project/local/cpp/" (24067 16053 297358 720000) "sdl2/" "glfw/" "../" "./" "test/")
+
+ ("/home/longji/Documents/project/local/cpp/fuck/" (24067 15882 926494 706000) "src/" "includes/" "../" "./" "build/" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/fuck/src/" (24067 11396 93909 679000) "main.cpp" "math_func.cpp" "../" "./" "CMakeLists.txt")
+
+ ("/home/longji/Documents/project/local/cpp/fuck/includes/" (24067 10284 594984 946000) "../" "./" "math_func.hpp")
+
+ ("/home/longji/Documents/project/repos/emacsrc/usage/" (24064 60180 232217 647000) "emacs-extensive.org" "basic.html" "../" "emacs.org" "./" "basic.org")
+
+ ("/home/longji/Games/" (24027 39123 108910 57000) "gba/" "fc/" "../" "3ds/" "./")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/html/黑马/JD/" (24063 31789 127827 293000) "favicon.ico" "../" "images/" "css/" "./" "fonts/" "index.html")
+
+ ("/home/longji/.emacs.d/" (24063 31537 800925 501000) "ido.last" "init.el" "auto-save-list/" "init.el~" "bookmarks" "../" "ede-projects.el" "games/" "url/" "./" ".semanticdb/" "ido.last~")
+
+ ("/home/longji/Documents/project/repos/emacsrc/" (24063 30062 734576 694000) "init.el" "usage/" "readme.org" "../" ".git/" "./")
+
+ ("/home/longji/Documents/project/repos/MyCppGame/Classes/" (24063 26227 75384 178000) "../" "HelloWorldScene.cpp" "./" "AppDelegate.cpp" "HelloWorldScene.h" "AppDelegate.h")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/fundamental/js/" (24054 5598 159953 922000) "../" "var.js" "./")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/" (24060 37269 48482 920000) "readme.org" "../" ".git/" "javascript/" "./" "html/")
+
+ ("/home/longji/Documents/project/repos/" (24063 5422 286498 417000) "emacsrc/" "../" "frontend_learning/" "MyCppGame/" "./")
+
+ ("/home/longji/Documents/notes/emacs/" (24063 6091 153029 465000) "../" "emacs.org" "./" "basic.org" "emacs.html")
+
+ ("/home/longji/Documents/" (24062 57919 178243 413000) "qt-projects/" "电子书/" "../" "gimp-practicing/" "notes/" "project/" ".emacs.d.withpack/" "./" "books/")
+
+ ("/home/longji/Downloads/" (24061 52764 951990 280000) "fdaafb03918fa0ec4d0862112b9759ee3c6ddb5d.jpg" "北京市地铁站名.scel" "10000000_738026669687634_5327967743129944064_n.mp4" "Automakezwsc_jb51.rar" "3ds游戏下载/" "sdk-tools-linux-4333796.zip" "pythonbccrmdsj_downcc/" "hqwzn_wishdown.zip" "emacs-26.3/" "Automakezwsc_jb51/" "北京城区及地名.scel" "(m=e-yaaGqaa)(mh=kxpD5NyTTOoAkeHK)original_568508252.jpg" "Makefile.pdf" "hqwzn_wishdown/" "ninja-linux.zip" "../" "北京市信息大全.scel" "android-ndk-r10e/" "FoxitReader.enu.setup.2.4.4.0911(r057d814).x64.run" "c815-ikrsess6252020.gif" "drive-download-20191218T044335Z-001.zip" "android-ndk-r10e-linux-x86_64.zip" "org.pdf" "ruby-2.6.5/" "cocos2d-x-4.0.zip" "jb51.net/" "head-first-javascript.22.pdf" "电子书解压包/" "ruby-2.6.5.tar.gz" "./" "emacs-26.3.tar.xz" "fonts/" "mysql-connector-java-5.1.41.tar.gz" "qt-opensource-linux-x64-5.13.2.run" "【老E】岛国基佬游戏无下限.mp4" "pdi-ce-8.3.0.0-371.zip" "srqc_html5_bc_jb51.net.rar" "Head First HTML与CSS中文版、高清版.pdf" "GNU+Make项目管理(第三版).pdf" "593427+学习bash：第二版（中文版）.pdf" "pythonbccrmdsj_downcc.zip" "John Calcote - Autotools_ A Practitioner's Guide to GNU Autoconf, Automake, and Libtool-No Starch Press (2010).pdf" "drive-download-20191218T044335Z-001/" "android-studio-ide-191.6010548-linux.tar.gz" "xxzzbds(jb51.net).rar" "android-studio/" "Shell脚本学习指南.pdf" "firefox/")
+
+ ("/home/longji/Videos/porns/hotpics/gymsuit/" (24061 54379 758592 929000) "O1CN01cdJDhI1ZUGm1kqlQV___0_rate.jpg" "O1CN01GM3Oe71OknJ9DjBIW___0_rate.jpg" "O1CN01gw3VCv1JXRg2LLEJB___0_rate.jpg" "O1CN01bFuqsR1yokpFO2e9E___0_rate.jpg" "O1CN01UylZ9u26OCqGTXhXi___0_rate.jpg" "O1CN01KZ124x1zErTYDoOtD___0_rate.jpg" "O1CN01eG6G6G2HzGdujMDjL___0_rate.jpg" "O1CN01vSI9Ds1yK4MOLHjXb___0_rate.jpg" "O1CN01JcCcfi1ZpnPFLj77C___0_rate.jpg" "O1CN01H1oeLO1WSwnLoPbD0___0_rate.jpg" "O1CN011KuArapWh1UUSDn___0_rate.jpg" "O1CN01QDSezj2GR5VxFIwhL___0_rate.jpg" "TB2dXe9ngZC2uNjSZFnXXaxZpXa___0_rate.jpg" "TB2IIXVXH1YBuNjSszeXXablFXa___0_rate.jpg" "O1CN011KuArTIX9HfiHR5___0_rate.jpg" "O1CN01jXwXdv25YS6STt0HC___0_rate.jpg" "O1CN01tyCtid1etz6ecoh7L___0_rate.jpg" "O1CN01eEWFm425BYHqIwlzY___0_rate.jpg" "O1CN01wcpgay1G8J66KztwW___0_rate.jpg" "O1CN01iTnjM11JXRg23liWZ___0_rate.jpg" "O1CN01mgEXsb1KuArZl3a9b___0_rate.jpg" "O1CN01WAw99Z1KuArUMbl3Y___0_rate.jpg" "O1CN01FtFBPA1qtmJYS5np8___0_rate.jpg" "O1CN01zSg6x91knT7qZoATi___0_rate.jpg" "O1CN013DA4Ej1TccHiI2re7___0_rate.jpg" "O1CN01e5K3hy240GtNuF8TP___0_rate.jpg" "O1CN01crukyX1pMVv4wQeth___0_rate.jpg" "O1CN01he8cZC24mouLtv0NG___0_rate.jpg" "O1CN01S87HQI1I9LDAJot6k___0_rate.jpg" "O1CN0144T56j26uGYtE3afk___0_rate.jpg" "O1CN011Sg6zy2HzGdsWJGNn___0_rate.jpg" "O1CN01nsHXcB1wodYNWWmJG___0_rate.jpg" "O1CN01EzgKoE1dvWlcxAjrL___0_rate.jpg" "O1CN01TC0wEJ2Cl0HCuNC2a_!!0-rate.jpg_400x400.jpg" "O1CN01RB8PFQ1zErTVuvOR9___0_rate.jpg" "O1CN01Wy15KJ233BqNGPXQg___0_rate.jpg" "O1CN01zSN45a1yK4MM193Bp___0_rate.jpg" "O1CN01GrImuH21Blwx1wR27___0_rate.jpg" "O1CN01Lq2N2y27yDYzDz2an___0_rate.jpg" "O1CN01kNLw1G2LVjc6WEWzu___0_rate.jpg" "O1CN01AxnUji1mgiU2kP0x5___0_rate.jpg" "O1CN01ggA2Nd23GvdF2N6jh___0_rate.jpg" "TB2tDWHaNPI8KJjSspfXXcCFXXa___0_rate.jpg" "O1CN01dn1TcI1oXDYqdlcc6___0_rate.jpg" "O1CN01ZG5iuu2HSkX1LkhVi___0_rate.jpg" "O1CN01pyQuXv21BlwzIgJsV___0_rate.jpg" "TB2.rseyf9TBuNjy0FcXXbeiFXa___0_rate.jpg" "O1CN01E8yXLJ1NGjfRvkMeW___0_rate.jpg" "O1CN01QS1Mnw1qtmJUMUF9Y___0_rate.jpg" "O1CN01C7qCbP1UqBcfr09hp___0_rate.jpg" "O1CN01BKQX8T1YfQnRk70vE___0_rate.jpg" "O1CN01msbrxH24jc46nCSGi___0_rate.jpg" "TB27cRGqEOWBKNjSZKzXXXfWFXa___0_rate.jpg" "O1CN01VCAhnI1etz6V7FG2v___0_rate.jpg" "O1CN01dw1t4A1irvm0qAN0S___0_rate.jpg" "O1CN01pdtEQG1UvDzo7IWVD___0_rate.jpg" "O1CN01klcLL31rnedEVDwWX___0_rate.jpg" "O1CN01yDsB1U23FYXIrOwfw___0_rate.jpg" "O1CN01ZdPrBY25BYHr3Xlbp___0_rate.jpg" "O1CN015O7yNg1puPD7389Hv___0_rate.jpg" "O1CN01Q7fPw72I7VoDfi9l0___0_rate.jpg" "O1CN01yUci4e1OknJ22jFNY___0_rate.jpg" "O1CN01QwaqUI24Z4yEHgTaI___0_rate.jpg" "O1CN01MJDBYx2LSzDQ6nRGE___0_rate.jpg" "O1CN01H79OMC1Vq152yZIOq___0_rate.jpg" "O1CN01zJkIA11Y7XVWMeHKn___0_rate.jpg" "O1CN01mrKqZf1KuArZhBm2X___0_rate.jpg" "O1CN01fmXsIb1Lbga0dxiQD___0_rate.jpg" "O1CN01RWEaGk2LVjc8bAyas___0_rate.jpg" "O1CN019eqaqD1WIs4dQZDPj___0_rate.jpg" "TB2d3sVoiAnBKNjSZFvXXaTKXXa___0_rate.jpg" "O1CN01ZhBWEm1Pr2I4fNvXB___0_rate.jpg" "O1CN01RI91IA2NhIq9rmzOC___0_rate.jpg" "O1CN01cKYeu21qLszk8JQHA___0_rate.jpg" "O1CN01R2szIb24jc4800r6k___0_rate.jpg" "O1CN01KSnIde1zXBJOVRrp8___0_rate.jpg" "O1CN01vLRM691oXDYoZ4pRO___0_rate.jpg" "TB2TB_JuBjTBKNjSZFDXXbVgVXa___0_rate.jpg" "O1CN01gveJFe1rhhUNIrhNA___0_rate.jpg" "O1CN01EwX0Jy1obL8mSt8zK___0_rate.jpg" "O1CN018uFHVo23vEXRyoYUD___0_rate.jpg" "O1CN01y40nyx1IBdA3QxTtK___0_rate.jpg" "O1CN01YqdGo81zErTa2t3TJ___0_rate.jpg" "O1CN01e1wQ2q1zErTTLKiAW___0_rate.jpg" "O1CN01Al80va1HWPXdUxmiy___0_rate.jpg" "O1CN01R5MTDM1qAR678i5cb___0_rate.jpg" "O1CN01SmV08i1wodYPux6vv___0_rate.jpg" "O1CN01LTMamj1obL8jCOJTT___0_rate.jpg" "O1CN01gI1CcV1cHOVFOQPos___0_rate.jpg" "O1CN01ukSYVk1knT7rsVhqx___0_rate.jpg" "O1CN01JUrUUk1o0F2TI1YGi___0_rate.jpg" "O1CN01cr5qTC1df2VeCbLyk___0_rate.jpg" "O1CN01U12uNz2Kpb9MArYtx___0_rate.jpg" "TB2NnXLawHqK1RjSZFkXXX.WFXa___0_rate.jpg" "O1CN01yE7dXK2AzXZtmZPmr___0_rate.jpg" "O1CN015K4fZO1y5s4vuIAr4___0_rate.jpg" "O1CN011Rwa331cumXy62EEP___0_rate.jpg" "O1CN01ftDkyu1YBf544AnMM___0_rate.jpg" "O1CN01t2VJWJ1etz6V7Dutv___0_rate.jpg" "O1CN01HUtAAs1zErTYDnjL5___0_rate.jpg" "O1CN015ktUCB1KuArYdFfXk___0_rate.jpg" "TB2H6eMdv9TBuNjy1zbXXXpepXa___0_rate.jpg" "O1CN01rhR99d21BlwshEtoP___0_rate.jpg" "O1CN01a6Kmb21a34racUIf0___0_rate.jpg" "O1CN011YT428YQlC9Zdal___0_rate.jpg" "O1CN01HzKV6V1nhvDOXyak6___0_rate.jpg" "O1CN01IRpdJf1etz6ajieJe___0_rate.jpg" "O1CN01lI0QiJ1XtnaykcDe4___0_rate.jpg" "O1CN01alCZVo1yK4MQZhXFs___0_rate.jpg" "O1CN01NRcT9G1knT7rSEYOb___0_rate.jpg" "O1CN0174BXV01da0ChJXp0U___0_rate.jpg" "O1CN01rnLDTR1NtCvLtTKR3___0_rate.jpg" "O1CN01EM7TlJ2LVjc5YOndT___0_rate.jpg" "O1CN01SgMMKw1Z5XNQQRbLB___0_rate.jpg" "O1CN01qfEoAD1G8J67R15ey___0_rate.jpg" "O1CN01kuoKz624jc46n9hmK___0_rate.jpg" "TB2p3l6s_dYBeNkSmLyXXXfnVXa___0_rate.jpg" "O1CN01tlshEC1SBlRKLjC7h___0_rate.jpg" "O1CN011KuArNIO7gHKsiT___0_rate.jpg" "O1CN01zx6PMi2EJBQtQl0G7___0_rate.jpg" "O1CN01QBN4Al1wgqoj6axpY___0_rate.jpg" "O1CN01daPtWB21Blxw1xILL___0_rate.jpg" "O1CN01HcBE8s1r3OdQ1aCCq___0_rate.jpg" "O1CN01NByIuW21BlxxsnKDW___0_rate.jpg" "O1CN01Wb4C1N1G8J65R4jkc___0_rate.jpg" "O1CN01iGV7JR2HzGdujMcf1___0_rate.jpg" "O1CN01FJ1L4Z1qAtUVG9UeW___0_rate.jpg" "O1CN01t61GeC1lavvjIdMWO___0_rate.jpg" "O1CN01dxjd2k2LVjc98DS8e___0_rate.jpg" "O1CN01kviHwb21BlxyNn3FB___0_rate.jpg" "TB2l5SAcm8YBeNkSnb4XXaevFXa___0_rate.jpg" "O1CN01FjkrEy1gHAkIRYcG5_!!0-rate.jpg_400x400.jpg" "O1CN01WlptW720maEtIKbH9___0_rate.jpg" "TB2wZBZvQyWBuNjy0FpXXassXXa___0_rate.jpg" "TB2CHMahr3nBKNjSZFMXXaUSFXa___0_rate.jpg" "O1CN019cA0rE1PefcfGjSId___0_rate.jpg" "O1CN01XFdg8Y1rhhUIfRIy9___0_rate.jpg" "TB27WCtcrArBKNjSZFLXXc_dVXa___0_rate.jpg" "O1CN01vVD9yS2AzXZwMTqbM___0_rate.jpg" "O1CN01vb4R1a24mouRdqnZE___0_rate.jpg" "O1CN01aiRdlo1EcPsk0nnD0___0_rate.jpg" "O1CN01GMoUYr1dhKX1zODEa___0_rate.jpg" "O1CN01goKLHK1dZ5PHI7RDu___0_rate.jpg" "O1CN01Bxq4Cv1Jm6MFpbO4v___0_rate.jpg" "O1CN01hDeksB1dAoL7Z3YCp___0_rate.jpg" "O1CN01YoERU61dNdTigS3eB___0_rate.jpg" "O1CN011KuAraC6Jn5iqze___0_rate.jpg" "O1CN01D8OlBP1DItO4mkcJk___0_rate.jpg" "TB2.nfHXTJYBeNjy1zeXXahzVXa___0_rate.jpg" "TB2dxMwoZnI8KJjSspeXXcwIpXa___402060869_0_rate.jpg" "O1CN01a5TKNm1zey0W5Xz7n___0_rate.jpg" "O1CN01H3mIO11lsnNlaxPaC___0_rate.jpg" "O1CN01UHbbBv1olsFb8pQF5___0_rate.jpg" "O1CN01VinVzT2A2utbZQJuO___0_rate.jpg" "O1CN01FHqZSJ1OknJ69BK1N___0_rate.jpg" "O1CN016PJNYd1WSwnK2jk8W___0_rate.jpg" "O1CN01NIugTf2Kpb9IeDgaO___0_rate.jpg" "O1CN01yIYTzH2NcirL5Tzsn___0_rate.jpg" "O1CN01XfkHLJ1Tjwc0TW2xl___0_rate.jpg" "O1CN01UvWoxk1olsFXQJxb3___0_rate.jpg" "O1CN019MBbSb2I7VoDficsL___0_rate.jpg" "O1CN018hL74V2GKDXtaJ8L5___0_rate.jpg" "O1CN01KeiWBL283Fx2A6xJi___0_rate.jpg" "O1CN011KuArZ83nAoBelB___0_rate.jpg" "O1CN01yKmJx52LVjc3Q4ES4___0_rate.jpg" "O1CN01GcKt4C1OknJ3IBeBW___0_rate.jpg" "TB2YA34uFkoBKNjSZFkXXb4tFXa___0_rate.jpg" "O1CN01Ebsw2h21BlxwfUtzC___0_rate.jpg" "O1CN01jpEu8q1mqnBNo04Qm___0_rate.jpg" "O1CN011KuArMPue2hipLS___0_rate.jpg" "O1CN011RSIl71WIs4dQc6EJ___0_rate.jpg" "O1CN015UJunL1obL8mSmhH7___0_rate.jpg" "TB21RBqn29TBuNjy1zbXXXpepXa___0_rate.jpg" "TB2dFBjvL9TBuNjy0FcXXbeiFXa___0_rate.jpg" "O1CN010GMZJl1etz6gRfqm3___0_rate.jpg" "O1CN01pvP05D1BwA3Ij0JMs___0_rate.jpg" "O1CN01FRfxzG1Ehueg0S9e0___0_rate.jpg" "O1CN01vT0obq1C1eqYBs23R___0_rate.jpg" "O1CN01EJO2wH1dNdTiiZhg5___0_rate.jpg" "O1CN011DePvFNeTmW3XYc___0_rate.jpg" "O1CN01UEYa4R1obL8isNCLf___0_rate.jpg" "O1CN010KEQdt1KuArbVWfFh___0_rate.jpg" "O1CN012SxluU1zTyVr7vfIo___0_rate.jpg" "O1CN01TC0wEJ2Cl0HCuNC2a___0_rate.jpg" "O1CN015VFHPL242YuezzR72___0_rate.jpg" "O1CN01RfK8vJ1WGa0ooKiPi___0_rate.jpg" "O1CN01yPAgIk1hIplkAa4V0___0_rate.jpg" "TB2KJOcoXooBKNjSZPhXXc2CXXa___0_rate.jpg" "O1CN01STOoph1knT7rSHZSE___0_rate.jpg" "O1CN01bFjQZS1aIBwYBPWbu___0_rate.jpg" "O1CN01nlQtFj1JXRfuf3pJ8___0_rate.jpg" "TB2pkdWXNYaK1RjSZFnXXa80pXa___0_rate.jpg" "TB2gPoDiBjTBKNjSZFwXXcG4XXa___0_rate.jpg" "O1CN01N30cpj2LVjc4zyKej___0_rate.jpg" "O1CN01TAJHvI1X8coiQXtzT___0_rate.jpg" "O1CN0184tIZa1r3OdQ1bKuS___0_rate.jpg" "O1CN01jyw3Kd1Td4hiMj3Yp___0_rate.jpg" "O1CN01Wjngzx2KMkCyGAKss_!!0-rate.jpg_400x400.jpg" "O1CN01qCA0wZ1YBf5FPOKSb___0_rate.jpg" "O1CN01z1CC9F1cumXkjqN2P___0_rate.jpg" "O1CN01SCqsI01MiNyoH3FJp___0_rate.jpg" "O1CN01CT0EDC26rWCOOzdSC___0_rate.jpg" "O1CN01RgdnZK24jc46ZixuT___0_rate.jpg" "O1CN01CewAro1cumXm62ETn___0_rate.jpg" "O1CN017DSJgZ23vEXR7Df3V___0_rate.jpg" "O1CN01N1tgY71wtft7ugPiL___0_rate.jpg" "O1CN01dXnao71JXRg5EuQjs___0_rate.jpg" "O1CN01EWDh751Fieq9FenpV___0_rate.jpg" "TB2m25RduGSBuNjSspbXXciipXa___0_rate.jpg" "O1CN01nhRFGu1zErTY2j4qD___0_rate.jpg" "O1CN01KYfdRh1YmIiIVbVl9___0_rate.jpg" "O1CN01UVLOgk1PefcnFAiJI___0_rate.jpg" "O1CN01dirOjL278vFKcCBXG___0_rate.jpg" "TB2Acs7dpYqK1RjSZLeXXbXppXa___0_rate.jpg" "O1CN017905cb1H1j1GQbEhM___0_rate.jpg" "O1CN01EikNbG1EpEzkiyk94___0_rate.jpg" "O1CN014ShEgU2HvbU5pBTUl___0_rate.jpg" "TB2ksJCoyQnBKNjSZFmXXcApVXa___0_rate.jpg" "O1CN01XO9QV11OknJ9DhRC7___0_rate.jpg" "O1CN01coXVNQ1X8col3k0ow___0_rate.jpg" "O1CN01ZoRPLM21BlxwFftCf___0_rate.jpg" "O1CN01gRrhIp1itIyq9ILWx___0_rate.jpg" "O1CN01kYuR9T2LVjc3gJzNl___0_rate.jpg" "O1CN011KuArNhB6YGsdVd___0_rate.jpg" "O1CN01uz5Zk81Tjwc0TUdfV___0_rate.jpg" "O1CN01EwBoYl1OR6FnMXPJs___0_rate.jpg" "TB2OImYAwKTBuNkSne1XXaJoXXa___0_rate.jpg" "O1CN01VokEFS1vQX6caYQ1z___0_rate.jpg" "O1CN01EYEGtU2FcFYMFfQYI___0_rate.jpg" "O1CN01Mm61aU1Jm6MIgbKfm___0_rate.jpg" "O1CN01oZlAMi25nZ9LJlmsd___0_rate.jpg" "O1CN01lbdl4E1atI1ADU7EN___0_rate.jpg" "O1CN01Ym5zBe1itIyszLY3K___0_rate.jpg" "O1CN01VpKbDH1qtmJUMTqCv___0_rate.jpg" "O1CN01hp7vBN26OCqFiqrFS___0_rate.jpg" "../" "./")
+
+ ("/home/longji/Documents/project/local/html/" (24061 53707 930987 422000) "../" "test.org" "images/" "main.html" "test.css" "./")
+
+ ("/home/longji/Videos/porns/hotpics/" (24056 29602 655313 878000) "sophiestage/" "ifrit/" "gymsuit/" "../" "secret/" "./")
+
+ ("/home/longji/Videos/porns/" (24060 52646 425359 280000) "lily/" "xvideos.com_fcd18827aa67d258c64c129ed5cf58a0.mp4" "xvideos.com_3477816a0b4b9638cd1fde0ea0a4e644-1.mp4" "480P_600K_268381962.mp4.mp4" "xvideos.com_e088c9d5a01f9476f7e9782785fff1b4.mp4" "xvideos.com_7d28fe8d1290ac1a2092b8dbe216c572.mp4" "141549.mp4" "国产神剧母子乱伦系列合集整理16部/" "105272.mp4.mp4" "tsubomi/" "xvideos.com_cb2616e20f6b33dbef35d3423b146b60.mp4" "../" "141471.mp4" "xvideos.com_5271ed04f156d8c894cbba6f3783722b.mp4" "hotpics/" "130403.mp4.mp4" "./" "xvideos.com_79cc43d6eaccbeebcce620807244821f-1.mp4" "xvideos.com_1adab02faa43bee2b0f87ed9c4a7173e.mp4" "我本初中系列/" "141681.mp4" "母子乱伦儿子发现避孕套问妈妈/" "workout/" "141611.mp4" "xvideos.com_75f31f5a934cb51ef8ce12da8823b95e-1.mp4" "322478.mp4.mp4" "480P_600K_254462081.mp4.mp4" "129845.mp4.mp4" "68977.mp4.mp4" "xvideos.com_b40082f7b04456b7bc149ed337e344b6-1.mp4" "xvideos.com_20186896129acc55fef1143c0febe240-1.mp4" "227230.mp4.mp4" "71016.mp4.mp4" "xvideos.com_dbf4377fe99b821b553afad2849f8a92-1.mp4")
+
+ ("/home/longji/Videos/" (24052 23470 290477 736000) "filipino/" "白嫩女强人操到无力呻吟禁止内容 -Chinese homemade video.mp4" "极品少妇3p大作战 -Chinese homemade video(1).mp4" "Screen Records/" "DUTY Vol.50 背徳の近親相姦ファック! .avi" "[无码][HDALL][e650]muramura102011_530男客利用网咖个室女特别服务！？後编.rmvb" "../" "Untitled_Sequence_01_104[1].mp4 from Ifrit Business Account.mp4" "xhamster.com_4071090_japanese_teacher_has_affair_with_student_240p.mp4" "animes/" "Mahasiswi IGO Colok Memek Jembut Tebal - XVIDEOS.COM.mp4" "司机前面开车，后排直接车震，非常真实刺激 -Chinese homemade video.mp4" "kdenlive-renderqueue/" "[Attackers][SHK-061][死夜恶][女教师 疑霍の教坛][Ryo Hitomi 瞳亮].mpg" "gimp-tutorials/" "obs-recording/" "./" "porns/" "xhamster.com_3177075_japanese_lady_boss_horny_at_the_office_by_packmans_240p.mp4" "朋友在，现场直播女上位 -Chinese homemade video(1).mp4" "洋妞我已婚的中国人男朋友午休来我房子（中英文对白） -Chinese homemade video.mp4" "dramas/" "movies/" "titles/" "[无码][HDALL][db89]muramura101911_529男客利用网咖个室女特别服务！？前编.rmvb" "tutorials/")
+
+ ("/home/longji/Pictures/" (24059 24108 704927 261000) "smplayer_screenshots/" "../" "resume/" "Screenshots/" "./" "manga/" "e4dde71190ef76c6584d42589d16fdfaaf516722.jpg" "截图/")
+
+ ("/usr/include/c++/" (24009 43753 930738 188000) "../" "./" "7/" "7.4.0/")
+
+ ("/usr/include/c++/7/" (24009 43753 926737 392000) "cstring" "cstdlib" "locale" "cfenv" "typeinfo" "fenv.h" "string_view" "scoped_allocator" "numeric" "cinttypes" "cctype" "regex" "thread" "ciso646" "stdlib.h" "parallel/" "map" "mutex" "cstdio" "climits" "atomic" "set" "cfloat" "profile/" "tgmath.h" "condition_variable" "bits/" "shared_mutex" "iomanip" "ccomplex" "list" "type_traits" "backward/" "new" "../" "system_error" "string" "any" "utility" "stdexcept" "codecvt" "exception" "unordered_set" "tr2/" "cxxabi.h" "streambuf" "initializer_list" "bitset" "math.h" "array" "cmath" "random" "cstdarg" "ratio" "stack" "ostream" "complex.h" "cassert" "unordered_map" "cwchar" "functional" "iosfwd" "tr1/" "tuple" "variant" "deque" "./" "ctime" "iterator" "cstdbool" "csetjmp" "experimental/" "cstdint" "debug/" "vector" "optional" "future" "csignal" "cerrno" "valarray" "fstream" "cwctype" "cstdalign" "complex" "cstddef" "clocale" "typeindex" "algorithm" "chrono" "queue" "ctgmath" "forward_list" "ios" "iostream" "decimal/" "ext/" "sstream" "memory" "istream" "cuchar" "limits")
+
+ ("/usr/include/c++/7/bits/" (24009 43753 894731 33000) "regex_scanner.h" "stl_list.h" "regex_scanner.tcc" "range_access.h" "locale_classes.h" "deque.tcc" "shared_ptr.h" "allocated_ptr.h" "forward_list.tcc" "regex_automaton.h" "list.tcc" "ostream.tcc" "c++0x_warning.h" "locale_facets.tcc" "basic_string.h" "locale_conv.h" "random.tcc" "locale_facets.h" "stl_tempbuf.h" "localefwd.h" "uniform_int_dist.h" "regex_error.h" "stl_iterator_base_funcs.h" "invoke.h" "allocator.h" "ptr_traits.h" "functexcept.h" "valarray_array.tcc" "cpp_type_traits.h" "atomic_futex.h" "regex_compiler.h" "forward_list.h" "regex_constants.h" "codecvt.h" "exception.h" "mask_array.h" "gslice.h" "../" "stl_relops.h" "regex_executor.h" "postypes.h" "move.h" "stl_construct.h" "vector.tcc" "cxxabi_init_exception.h" "stl_bvector.h" "stl_algobase.h" "regex_automaton.tcc" "std_function.h" "stl_stack.h" "basic_string.tcc" "exception_defines.h" "stl_iterator.h" "enable_special_members.h" "atomic_base.h" "random.h" "indirect_array.h" "stl_map.h" "shared_ptr_base.h" "valarray_array.h" "stl_set.h" "valarray_before.h" "hash_bytes.h" "ostream_insert.h" "fstream.tcc" "sstream.tcc" "hashtable.h" "valarray_after.h" "memoryfwd.h" "boost_concept_check.h" "std_abs.h" "alloc_traits.h" "stl_tree.h" "./" "stream_iterator.h" "string_view.tcc" "ios_base.h" "stl_pair.h" "streambuf.tcc" "nested_exception.h" "std_mutex.h" "regex_executor.tcc" "regex_compiler.tcc" "hashtable_policy.h" "stl_uninitialized.h" "stl_numeric.h" "stringfwd.h" "regex.h" "stl_multiset.h" "stl_raw_storage_iter.h" "slice_array.h" "basic_ios.h" "locale_facets_nonio.h" "parse_numbers.h" "cxxabi_forced.h" "uses_allocator.h" "stl_heap.h" "refwrap.h" "stl_queue.h" "unordered_map.h" "predefined_ops.h" "atomic_lockfree_defines.h" "quoted_string.h" "basic_ios.tcc" "stl_algo.h" "locale_facets_nonio.tcc" "gslice_array.h" "specfun.h" "regex.tcc" "unordered_set.h" "streambuf_iterator.h" "concept_check.h" "shared_ptr_atomic.h" "node_handle.h" "algorithmfwd.h" "stl_iterator_base_types.h" "locale_classes.tcc" "stl_vector.h" "unique_ptr.h" "istream.tcc" "stl_deque.h" "stl_multimap.h" "exception_ptr.h" "stl_function.h" "functional_hash.h" "char_traits.h")
+
+ ("/home/longji/Downloads/ruby-2.6.5/" (24060 50249 261473 5000) "vm_eval.c" "transcode.c" "parse.y" "eval_jump.c" "eval.c" "libexec/" "thread_win32.c" "prelude.rb" "regerror.c" "transient_heap.c" "regparse.c" "id.h" "file.c" "safe.c" "io.c" "vm.inc" "basictest/" "regexec.c" "probes.dmyh" "debug_counter.h" "localeinit.c" "vm_opts.h" "siphash.h" "vm_trace.c" "strftime.c" "gc.h" "thread_pthread.h" "enumerator.c" "parse.h" ".indent.pro" "gem_prelude.rb" "miniinit.c" "dln_find.c" "CONTRIBUTING.md" "include/" "dmydln.c" "vmtc.inc" "encoding.c" "COPYING" "vm_insnhelper.c" "benchmark/" "array.c" "st.c" "vm_exec.h" "missing/" "appveyor.yml" "dln.h" "misc/" "string.c" "numeric.c" "LEGAL" "vm.c" "transient_heap.h" ".document" "insns_info.inc" "golf_prelude.c" "cygwin/" "README.md" "vm_insnhelper.h" "random.c" "ruby_assert.h" "main.c" "dir.c" "../" "win32/" "ccan/" "iseq.c" "coroutine/" "eval_error.c" "pack.c" "math.c" "BSDL" "loadpath.c" "object.c" "golf_prelude.rb" "insns.inc" "man/" "vm_method.c" "parse.c" "sprintf.c" "dmyenc.c" "vm_backtrace.c" "vm_exec.c" "addr2line.h" "hash.c" "defs/" "rubystub.c" "README.EXT" "iseq.h" "thread_win32.h" "vm_debug.h" "id.c" "ruby_atomic.h" "common.mk" "variable.c" "COPYING.ja" "configure.ac" "dln.c" "error.c" "enum.c" "debug.c" "class.c" "optinsn.inc" "constant.h" "node.h" "sample/" "README.ja.md" ".travis.yml" "id_table.h" "mjit_compile.inc" "gems/" "time.c" "cont.c" "bin/" "compar.c" "spec/" "regcomp.c" "./" "signal.c" "addr2line.c" "symbol.c" "thread_sync.c" "process.c" "KNOWNBUGS.rb" "gc.c" "mjit_worker.c" "probes_helper.h" "debug_counter.c" "miniprelude.c" "goruby.c" "revision.h" "ast.c" "bignum.c" "vm_call_iseq_optimized.inc" "hrtime.h" "vm_args.c" "thread.c" "method.h" ".gdbinit" "regenc.h" "mjit.c" "probes.d" "regenc.c" "re.c" "complex.c" "vsnprintf.c" "known_errors.inc" "doc/" "node_name.inc" "version.h" "rational.c" "NEWS" "regparse.h" "sparc.c" "load.c" "configure" "ia64.S" "eval_intern.h" "bootstraptest/" "vm_core.h" "marshal.c" "transcode_data.h" "thread_pthread.c" "lib/" "optunifs.inc" "id_table.c" "enc/" "version.c" "struct.c" "util.c" "aclocal.m4" "range.c" "proc.c" ".editorconfig" "ChangeLog" "compile.c" "coverage/" "dmyext.c" "encindex.h" "regint.h" "prelude.c" "test/" "tool/" "lex.c" "inits.c" "node.c" "insns.def" "GPL" "mjit_compile.c" "vm_dump.c" "symbol.h" "siphash.c" "regsyntax.c" "timev.h" "ruby.c" "Makefile.in" "lex.c.blt" "ruby-runner.c" "ext/" "template/" "wercker.yml" "opt_sc.inc" "mjit.h" "internal.h" "README.EXT.ja")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/" (24030 39425 117582 702000) "../" "fundamental/" "./")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/fundamental/" (24053 43201 102323 226000) "../" "js/" "./" "html/")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/javascript/fundamental/html/" (24060 35451 750327 692000) "strict.html" "jquery.html" "../" "statement.html" "./" "hello.html" "forloop.html" "templatestring.html")
+
+ ("/home/" (24009 40002 78402 70000) "longji/" "../" "./")
+
+ ("/home/longji/Xresources-theme/" (24060 32926 127374 214000) "../" "./")
+
+ ("/home/longji/Documents/project/local/cpp/glfw/" (24060 30813 648091 234000) "main.cpp" "main" "../" "./" "makefile")
+
+ ("/home/longji/Documents/project/repos/MyCppGame/" (24056 49073 279829 919000) ".cocos-project.json" "Classes/" ".ninja_deps" "CMakeCache.txt" "../" "proj.ios_mac/" "cmake_install.cmake" "proj.android/" "Resources/" "proj.linux/" "bin/" "./" "build.ninja" "CMakeLists.txt" "CMakeFiles/" "cocos2d/" ".ninja_log" "lib/" "engine/" "proj.win32/" "rules.ninja")
+
+ ("/home/longji/Documents/project/local/cpp/edetest/" (24060 12039 265576 428000) "src/" "Project.ede" "includes/" "../" "./")
+
+ ("/home/longji/Documents/project/local/cpp/edetest/src/" (24060 11325 810624 593000) "../" "./")
+
+ ("/home/longji/Documents/project/local/cpp/edetest/includes/" (24060 11422 936681 124000) "../" "print.h" "./")
+
+ ("/home/longji/Documents/project/local/cpp/edetest/include/" (24060 10093 437092 553000) "../" "print_shit.h" "./")
+
+ ("/usr/include/GLFW/" (24052 15547 894684 531000) "../" "glfw3native.h" "glfw3.h" "./")
+
+ ("/usr/" (24018 40307 68860 886000) "libexec/" "src/" "include/" "share/" "lib32/" "../" "sbin/" "games/" "bin/" "./" "local/" "lib/")
+
+ ("/home/longji/Documents/notes/" (24056 40968 195475 44000) "emacs/" "../" "test.org" "resources/" "./" "entertainment/" "outline/" "porno.org" "learning/")
+
+ ("/home/longji/Documents/.emacs.d/" (24059 27069 149098 562000) "transient/" "image-dired/" "ido.last" "init.el" "semanticdb/" "auto-save-list/" "init.el~" "../" "./" "elpa/" ".semanticdb/" "projectile-bookmarks.eld" "ido.last~")
+
+ ("/home/longji/Documents/project/local/shell/" (24056 29288 260767 954000) "../" "hello.sh" "./")
+
+ ("/home/longji/Documents/project/local/markdown/" (24053 35862 22976 616000) "../" "slies.md" "./")
+
+ ("/home/longji/Documents/Presentations/" (24010 63924 290546 959000) "../" "./")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/html/黑马/" (24021 27385 952053 816000) "css03/" "../" "css04/" "css07/" "css05/" "css06/" "./" "css02/" "JD/" "css08/" "css01/" "html/")
+
+ ("/home/longji/Documents/project/repos/frontend_learning/html/" (24030 39401 597264 583000) "星月/" "黑马/" "../" "./")
+
+ ("/home/longji/Documents/project/local/cpp/sdl2/src/" (24059 13091 137286 142000) "main.cpp" "../" "./" "makefile")
+
+ ("/home/longji/Documents/project/local/cpp/sdl2/" (24057 62979 997571 959000) "src/" "../" "./")
+
+ ("/home/longji/Documents/project/local/" (24053 35792 91384 569000) "markdown/" "cpp/" "../" "shell/" "./" "html/")
+
+ ("/home/longji/Documents/project/" (24052 47793 893836 932000) "../" "./" "local/" "repos/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

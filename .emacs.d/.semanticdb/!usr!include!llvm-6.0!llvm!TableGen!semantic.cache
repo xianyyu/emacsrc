@@ -1,0 +1,211 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("LLVM_TABLEGEN_SETTHEORY_H" variable (:constant-flag t) nil [1908 1933])
+            ("llvm/ADT/ArrayRef.h" include nil nil [1935 1965])
+            ("llvm/ADT/SetVector.h" include nil nil [1966 1997])
+            ("llvm/ADT/StringMap.h" include nil nil [1998 2029])
+            ("llvm/ADT/StringRef.h" include nil nil [2030 2061])
+            ("llvm/Support/SMLoc.h" include nil nil [2062 2093])
+            ("map" include (:system-flag t) nil [2094 2108])
+            ("memory" include (:system-flag t) nil [2109 2126])
+            ("vector" include (:system-flag t) nil [2127 2144])
+            ("llvm" type
+               (:members 
+                  ( ("DagInit" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2164 2178])
+                    ("Init" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2179 2190])
+                    ("Record" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2191 2204])
+                    ("SetTheory" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2224 2231])
+                            ("std::vector" variable (:type "int") (reparse-symbol classsubparts) [2249 2271])
+                            ("SmallSetVector" variable (:type "int") (reparse-symbol classsubparts) [2289 2318])
+                            ("Operator" type
+                               (:members 
+                                  ( ("anchor" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2400 2422])
+                                    ("public" label nil (reparse-symbol classsubparts) [2426 2433])
+                                    ("apply" function
+                                       (:pure-virtual-flag t
+                                        :prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :type ("SetTheory" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2588 2599])
+                                            ("Expr" variable
+                                               (:pointer 1
+                                                :type ("DagInit" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2600 2614])
+                                            ("Elts" variable
+                                               (:reference 1
+                                                :type ("RecSet" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2615 2628])
+                                            ("Loc" variable (:type ("ArrayRef" type
+                                                 (:template-specifier 
+                                                    ( ("SMLoc" type nil nil nil))                                                    
+                                                  :type "class")
+                                                  nil nil)) (reparse-symbol arg-sub-list) [2652 2672]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2569 2677]))                                  
+                                :type "class")
+                                (reparse-symbol classsubparts) [2379 2682])
+                            ("Expander" type
+                               (:members 
+                                  ( ("anchor" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2935 2957])
+                                    ("public" label nil (reparse-symbol classsubparts) [2961 2968])
+                                    ("expand" function
+                                       (:pure-virtual-flag t
+                                        :prototype-flag t
+                                        :typemodifiers ("virtual")
+                                        :arguments 
+                                          ( ("" variable
+                                               (:reference 1
+                                                :type ("SetTheory" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3029 3040])
+                                            ("" variable
+                                               (:pointer 1
+                                                :type ("Record" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3041 3049])
+                                            ("Elts" variable
+                                               (:reference 1
+                                                :type ("RecSet" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3050 3063]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3009 3068]))                                  
+                                :type "class")
+                                (reparse-symbol classsubparts) [2914 3073])
+                            ("private" label nil (reparse-symbol classsubparts) [3075 3083])
+                            ("std::map" variable (:type "int") (reparse-symbol classsubparts) [3260 3287])
+                            ("Expansions" variable (:type ("ExpandMap" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3290 3311])
+                            ("Operators" variable (:type ("StringMap" type
+                                 (:template-specifier 
+                                    ( ("std::unique_ptr" type (:template-specifier 
+                                        ( ("Operator" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [3349 3396])
+                            ("Expanders" variable (:type ("StringMap" type
+                                 (:template-specifier 
+                                    ( ("std::unique_ptr" type (:template-specifier 
+                                        ( ("Expander" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [3436 3483])
+                            ("public" label nil (reparse-symbol classsubparts) [3485 3492])
+                            ("SetTheory" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("SetTheory" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3563 3575])
+                            ("addExpander" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("ClassName" variable (:type ("StringRef" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3672 3692])
+                                    ("" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("Expander" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [3693 3719]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3655 3720])
+                            ("addFieldExpander" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("ClassName" variable (:type ("StringRef" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4003 4023])
+                                    ("FieldName" variable (:type ("StringRef" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4024 4044]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3981 4045])
+                            ("addOperator" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("Name" variable (:type ("StringRef" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4106 4121])
+                                    ("" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("Operator" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [4122 4148]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [4089 4149])
+                            ("evaluate" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("Expr" variable
+                                       (:pointer 1
+                                        :type ("Init" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4236 4247])
+                                    ("Elts" variable
+                                       (:reference 1
+                                        :type ("RecSet" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4248 4261])
+                                    ("Loc" variable (:type ("ArrayRef" type
+                                         (:template-specifier 
+                                            ( ("SMLoc" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [4262 4282]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [4222 4283])
+                            ("evaluate" function
+                               (:template 
+                                  ( ("Iter" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("begin" variable (:type ("Iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4393 4404])
+                                    ("end" variable (:type ("Iter" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4405 4414])
+                                    ("Elts" variable
+                                       (:reference 1
+                                        :type ("RecSet" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4415 4428])
+                                    ("Loc" variable (:type ("ArrayRef" type
+                                         (:template-specifier 
+                                            ( ("SMLoc" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [4429 4449]))                                  )
+                                (reparse-symbol classsubparts) [4353 4517])
+                            ("expand" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :constant-flag t
+                                :arguments 
+                                  ( ("Set" variable
+                                       (:pointer 1
+                                        :type ("Record" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4708 4720]))                                  
+                                :type ("RecVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4687 4721]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2206 4724]))                  
+                :type "namespace")
+                nil [2146 4727]))          
+      :file "SetTheory.h"
+      :pointmax 4787
+      :fsize 4786
+      :lastmodtime '(23193 16989 0 0)
+      :unmatched-syntax '((punctuation 3258 . 3259) (symbol 3248 . 3257) (USING 3242 . 3247) (punctuation 3002 . 3003) (DEFAULT 2995 . 3002) (punctuation 2993 . 2994) (semantic-list 2990 . 2992) (symbol 2982 . 2990) (punctuation 2981 . 2982) (VIRTUAL 2973 . 2980) (punctuation 3002 . 3003) (DEFAULT 2995 . 3002) (punctuation 2993 . 2994) (semantic-list 2990 . 2992) (symbol 2982 . 2990) (punctuation 2981 . 2982) (VIRTUAL 2973 . 2980) (punctuation 2467 . 2468) (DEFAULT 2460 . 2467) (punctuation 2458 . 2459) (semantic-list 2455 . 2457) (symbol 2447 . 2455) (punctuation 2446 . 2447) (VIRTUAL 2438 . 2445) (punctuation 2467 . 2468) (DEFAULT 2460 . 2467) (punctuation 2458 . 2459) (semantic-list 2455 . 2457) (symbol 2447 . 2455) (punctuation 2446 . 2447) (VIRTUAL 2438 . 2445) (punctuation 2287 . 2288) (symbol 2280 . 2286) (USING 2274 . 2279) (punctuation 2247 . 2248) (symbol 2240 . 2246) (USING 2234 . 2239))
+      :lexical-table 
+        '(("LLVM_TABLEGEN_SETTHEORY_H")
+          )
+))
+  :file "!usr!include!llvm-6.0!llvm!TableGen!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

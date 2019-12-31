@@ -1,0 +1,547 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ALSA_ERROR_H" variable (:constant-flag t) nil [1104 1118])
+            ("SYSERR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2479 2485])
+            ("SNDERR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2358 2364])
+            ("snd_lib_error_set_handler" function
+               (:type "int"
+                :arguments 
+                  ( ("handler" variable (:type ("snd_lib_error_handler_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2256 2288]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2219 2289])
+            ("snd_lib_error" variable
+               (:type ("snd_lib_error_handler_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2173 2218])
+            ("snd_lib_error_handler_t" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2045 2062])
+                    ("line" variable (:type "int") (reparse-symbol arg-sub-list) [2063 2072])
+                    ("function" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2073 2094])
+                    ("err" variable (:type "int") (reparse-symbol arg-sub-list) [2095 2103])
+                    ("fmt" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2104 2120])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2121 2125]))                  
+                :function-pointer t
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2013 2172])
+            ("snd_strerror" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("errnum" variable (:type "int") (reparse-symbol arg-sub-list) [1570 1581]))                  
+                :constant-flag t
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1545 1582])
+            ("SND_ERROR_ALISP_NIL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1454 1473])
+            ("SND_ERROR_INCOMPATIBLE_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1341 1371])
+            ("SND_ERROR_BEGIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1260 1275])
+            ("snd_local_error_handler_t" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3023 3040])
+                    ("line" variable (:type "int") (reparse-symbol arg-sub-list) [3041 3050])
+                    ("func" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3058 3075])
+                    ("err" variable (:type "int") (reparse-symbol arg-sub-list) [3076 3084])
+                    ("fmt" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3092 3108])
+                    ("arg" variable (:type ("va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3109 3121]))                  
+                :type "void")
+                nil [2989 3122])
+            ("snd_lib_error_set_local" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("func" variable (:type ("snd_local_error_handler_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3174 3205]))                  
+                :type ("snd_local_error_handler_t" type (:type "class") nil nil))
+                nil [3124 3206]))          
+      :file "error.h"
+      :pointmax 3237
+      :fsize 3236
+      :lastmodtime '(23577 51253 0 0)
+      :unmatched-syntax '((TYPEDEF 2981 . 2988) (TYPEDEF 2005 . 2012))
+      :lexical-table 
+        '(("SND_ERROR_ALISP_NIL" . ((semantic-list "(SND_ERROR_BEGIN+1)" 1476 . 1495)))
+          ("SND_ERROR_BEGIN" . ((number "500000" 1279 . 1285)))
+          ("__ALSA_ERROR_H")
+          ("SYSERR" (spp-arg-list ("...") 2485 . 2490) . ((symbol "snd_lib_error" 2491 . 2504) (semantic-list "(__FILE__, __LINE__, __FUNCTION__, errno, __VA_ARGS__)" 2504 . 2558)))
+          ("SNDERR" (spp-arg-list ("...") 2364 . 2369) . ((symbol "snd_lib_error" 2370 . 2383) (semantic-list "(__FILE__, __LINE__, __FUNCTION__, 0, __VA_ARGS__)" 2383 . 2433)))
+          ("SND_ERROR_INCOMPATIBLE_VERSION" . ((semantic-list "(SND_ERROR_BEGIN+0)" 1373 . 1392)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("alisp_cfg" type
+               (:members 
+                  ( ("verbose" variable
+                       (:suffix ":1"
+                        :type "int")
+                        (reparse-symbol classsubparts) [883 930])
+                    ("warning" variable
+                       (:suffix ":1"
+                        :type "int")
+                        (reparse-symbol classsubparts) [883 930])
+                    ("debug" variable
+                       (:suffix ":1"
+                        :type "int")
+                        (reparse-symbol classsubparts) [883 930])
+                    ("in" variable
+                       (:pointer 1
+                        :type ("snd_input_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [932 948])
+                    ("out" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [969 987])
+                    ("eout" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1010 1029])
+                    ("vout" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1050 1069])
+                    ("wout" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1092 1111])
+                    ("dout" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1134 1153]))                  
+                :type "struct")
+                nil [863 1175])
+            ("alisp_instance" type
+               (:prototype t
+                :type "struct")
+                nil [1177 1199])
+            ("alisp_object" type
+               (:prototype t
+                :type "struct")
+                nil [1200 1220])
+            ("alisp_seq_iterator" type
+               (:prototype t
+                :type "struct")
+                nil [1221 1247])
+            ("alsa_lisp_default_cfg" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("input" variable
+                       (:pointer 1
+                        :type ("snd_input_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1289 1308]))                  
+                :type ("alisp_cfg" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1249 1309])
+            ("alsa_lisp_default_cfg_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("cfg" variable
+                       (:pointer 1
+                        :type ("alisp_cfg" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1342 1364]))                  
+                :type "void")
+                nil [1310 1365])
+            ("alsa_lisp" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("cfg" variable
+                       (:pointer 1
+                        :type ("alisp_cfg" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1380 1402])
+                    ("instance" variable
+                       (:pointer 2
+                        :type ("alisp_instance" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1403 1436]))                  
+                :type "int")
+                nil [1366 1437])
+            ("alsa_lisp_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instance" variable
+                       (:pointer 1
+                        :type ("alisp_instance" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1458 1490]))                  
+                :type "void")
+                nil [1438 1491])
+            ("alsa_lisp_function" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instance" variable
+                       (:pointer 1
+                        :type ("alisp_instance" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1515 1547])
+                    ("result" variable
+                       (:pointer 2
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1548 1583])
+                    ("id" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1593 1608])
+                    ("args" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1609 1626])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1627 1631]))                  
+                :type "int")
+                nil [1492 1717])
+            ("alsa_lisp_result_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instance" variable
+                       (:pointer 1
+                        :type ("alisp_instance" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1745 1777])
+                    ("result" variable
+                       (:pointer 1
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1784 1818]))                  
+                :type "void")
+                nil [1718 1819])
+            ("alsa_lisp_seq_first" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instance" variable
+                       (:pointer 1
+                        :type ("alisp_instance" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1844 1876])
+                    ("id" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1877 1892])
+                    ("seq" variable
+                       (:pointer 2
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1896 1928]))                  
+                :type "int")
+                nil [1820 1929])
+            ("alsa_lisp_seq_next" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("seq" variable
+                       (:pointer 2
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1953 1985]))                  
+                :type "int")
+                nil [1930 1986])
+            ("alsa_lisp_seq_count" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("seq" variable
+                       (:pointer 1
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2011 2042]))                  
+                :type "int")
+                nil [1987 2043])
+            ("alsa_lisp_seq_integer" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("seq" variable
+                       (:pointer 1
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2070 2101])
+                    ("val" variable
+                       (:pointer 1
+                        :type "long")
+                        (reparse-symbol arg-sub-list) [2102 2112]))                  
+                :type "int")
+                nil [2044 2113])
+            ("alsa_lisp_seq_pointer" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("seq" variable
+                       (:pointer 1
+                        :type ("alisp_seq_iterator" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2140 2171])
+                    ("ptr_id" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2172 2191])
+                    ("ptr" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2192 2203]))                  
+                :type "int")
+                nil [2114 2204]))          
+      :file "alisp.h"
+      :pointmax 2205
+      :fsize 2204
+      :lastmodtime '(23577 51253 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ALSA_OUTPUT_H" variable (:constant-flag t) nil [1106 1121])
+            ("snd_output_flush" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2661 2682]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2640 2683])
+            ("snd_output_putc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2610 2631])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [2632 2638]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2590 2639])
+            ("snd_output_puts" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2550 2571])
+                    ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2572 2588]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2530 2589])
+            ("snd_output_vprintf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2473 2494])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2495 2514])
+                    ("args" variable (:type ("va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2515 2528]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2450 2529])
+            ("snd_output_printf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2333 2354])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2355 2374])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2375 2379]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2311 2449])
+            ("snd_output_close" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2288 2309]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2267 2310])
+            ("snd_output_buffer_string" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("output" variable
+                       (:pointer 1
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2232 2253])
+                    ("buf" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2254 2265]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2200 2266])
+            ("snd_output_buffer_open" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("outputp" variable
+                       (:pointer 2
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2175 2198]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2148 2199])
+            ("snd_output_stdio_attach" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("outputp" variable
+                       (:pointer 2
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2101 2124])
+                    ("fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2125 2134])
+                    ("_close" variable (:type "int") (reparse-symbol arg-sub-list) [2135 2146]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2073 2147])
+            ("snd_output_stdio_open" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("outputp" variable
+                       (:pointer 2
+                        :type ("snd_output_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2012 2035])
+                    ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2036 2053])
+                    ("mode" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2054 2071]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1986 2072])
+            ("snd_output_type_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_snd_output_type" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [1825 1984])
+            ("_snd_output_type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("SND_OUTPUT_STDIO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1892 1909])
+                    ("SND_OUTPUT_BUFFER" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1946 1965]))                  )
+                (reparse-symbol extern-c-contents) [1825 1984])
+            ("snd_output_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_snd_output" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1763 1803]))          
+      :file "output.h"
+      :pointmax 2755
+      :fsize 2754
+      :lastmodtime '(23577 51253 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__ALSA_OUTPUT_H")
+          )
+))
+  :file "!usr!include!alsa!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

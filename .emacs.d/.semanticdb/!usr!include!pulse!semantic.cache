@@ -1,0 +1,688 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foopulsegccmacrohfoo" variable (:constant-flag t) nil [38 58])
+            ("PA_GCC_PRINTF_ATTR" variable (:constant-flag t) nil [1131 1149])
+            ("PA_GCC_SENTINEL" variable (:constant-flag t) nil [1375 1390])
+            ("PA_GCC_NORETURN" variable (:constant-flag t) nil [1542 1557])
+            ("PA_GCC_UNUSED" variable (:constant-flag t) nil [1683 1696])
+            ("PA_GCC_DESTRUCTOR" variable (:constant-flag t) nil [1840 1857])
+            ("PA_GCC_PURE" variable (:constant-flag t) nil [2021 2032])
+            ("PA_GCC_CONST" variable (:constant-flag t) nil [2228 2240])
+            ("PA_GCC_DEPRECATED" variable (:constant-flag t) nil [2460 2477])
+            ("PA_GCC_PACKED" variable (:constant-flag t) nil [2636 2649])
+            ("PA_GCC_ALLOC_SIZE" variable (:constant-flag t) nil [2862 2879])
+            ("PA_GCC_ALLOC_SIZE2" variable (:constant-flag t) nil [2927 2945])
+            ("PA_GCC_MALLOC" variable (:constant-flag t) nil [3223 3236])
+            ("PA_GCC_WEAKREF" variable (:constant-flag t) nil [3542 3556]))          
+      :file "gccmacro.h"
+      :pointmax 3611
+      :fsize 3610
+      :lastmodtime '(24001 15849 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("PA_GCC_DESTRUCTOR" . ((symbol "__attribute__" 1858 . 1871) (semantic-list "((destructor))" 1872 . 1886)))
+          ("PA_GCC_NORETURN" . ((symbol "__attribute__" 1558 . 1571) (semantic-list "((noreturn))" 1571 . 1583)))
+          ("PA_GCC_PURE" . ((symbol "__attribute__" 2033 . 2046) (semantic-list "((pure))" 2047 . 2055)))
+          ("PA_GCC_PACKED" . ((symbol "__attribute__" 2650 . 2663) (semantic-list "((packed))" 2664 . 2674)))
+          ("PA_GCC_PRINTF_ATTR" (spp-arg-list ("a" "b") 1149 . 1154) . ((symbol "__attribute__" 1155 . 1168) (semantic-list "((format (printf, a, b)))" 1169 . 1194)))
+          ("PA_GCC_CONST" . ((symbol "__attribute__" 2241 . 2254) (semantic-list "((const))" 2255 . 2264)))
+          ("PA_GCC_WEAKREF" (spp-arg-list ("x") 3556 . 3559) . ((symbol "__attribute__" 3560 . 3573) (semantic-list "((weakref(#x)))" 3573 . 3588)))
+          ("foopulsegccmacrohfoo")
+          ("PA_GCC_SENTINEL" . ((symbol "__attribute__" 1391 . 1404) (semantic-list "((sentinel))" 1405 . 1417)))
+          ("PA_GCC_DEPRECATED" . ((symbol "__attribute__" 2478 . 2491) (semantic-list "((deprecated))" 2492 . 2506)))
+          ("PA_GCC_UNUSED" . ((symbol "__attribute__" 1697 . 1710) (semantic-list "((unused))" 1711 . 1721)))
+          ("PA_GCC_ALLOC_SIZE" (spp-arg-list ("x") 2879 . 2882) . ((symbol "__attribute__" 2883 . 2896) (semantic-list "((__alloc_size__(x)))" 2897 . 2918)))
+          ("PA_GCC_ALLOC_SIZE2" (spp-arg-list ("x" "y") 2945 . 2950) . ((symbol "__attribute__" 2951 . 2964) (semantic-list "((__alloc_size__(x,y)))" 2965 . 2988)))
+          ("PA_GCC_MALLOC" . ((symbol "__attribute__" 3237 . 3250) (semantic-list "((malloc))" 3251 . 3261)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foopulseproplisthfoo" variable (:constant-flag t) nil [38 58])
+            ("sys/types.h" include (:system-flag t) nil [791 813])
+            ("pulse/cdecl.h" include (:system-flag t) nil [815 839])
+            ("pulse/gccmacro.h" include (:system-flag t) nil [840 867])
+            ("pulse/version.h" include (:system-flag t) nil [868 894])
+            ("PA_PROP_MEDIA_NAME" variable (:constant-flag t) nil [1069 1087])
+            ("PA_PROP_MEDIA_TITLE" variable (:constant-flag t) nil [1224 1243])
+            ("PA_PROP_MEDIA_ARTIST" variable (:constant-flag t) nil [1384 1404])
+            ("PA_PROP_MEDIA_COPYRIGHT" variable (:constant-flag t) nil [1560 1583])
+            ("PA_PROP_MEDIA_SOFTWARE" variable (:constant-flag t) nil [1755 1777])
+            ("PA_PROP_MEDIA_LANGUAGE" variable (:constant-flag t) nil [1909 1931])
+            ("PA_PROP_MEDIA_FILENAME" variable (:constant-flag t) nil [2092 2114])
+            ("PA_PROP_MEDIA_ICON" variable (:constant-flag t) nil [2259 2277])
+            ("PA_PROP_MEDIA_ICON_NAME" variable (:constant-flag t) nil [2407 2430])
+            ("PA_PROP_MEDIA_ROLE" variable (:constant-flag t) nil [2624 2642])
+            ("PA_PROP_FILTER_WANT" variable (:constant-flag t) nil [2961 2980])
+            ("PA_PROP_FILTER_APPLY" variable (:constant-flag t) nil [3398 3418])
+            ("PA_PROP_FILTER_SUPPRESS" variable (:constant-flag t) nil [3742 3765])
+            ("PA_PROP_EVENT_ID" variable (:constant-flag t) nil [3951 3967])
+            ("PA_PROP_EVENT_DESCRIPTION" variable (:constant-flag t) nil [4170 4195])
+            ("PA_PROP_EVENT_MOUSE_X" variable (:constant-flag t) nil [4415 4436])
+            ("PA_PROP_EVENT_MOUSE_Y" variable (:constant-flag t) nil [4654 4675])
+            ("PA_PROP_EVENT_MOUSE_HPOS" variable (:constant-flag t) nil [4972 4996])
+            ("PA_PROP_EVENT_MOUSE_VPOS" variable (:constant-flag t) nil [5281 5305])
+            ("PA_PROP_EVENT_MOUSE_BUTTON" variable (:constant-flag t) nil [5502 5528])
+            ("PA_PROP_WINDOW_NAME" variable (:constant-flag t) nil [5679 5698])
+            ("PA_PROP_WINDOW_ID" variable (:constant-flag t) nil [5882 5899])
+            ("PA_PROP_WINDOW_ICON" variable (:constant-flag t) nil [6075 6094])
+            ("PA_PROP_WINDOW_ICON_NAME" variable (:constant-flag t) nil [6257 6281])
+            ("PA_PROP_WINDOW_X" variable (:constant-flag t) nil [6493 6509])
+            ("PA_PROP_WINDOW_Y" variable (:constant-flag t) nil [6719 6735])
+            ("PA_PROP_WINDOW_WIDTH" variable (:constant-flag t) nil [6924 6944])
+            ("PA_PROP_WINDOW_HEIGHT" variable (:constant-flag t) nil [7134 7155])
+            ("PA_PROP_WINDOW_HPOS" variable (:constant-flag t) nil [7447 7466])
+            ("PA_PROP_WINDOW_VPOS" variable (:constant-flag t) nil [7748 7767])
+            ("PA_PROP_WINDOW_DESKTOP" variable (:constant-flag t) nil [8132 8154])
+            ("PA_PROP_WINDOW_X11_DISPLAY" variable (:constant-flag t) nil [8296 8322])
+            ("PA_PROP_WINDOW_X11_SCREEN" variable (:constant-flag t) nil [8502 8527])
+            ("PA_PROP_WINDOW_X11_MONITOR" variable (:constant-flag t) nil [8708 8734])
+            ("PA_PROP_WINDOW_X11_XID" variable (:constant-flag t) nil [8901 8923])
+            ("PA_PROP_APPLICATION_NAME" variable (:constant-flag t) nil [9063 9087])
+            ("PA_PROP_APPLICATION_ID" variable (:constant-flag t) nil [9236 9258])
+            ("PA_PROP_APPLICATION_VERSION" variable (:constant-flag t) nil [9362 9389])
+            ("PA_PROP_APPLICATION_ICON" variable (:constant-flag t) nil [9540 9564])
+            ("PA_PROP_APPLICATION_ICON_NAME" variable (:constant-flag t) nil [9702 9731])
+            ("PA_PROP_APPLICATION_LANGUAGE" variable (:constant-flag t) nil [9877 9905])
+            ("PA_PROP_APPLICATION_PROCESS_ID" variable (:constant-flag t) nil [10053 10083])
+            ("PA_PROP_APPLICATION_PROCESS_BINARY" variable (:constant-flag t) nil [10193 10227])
+            ("PA_PROP_APPLICATION_PROCESS_USER" variable (:constant-flag t) nil [10336 10368])
+            ("PA_PROP_APPLICATION_PROCESS_HOST" variable (:constant-flag t) nil [10487 10519])
+            ("PA_PROP_APPLICATION_PROCESS_MACHINE_ID" variable (:constant-flag t) nil [10673 10711])
+            ("PA_PROP_APPLICATION_PROCESS_SESSION_ID" variable (:constant-flag t) nil [10882 10920])
+            ("PA_PROP_DEVICE_STRING" variable (:constant-flag t) nil [11057 11078])
+            ("PA_PROP_DEVICE_API" variable (:constant-flag t) nil [11185 11203])
+            ("PA_PROP_DEVICE_DESCRIPTION" variable (:constant-flag t) nil [11369 11395])
+            ("PA_PROP_DEVICE_BUS_PATH" variable (:constant-flag t) nil [11541 11564])
+            ("PA_PROP_DEVICE_SERIAL" variable (:constant-flag t) nil [11678 11699])
+            ("PA_PROP_DEVICE_VENDOR_ID" variable (:constant-flag t) nil [11797 11821])
+            ("PA_PROP_DEVICE_VENDOR_NAME" variable (:constant-flag t) nil [11943 11969])
+            ("PA_PROP_DEVICE_PRODUCT_ID" variable (:constant-flag t) nil [12068 12093])
+            ("PA_PROP_DEVICE_PRODUCT_NAME" variable (:constant-flag t) nil [12214 12241])
+            ("PA_PROP_DEVICE_CLASS" variable (:constant-flag t) nil [12363 12383])
+            ("PA_PROP_DEVICE_FORM_FACTOR" variable (:constant-flag t) nil [12620 12646])
+            ("PA_PROP_DEVICE_BUS" variable (:constant-flag t) nil [12794 12812])
+            ("PA_PROP_DEVICE_ICON" variable (:constant-flag t) nil [12958 12977])
+            ("PA_PROP_DEVICE_ICON_NAME" variable (:constant-flag t) nil [13120 13144])
+            ("PA_PROP_DEVICE_ACCESS_MODE" variable (:constant-flag t) nil [13288 13314])
+            ("PA_PROP_DEVICE_MASTER_DEVICE" variable (:constant-flag t) nil [13416 13444])
+            ("PA_PROP_DEVICE_BUFFERING_BUFFER_SIZE" variable (:constant-flag t) nil [13558 13594])
+            ("PA_PROP_DEVICE_BUFFERING_FRAGMENT_SIZE" variable (:constant-flag t) nil [13710 13748])
+            ("PA_PROP_DEVICE_PROFILE_NAME" variable (:constant-flag t) nil [13930 13957])
+            ("PA_PROP_DEVICE_INTENDED_ROLES" variable (:constant-flag t) nil [14190 14219])
+            ("PA_PROP_DEVICE_PROFILE_DESCRIPTION" variable (:constant-flag t) nil [14378 14412])
+            ("PA_PROP_MODULE_AUTHOR" variable (:constant-flag t) nil [14547 14568])
+            ("PA_PROP_MODULE_DESCRIPTION" variable (:constant-flag t) nil [14762 14788])
+            ("PA_PROP_MODULE_USAGE" variable (:constant-flag t) nil [14932 14952])
+            ("PA_PROP_MODULE_VERSION" variable (:constant-flag t) nil [15062 15084])
+            ("PA_PROP_FORMAT_SAMPLE_FORMAT" variable (:constant-flag t) nil [15229 15257])
+            ("PA_PROP_FORMAT_RATE" variable (:constant-flag t) nil [15370 15389])
+            ("PA_PROP_FORMAT_CHANNELS" variable (:constant-flag t) nil [15509 15532])
+            ("PA_PROP_FORMAT_CHANNEL_MAP" variable (:constant-flag t) nil [15680 15706])
+            ("pa_proplist" type
+               (:typedef ("pa_proplist" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15869 15908])
+            ("pa_proplist_new" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [15986 15991]))                  
+                :type ("pa_proplist" type (:type "class") nil nil))
+                nil [15957 15992])
+            ("pa_proplist_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16061 16076]))                  
+                :type "void")
+                nil [16039 16077])
+            ("pa_proplist_key_valid" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16169 16185]))                  
+                :type "int")
+                nil [16143 16186])
+            ("pa_proplist_sets" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16428 16443])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16444 16460])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16461 16479]))                  
+                :type "int")
+                nil [16407 16480])
+            ("pa_proplist_setp" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16852 16867])
+                    ("pair" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [16868 16885]))                  
+                :type "int")
+                nil [16831 16886])
+            ("PA_GCC_PRINTF_ATTR" function
+               (:prototype-flag t
+                :type "int")
+                nil [17260 17284])
+            ("pa_proplist_set" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17500 17515])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17516 17532])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [17533 17550])
+                    ("nbytes" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17551 17565]))                  
+                :type "int")
+                nil [17480 17566])
+            ("pa_proplist_gets" function
+               (:prototype-flag t
+                :pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17876 17891])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17892 17908]))                  
+                :type "char")
+                nil [17847 17909])
+            ("pa_proplist_get" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18230 18245])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [18246 18262])
+                    ("data" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [18263 18281])
+                    ("nbytes" variable
+                       (:pointer 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18282 18297]))                  
+                :type "int")
+                nil [18210 18298])
+            ("pa_update_mode" type
+               (:members 
+                  ( ("PA_UPDATE_SET" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18398 18522])
+                    ("PA_UPDATE_MERGE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18528 18704])
+                    ("PA_UPDATE_REPLACE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18710 18882]))                  
+                :type "enum")
+                nil [18364 18900])
+            ("pa_update_mode_t" type
+               (:typedef ("pa_update_mode" type (:type "enum") nil nil)
+                :type "typedef")
+                nil [18364 18900])
+            ("PA_UPDATE_SET" variable (:constant-flag t) nil [18932 18945])
+            ("PA_UPDATE_MERGE" variable (:constant-flag t) nil [18968 18983])
+            ("PA_UPDATE_REPLACE" variable (:constant-flag t) nil [19008 19025])
+            ("pa_proplist_update" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19195 19210])
+                    ("mode" variable (:type ("pa_update_mode_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19211 19233])
+                    ("other" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19234 19259]))                  
+                :type "void")
+                nil [19171 19260])
+            ("pa_proplist_unset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19393 19408])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [19409 19425]))                  
+                :type "int")
+                nil [19371 19426])
+            ("pa_proplist_unset_many" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19749 19764])
+                    ("keys" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [19765 19791]))                  
+                :type "int")
+                nil [19722 19792])
+            ("pa_proplist_iterate" function
+               (:prototype-flag t
+                :pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20413 20428])
+                    ("state" variable
+                       (:pointer 2
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [20429 20442]))                  
+                :type "char")
+                nil [20381 20443])
+            ("pa_proplist_to_string" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20707 20722]))                  
+                :type "char")
+                nil [20679 20723])
+            ("pa_proplist_to_string_sep" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20900 20915])
+                    ("sep" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [20916 20932]))                  
+                :type "char")
+                nil [20868 20933])
+            ("pa_proplist_from_string" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21076 21092]))                  
+                :type ("pa_proplist" type (:type "class") nil nil))
+                nil [21039 21093])
+            ("pa_proplist_contains" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21217 21232])
+                    ("key" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21233 21249]))                  
+                :type "int")
+                nil [21192 21250])
+            ("pa_proplist_clear" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21346 21361]))                  
+                :type "void")
+                nil [21323 21362])
+            ("pa_proplist_copy" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21505 21526]))                  
+                :type ("pa_proplist" type (:type "class") nil nil))
+                nil [21475 21527])
+            ("pa_proplist_size" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21627 21642]))                  
+                :type "unsigned int")
+                nil [21601 21643])
+            ("pa_proplist_isempty" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21747 21762]))                  
+                :type "int")
+                nil [21723 21763])
+            ("pa_proplist_equal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21871 21886])
+                    ("b" variable
+                       (:pointer 1
+                        :type ("pa_proplist" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21887 21902]))                  
+                :type "int")
+                nil [21849 21903]))          
+      :file "proplist.h"
+      :pointmax 21927
+      :fsize 21926
+      :lastmodtime '(24001 15849 0 0)
+      :unmatched-syntax '((symbol 21905 . 21918) (number 17281 . 17282) (number 17279 . 17280) (semantic-list 17201 . 17259) (symbol 17185 . 17201) (INT 17181 . 17184) (symbol 951 . 966))
+      :lexical-table 
+        '(("foopulseproplisthfoo")
+          ("PA_PROP_MEDIA_SOFTWARE" . ((string "\"media.software\"" 1794 . 1810)))
+          ("PA_PROP_EVENT_ID" . ((string "\"event.id\"" 3990 . 4000)))
+          ("PA_PROP_EVENT_DESCRIPTION" . ((string "\"event.description\"" 4209 . 4228)))
+          ("PA_PROP_EVENT_MOUSE_BUTTON" . ((string "\"event.mouse.button\"" 5541 . 5561)))
+          ("PA_PROP_DEVICE_ICON_NAME" . ((string "\"device.icon_name\"" 13159 . 13177)))
+          ("PA_PROP_DEVICE_PROFILE_NAME" . ((string "\"device.profile.name\"" 13969 . 13990)))
+          ("PA_PROP_DEVICE_INTENDED_ROLES" . ((string "\"device.intended_roles\"" 14229 . 14252)))
+          ("PA_PROP_FORMAT_CHANNELS" . ((string "\"format.channels\"" 15548 . 15565)))
+          ("PA_PROP_MEDIA_ARTIST" . ((string "\"media.artist\"" 1423 . 1437)))
+          ("PA_PROP_APPLICATION_PROCESS_HOST" . ((string "\"application.process.host\"" 10526 . 10552)))
+          ("PA_PROP_APPLICATION_PROCESS_MACHINE_ID" . ((string "\"application.process.machine_id\"" 10712 . 10744)))
+          ("PA_PROP_DEVICE_PRODUCT_NAME" . ((string "\"device.product.name\"" 12253 . 12274)))
+          ("PA_PROP_MEDIA_LANGUAGE" . ((string "\"media.language\"" 1948 . 1964)))
+          ("PA_PROP_MEDIA_ICON_NAME" . ((string "\"media.icon_name\"" 2446 . 2463)))
+          ("PA_PROP_WINDOW_HPOS" . ((string "\"window.hpos\"" 7486 . 7499)))
+          ("PA_PROP_WINDOW_X11_XID" . ((string "\"window.x11.xid\"" 8940 . 8956)))
+          ("PA_PROP_MODULE_USAGE" . ((string "\"module.usage\"" 14971 . 14985)))
+          ("PA_PROP_MEDIA_COPYRIGHT" . ((string "\"media.copyright\"" 1599 . 1616)))
+          ("PA_PROP_FILTER_SUPPRESS" . ((string "\"filter.suppress\"" 3781 . 3798)))
+          ("PA_PROP_WINDOW_VPOS" . ((string "\"window.vpos\"" 7787 . 7800)))
+          ("PA_PROP_WINDOW_X11_SCREEN" . ((string "\"window.x11.screen\"" 8541 . 8560)))
+          ("PA_UPDATE_MERGE" . ((symbol "PA_UPDATE_MERGE" 18984 . 18999)))
+          ("PA_PROP_MEDIA_ROLE" . ((string "\"media.role\"" 2663 . 2675)))
+          ("PA_PROP_WINDOW_ICON_NAME" . ((string "\"window.icon_name\"" 6296 . 6314)))
+          ("PA_PROP_WINDOW_DESKTOP" . ((string "\"window.desktop\"" 8171 . 8187)))
+          ("PA_PROP_WINDOW_X11_DISPLAY" . ((string "\"window.x11.display\"" 8335 . 8355)))
+          ("PA_PROP_DEVICE_BUS" . ((string "\"device.bus\"" 12833 . 12845)))
+          ("PA_PROP_DEVICE_BUFFERING_BUFFER_SIZE" . ((string "\"device.buffering.buffer_size\"" 13597 . 13627)))
+          ("PA_PROP_MEDIA_FILENAME" . ((string "\"media.filename\"" 2131 . 2147)))
+          ("PA_PROP_APPLICATION_ID" . ((string "\"application.id\"" 9275 . 9291)))
+          ("PA_PROP_DEVICE_PROFILE_DESCRIPTION" . ((string "\"device.profile.description\"" 14417 . 14445)))
+          ("PA_PROP_FILTER_APPLY" . ((string "\"filter.apply\"" 3437 . 3451)))
+          ("PA_PROP_WINDOW_ID" . ((string "\"window.id\"" 5921 . 5932)))
+          ("PA_PROP_APPLICATION_ICON_NAME" . ((string "\"application.icon_name\"" 9741 . 9764)))
+          ("PA_PROP_APPLICATION_PROCESS_USER" . ((string "\"application.process.user\"" 10375 . 10401)))
+          ("PA_PROP_DEVICE_FORM_FACTOR" . ((string "\"device.form_factor\"" 12659 . 12679)))
+          ("PA_PROP_DEVICE_ICON" . ((string "\"device.icon\"" 12997 . 13010)))
+          ("PA_PROP_DEVICE_BUFFERING_FRAGMENT_SIZE" . ((string "\"device.buffering.fragment_size\"" 13749 . 13781)))
+          ("PA_UPDATE_REPLACE" . ((symbol "PA_UPDATE_REPLACE" 19026 . 19043)))
+          ("PA_PROP_MEDIA_NAME" . ((string "\"media.name\"" 1108 . 1120)))
+          ("PA_PROP_EVENT_MOUSE_X" . ((string "\"event.mouse.x\"" 4454 . 4469)))
+          ("PA_PROP_EVENT_MOUSE_HPOS" . ((string "\"event.mouse.hpos\"" 5011 . 5029)))
+          ("PA_PROP_APPLICATION_PROCESS_ID" . ((string "\"application.process.id\"" 10092 . 10116)))
+          ("PA_PROP_DEVICE_DESCRIPTION" . ((string "\"device.description\"" 11408 . 11428)))
+          ("PA_PROP_DEVICE_PRODUCT_ID" . ((string "\"device.product.id\"" 12107 . 12126)))
+          ("PA_PROP_DEVICE_MASTER_DEVICE" . ((string "\"device.master_device\"" 13455 . 13477)))
+          ("PA_PROP_MODULE_DESCRIPTION" . ((string "\"module.description\"" 14801 . 14821)))
+          ("PA_PROP_FORMAT_CHANNEL_MAP" . ((string "\"format.channel_map\"" 15719 . 15739)))
+          ("PA_PROP_EVENT_MOUSE_Y" . ((string "\"event.mouse.y\"" 4693 . 4708)))
+          ("PA_PROP_EVENT_MOUSE_VPOS" . ((string "\"event.mouse.vpos\"" 5320 . 5338)))
+          ("PA_PROP_APPLICATION_NAME" . ((string "\"application.name\"" 9102 . 9120)))
+          ("PA_PROP_APPLICATION_VERSION" . ((string "\"application.version\"" 9401 . 9422)))
+          ("PA_PROP_APPLICATION_LANGUAGE" . ((string "\"application.language\"" 9916 . 9938)))
+          ("PA_PROP_MEDIA_ICON" . ((string "\"media.icon\"" 2298 . 2310)))
+          ("PA_PROP_WINDOW_NAME" . ((string "\"window.name\"" 5718 . 5731)))
+          ("PA_PROP_WINDOW_X11_MONITOR" . ((string "\"window.x11.monitor\"" 8747 . 8767)))
+          ("PA_PROP_DEVICE_API" . ((string "\"device.api\"" 11224 . 11236)))
+          ("PA_PROP_DEVICE_BUS_PATH" . ((string "\"device.bus_path\"" 11580 . 11597)))
+          ("PA_PROP_FORMAT_SAMPLE_FORMAT" . ((string "\"format.sample_format\"" 15268 . 15290)))
+          ("PA_PROP_MEDIA_TITLE" . ((string "\"media.title\"" 1263 . 1276)))
+          ("PA_PROP_WINDOW_X" . ((string "\"window.x\"" 6532 . 6542)))
+          ("PA_PROP_WINDOW_WIDTH" . ((string "\"window.width\"" 6963 . 6977)))
+          ("PA_PROP_WINDOW_HEIGHT" . ((string "\"window.height\"" 7173 . 7188)))
+          ("PA_PROP_APPLICATION_ICON" . ((string "\"application.icon\"" 9579 . 9597)))
+          ("PA_PROP_APPLICATION_PROCESS_BINARY" . ((string "\"application.process.binary\"" 10232 . 10260)))
+          ("PA_PROP_APPLICATION_PROCESS_SESSION_ID" . ((string "\"application.process.session_id\"" 10921 . 10953)))
+          ("PA_PROP_DEVICE_SERIAL" . ((string "\"device.serial\"" 11717 . 11732)))
+          ("PA_PROP_DEVICE_VENDOR_NAME" . ((string "\"device.vendor.name\"" 11982 . 12002)))
+          ("PA_PROP_DEVICE_CLASS" . ((string "\"device.class\"" 12402 . 12416)))
+          ("PA_PROP_MODULE_AUTHOR" . ((string "\"module.author\"" 14586 . 14601)))
+          ("PA_PROP_MODULE_VERSION" . ((string "\"module.version\"" 15101 . 15117)))
+          ("PA_PROP_WINDOW_ICON" . ((string "\"window.icon\"" 6114 . 6127)))
+          ("PA_PROP_WINDOW_Y" . ((string "\"window.y\"" 6758 . 6768)))
+          ("PA_PROP_DEVICE_STRING" . ((string "\"device.string\"" 11096 . 11111)))
+          ("PA_PROP_DEVICE_VENDOR_ID" . ((string "\"device.vendor.id\"" 11836 . 11854)))
+          ("PA_PROP_FORMAT_RATE" . ((string "\"format.rate\"" 15409 . 15422)))
+          ("PA_PROP_FILTER_WANT" . ((string "\"filter.want\"" 3000 . 3013)))
+          ("PA_PROP_DEVICE_ACCESS_MODE" . ((string "\"device.access_mode\"" 13327 . 13347)))
+          ("PA_UPDATE_SET" . ((symbol "PA_UPDATE_SET" 18946 . 18959)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "cdecl.h"
+      :fsize 1278
+      :lastmodtime '(24001 15849 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "version.h"
+      :fsize 2371
+      :lastmodtime '(24001 15849 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("foothreadmainloophfoo" variable (:constant-flag t) nil [39 60])
+            ("pulse/mainloop-api.h" include (:system-flag t) nil [850 881])
+            ("pulse/cdecl.h" include (:system-flag t) nil [882 906])
+            ("pulse/version.h" include (:system-flag t) nil [907 933])
+            ("pa_threaded_mainloop" type
+               (:typedef ("pa_threaded_mainloop" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [8695 8752])
+            ("pa_threaded_mainloop_new" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8947 8952]))                  
+                :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                nil [8900 8953])
+            ("pa_threaded_mainloop_free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9129 9153]))                  
+                :type "void")
+                nil [9098 9154])
+            ("pa_threaded_mainloop_start" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9223 9247]))                  
+                :type "int")
+                nil [9192 9248])
+            ("pa_threaded_mainloop_stop" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9402 9426]))                  
+                :type "void")
+                nil [9371 9427])
+            ("pa_threaded_mainloop_lock" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9839 9863]))                  
+                :type "void")
+                nil [9808 9864])
+            ("pa_threaded_mainloop_unlock" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9976 10000]))                  
+                :type "void")
+                nil [9943 10001])
+            ("pa_threaded_mainloop_wait" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10614 10638]))                  
+                :type "void")
+                nil [10583 10639])
+            ("pa_threaded_mainloop_signal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10961 10985])
+                    ("wait_for_accept" variable (:type "int") (reparse-symbol arg-sub-list) [10986 11006]))                  
+                :type "void")
+                nil [10928 11007])
+            ("pa_threaded_mainloop_accept" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11259 11283]))                  
+                :type "void")
+                nil [11226 11284])
+            ("pa_threaded_mainloop_get_retval" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11418 11442]))                  
+                :type "int")
+                nil [11382 11443])
+            ("pa_threaded_mainloop_get_api" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11675 11698]))                  
+                :type ("pa_mainloop_api" type (:type "class") nil nil))
+                nil [11629 11699])
+            ("pa_threaded_mainloop_in_thread" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11820 11844]))                  
+                :type "int")
+                nil [11785 11845])
+            ("pa_threaded_mainloop_set_name" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("pa_threaded_mainloop" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11929 11953])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11954 11971]))                  
+                :type "void")
+                nil [11894 11972]))          
+      :file "thread-mainloop.h"
+      :pointmax 11996
+      :fsize 11995
+      :lastmodtime '(24001 15849 0 0)
+      :unmatched-syntax '((symbol 11974 . 11987) (symbol 935 . 950))
+      :lexical-table 
+        '(("foothreadmainloophfoo")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "mainloop-api.h"
+      :fsize 6024
+      :lastmodtime '(24001 15849 0 0)))
+  :file "!usr!include!pulse!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

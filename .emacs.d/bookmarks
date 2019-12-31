@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("readme.org"
+ (filename . "~/Documents/project/repos/frontend_learning/readme.org")
+ (front-context-string . "#+STARTUP:showal")
+ (rear-context-string)
+ (position . 1))
+("main.cpp"
+ (filename . "~/Documents/project/local/cpp/test/src/main.cpp")
+ (front-context-string . "#include \"config")
+ (rear-context-string)
+ (position . 1))
+("emacs fundamental"
+ (filename . "~/Documents/project/repos/emacsrc/usage/basic.org")
+ (front-context-string)
+ (rear-context-string . "个窗口里\n- q 退出缓冲区清单")
+ (position . 3351))
+)

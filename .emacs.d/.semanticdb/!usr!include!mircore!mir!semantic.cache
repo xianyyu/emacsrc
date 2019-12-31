@@ -1,0 +1,98 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("MIR_FATAL_H_" variable (:constant-flag t) nil [1093 1105])
+            ("mir" type
+               (:members 
+                  ( ("fatal_error" function
+                       (:prototype-flag t
+                        :function-pointer t
+                        :typemodifiers ("extern")
+                        :arguments 
+                          ( ("reason" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1468 1487])
+                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1488 1492]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1441 1493])
+                    ("fatal_error_except" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("reason" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1681 1700])
+                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1701 1705]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1657 1706])
+                    ("fatal_error_abort" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("reason" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1900 1919])
+                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [1920 1924]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1877 1925])
+                    ("FatalErrorStrategy" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2016 2023])
+                            ("FatalErrorStrategy" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("fatal_error_handler" function
+                                       (:function-pointer t
+                                        :arguments 
+                                          ( ("reason" variable
+                                               (:pointer 1
+                                                :constant-flag t
+                                                :type "char")
+                                                (reparse-symbol arg-sub-list) [2084 2103])
+                                            ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2104 2108]))                                          
+                                        :type "void")
+                                        nil nil))                                  
+                                :type ("FatalErrorStrategy" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2037 2211])
+                            ("FatalErrorStrategy" function
+                               (:destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [2217 2297])
+                            ("private" label nil (reparse-symbol classsubparts) [2299 2307])
+                            ("old_fatal_error_handler" function
+                               (:prototype-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("reason" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [2344 2363])
+                                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2364 2368]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2312 2369]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1989 2503]))                  
+                :type "namespace")
+                nil [1107 2505]))          
+      :file "fatal.h"
+      :pointmax 2547
+      :fsize 2547
+      :lastmodtime '(23228 35866 0 0)
+      :unmatched-syntax '((punctuation 2499 . 2500) (DELETE 2493 . 2499) (punctuation 2491 . 2492) (semantic-list 2463 . 2490) (punctuation 2462 . 2463) (OPERATOR 2454 . 2462) (punctuation 2452 . 2453) (symbol 2434 . 2452) (punctuation 2428 . 2429) (DELETE 2422 . 2428) (punctuation 2420 . 2421) (semantic-list 2392 . 2419) (symbol 2374 . 2392) (EXPLICIT 2028 . 2036))
+      :lexical-table 
+        '(("MIR_FATAL_H_")
+          )
+))
+  :file "!usr!include!mircore!mir!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

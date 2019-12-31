@@ -1,0 +1,116 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__khrplatform_h_" variable (:constant-flag t) nil [34 50])
+            ("KHRONOS_APICALL" variable (:constant-flag t) nil [5085 5100])
+            ("KHRONOS_APIENTRY" variable (:constant-flag t) nil [5638 5654])
+            ("KHRONOS_APIATTRIBUTES" variable (:constant-flag t) nil [6014 6035])
+            ("stdint.h" include (:system-flag t) nil [8143 8162])
+            ("khronos_int32_t" type
+               (:typedef ("int32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [8163 8211])
+            ("khronos_uint32_t" type
+               (:typedef ("uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [8212 8261])
+            ("khronos_int64_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [8262 8310])
+            ("khronos_uint64_t" type
+               (:typedef ("uint64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [8311 8360])
+            ("KHRONOS_SUPPORT_INT64" variable (:constant-flag t) nil [8369 8390])
+            ("KHRONOS_SUPPORT_FLOAT" variable (:constant-flag t) nil [8403 8424])
+            ("khronos_int8_t" type
+               (:typedef ("signed char")
+                :type "typedef")
+                nil [8499 8545])
+            ("khronos_uint8_t" type
+               (:typedef ("unsigned char")
+                :type "typedef")
+                nil [8546 8593])
+            ("khronos_int16_t" type
+               (:typedef ("signed short int")
+                :type "typedef")
+                nil [8594 8641])
+            ("khronos_uint16_t" type
+               (:typedef ("unsigned short int")
+                :type "typedef")
+                nil [8642 8690])
+            ("khronos_intptr_t" type
+               (:typedef ("signed long int")
+                :type "typedef")
+                nil [9105 9153])
+            ("khronos_uintptr_t" type
+               (:typedef ("unsigned long int")
+                :type "typedef")
+                nil [9154 9203])
+            ("khronos_ssize_t" type
+               (:typedef ("signed long int")
+                :type "typedef")
+                nil [9204 9251])
+            ("khronos_usize_t" type
+               (:typedef ("unsigned long int")
+                :type "typedef")
+                nil [9252 9299])
+            ("khronos_float_t" type
+               (:typedef ("float")
+                :type "typedef")
+                nil [9355 9402])
+            ("khronos_utime_nanoseconds_t" type
+               (:typedef ("khronos_uint64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [9860 9919])
+            ("khronos_stime_nanoseconds_t" type
+               (:typedef ("khronos_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [9920 9979])
+            ("KHRONOS_MAX_ENUM" variable (:constant-flag t) nil [10078 10094])
+            ("khronos_boolean_enum_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("KHRONOS_FALSE" variable
+                             (:constant-flag t
+                              :default-value (10312 10313)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [10296 10313])
+                          ("KHRONOS_TRUE" variable
+                             (:constant-flag t
+                              :default-value (10335 10336)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [10319 10336])
+                          ("KHRONOS_BOOLEAN_ENUM_FORCE_SIZE" variable
+                             (:constant-flag t
+                              :default-value (10376 10392)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [10342 10392]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [10277 10418]))          
+      :file "khrplatform.h"
+      :pointmax 10450
+      :fsize 10449
+      :lastmodtime '(23966 4143 0 0)
+      :unmatched-syntax '((semantic-list 4957 . 5003) (punctuation 4955 . 4956) (punctuation 4954 . 4955))
+      :lexical-table 
+        '(("__khrplatform_h_")
+          ("KHRONOS_APIATTRIBUTES")
+          ("KHRONOS_SUPPORT_FLOAT" . ((number "1" 8427 . 8428)))
+          ("KHRONOS_SUPPORT_INT64" . ((number "1" 8393 . 8394)))
+          ("KHRONOS_APICALL" . ((symbol "__attribute__" 5101 . 5114) (semantic-list "((visibility(\"default\")))" 5114 . 5139)))
+          ("KHRONOS_MAX_ENUM" . ((number "0x7FFFFFFF" 10095 . 10105)))
+          ("KHRONOS_APIENTRY")
+          )
+))
+  :file "!usr!include!KHR!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,223 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__EXIF_LOG_H__" variable (:constant-flag t) nil [916 930])
+            ("EXIF_LOG_NO_MEMORY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3189 3207])
+            ("exif_logv" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3065 3078])
+                    ("" variable (:type ("ExifLogCode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3079 3091])
+                    ("domain" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3092 3111])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3118 3137])
+                    ("args" variable (:type ("va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3138 3151]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3045 3152])
+            ("exif_log" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2683 2696])
+                    ("" variable (:type ("ExifLogCode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2697 2709])
+                    ("domain" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2710 2729])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2736 2755])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [2756 2760]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2663 2828])
+            ("exif_log_set_func" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2586 2599])
+                    ("func" variable (:type ("ExifLogFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2600 2617])
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2618 2629]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2558 2630])
+            ("ExifLogFunc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2197 2210])
+                    ("" variable (:type ("ExifLogCode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2211 2223])
+                    ("domain" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2224 2243])
+                    ("format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2253 2272])
+                    ("args" variable (:type ("va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2273 2286])
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2287 2298]))                  
+                :function-pointer t
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2175 2299])
+            ("exif_log_code_get_message" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("code" variable (:type ("ExifLogCode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2106 2123]))                  
+                :constant-flag t
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2067 2124])
+            ("exif_log_code_get_title" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("code" variable (:type ("ExifLogCode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1885 1902]))                  
+                :constant-flag t
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1846 1903])
+            ("ExifLogCode" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("EXIF_LOG_CODE_NONE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1572 1591])
+                          ("EXIF_LOG_CODE_DEBUG" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1593 1613])
+                          ("EXIF_LOG_CODE_NO_MEMORY" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1615 1639])
+                          ("EXIF_LOG_CODE_CORRUPT_DATA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1641 1669]))                        
+                      :type "enum")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1556 1682])
+            ("exif_log_free" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1540 1553]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1513 1554])
+            ("exif_log_unref" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1373 1386]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1346 1387])
+            ("exif_log_ref" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("log" variable
+                       (:pointer 1
+                        :type ("ExifLog" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1331 1344]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1304 1345])
+            ("exif_log_new_mem" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("ExifLog" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("ExifMem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1292 1302]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1265 1303])
+            ("exif_log_new" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("ExifLog" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1258 1263]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1231 1264])
+            ("ExifLog" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_ExifLog" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [1090 1129])
+            ("stdarg.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [1020 1039])
+            ("libexif/exif-mem.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [990 1019]))          
+      :file "exif-log.h"
+      :pointmax 3391
+      :fsize 3390
+      :lastmodtime '(23035 500 0 0)
+      :unmatched-syntax '((TYPEDEF 2167 . 2174))
+      :lexical-table 
+        '(("EXIF_LOG_NO_MEMORY" (spp-arg-list ("l" "d" "s") 3207 . 3214) . ((symbol "exif_log" 3215 . 3223) (semantic-list "((l), EXIF_LOG_CODE_NO_MEMORY, (d), \"Could not allocate %lu byte(s).\", (unsigned long)(s))" 3224 . 3314)))
+          ("__EXIF_LOG_H__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "exif-mem.h"
+      :fsize 2584
+      :lastmodtime '(23035 500 0 0)))
+  :file "!usr!include!libexif!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

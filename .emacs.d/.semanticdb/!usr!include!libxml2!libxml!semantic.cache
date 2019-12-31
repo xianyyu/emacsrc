@@ -1,0 +1,769 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__XML_VERSION_H__" variable (:constant-flag t) nil [248 265])
+            ("libxml/xmlexports.h" include (:system-flag t) nil [267 297])
+            ("LIBXML_ATTR_FORMAT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7476 7494])
+            ("LIBXML_ATTR_ALLOC_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7116 7138])
+            ("ATTRIBUTE_UNUSED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6789 6805])
+            ("LIBXML_LZMA_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6498 6517])
+            ("LIBXML_ZLIB_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6378 6397])
+            ("LIBXML_MODULE_EXTENSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6247 6270])
+            ("LIBXML_MODULES_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6105 6127])
+            ("LIBXML_SCHEMATRON_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5970 5995])
+            ("LIBXML_SCHEMAS_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5820 5842])
+            ("LIBXML_EXPR_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5679 5698])
+            ("LIBXML_AUTOMATA_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5537 5560])
+            ("LIBXML_REGEXP_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5403 5424])
+            ("LIBXML_UNICODE_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5259 5281])
+            ("LIBXML_DEBUG_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4861 4881])
+            ("LIBXML_ISO8859X_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4734 4757])
+            ("LIBXML_ICU_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4585 4603])
+            ("LIBXML_ICONV_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4472 4492])
+            ("LIBXML_XINCLUDE_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4352 4375])
+            ("LIBXML_XPTR_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4234 4253])
+            ("LIBXML_XPATH_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4119 4139])
+            ("LIBXML_DOCB_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4007 4026])
+            ("LIBXML_CATALOG_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3874 3896])
+            ("LIBXML_C14N_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3746 3765])
+            ("LIBXML_LEGACY_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3610 3631])
+            ("LIBXML_HTML_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3466 3485])
+            ("LIBXML_VALID_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3343 3363])
+            ("LIBXML_HTTP_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3210 3229])
+            ("LIBXML_FTP_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3089 3107])
+            ("LIBXML_SAX1_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2969 2988])
+            ("LIBXML_WRITER_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2837 2858])
+            ("LIBXML_PATTERN_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2696 2718])
+            ("LIBXML_READER_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2546 2567])
+            ("LIBXML_PUSH_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2407 2426])
+            ("LIBXML_OUTPUT_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2271 2292])
+            ("LIBXML_TREE_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2131 2150])
+            ("WITHOUT_TRIO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1466 1478])
+            ("LIBXML_TEST_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1203 1222])
+            ("LIBXML_VERSION_EXTRA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1013 1033])
+            ("LIBXML_VERSION_STRING" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [877 898])
+            ("LIBXML_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [757 771])
+            ("LIBXML_DOTTED_VERSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [644 665])
+            ("xmlCheckVersion" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("version" variable (:type "int") (reparse-symbol arg-sub-list) [510 522]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [486 523]))          
+      :file "xmlversion.h"
+      :pointmax 8145
+      :fsize 8144
+      :lastmodtime '(23405 55743 0 0)
+      :unmatched-syntax '((VOID 481 . 485) (symbol 471 . 480))
+      :lexical-table 
+        '(("LIBXML_DOTTED_VERSION" . ((string "\"2.9.4\"" 666 . 673)))
+          ("LIBXML_PUSH_ENABLED")
+          ("LIBXML_READER_ENABLED")
+          ("LIBXML_FTP_ENABLED")
+          ("LIBXML_VALID_ENABLED")
+          ("LIBXML_SCHEMAS_ENABLED")
+          ("LIBXML_VERSION" . ((number "20904" 772 . 777)))
+          ("LIBXML_VERSION_EXTRA" . ((string "\"\"" 1034 . 1036)))
+          ("LIBXML_OUTPUT_ENABLED")
+          ("LIBXML_DEBUG_ENABLED")
+          ("LIBXML_AUTOMATA_ENABLED")
+          ("LIBXML_LZMA_ENABLED")
+          ("LIBXML_CATALOG_ENABLED")
+          ("WITHOUT_TRIO")
+          ("LIBXML_WRITER_ENABLED")
+          ("LIBXML_XPTR_ENABLED")
+          ("LIBXML_C14N_ENABLED")
+          ("LIBXML_REGEXP_ENABLED")
+          ("LIBXML_MODULES_ENABLED")
+          ("LIBXML_HTML_ENABLED")
+          ("LIBXML_XINCLUDE_ENABLED")
+          ("LIBXML_ATTR_ALLOC_SIZE" (spp-arg-list ("x") 7138 . 7141) . ((symbol "__attribute__" 7142 . 7155) (semantic-list "((alloc_size(x)))" 7155 . 7172)))
+          ("LIBXML_ATTR_FORMAT" (spp-arg-list ("fmt" "args") 7494 . 7504) . ((symbol "__attribute__" 7505 . 7518) (semantic-list "((__format__(__printf__,fmt,args)))" 7518 . 7553)))
+          ("LIBXML_XPATH_ENABLED")
+          ("LIBXML_UNICODE_ENABLED")
+          ("LIBXML_TEST_VERSION" . 
+              ((symbol "xmlCheckVersion" 1223 . 1238) (semantic-list "(20904)" 1238 . 1245) (punctuation ";" 1245 . 1246)))
+          ("__XML_VERSION_H__")
+          ("LIBXML_VERSION_STRING" . ((string "\"20904\"" 899 . 906)))
+          ("LIBXML_PATTERN_ENABLED")
+          ("LIBXML_LEGACY_ENABLED")
+          ("LIBXML_EXPR_ENABLED")
+          ("LIBXML_HTTP_ENABLED")
+          ("LIBXML_ICU_ENABLED")
+          ("LIBXML_SCHEMATRON_ENABLED")
+          ("LIBXML_TREE_ENABLED")
+          ("LIBXML_SAX1_ENABLED")
+          ("LIBXML_DOCB_ENABLED")
+          ("LIBXML_ICONV_ENABLED")
+          ("LIBXML_ISO8859X_ENABLED")
+          ("LIBXML_MODULE_EXTENSION" . ((string "\".so\"" 6271 . 6276)))
+          ("LIBXML_ZLIB_ENABLED")
+          ("ATTRIBUTE_UNUSED" . ((symbol "__attribute__" 6806 . 6819) (semantic-list "((unused))" 6819 . 6829)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__XML_VALID_H__" variable (:constant-flag t) nil [229 244])
+            ("libxml/xmlversion.h" include (:system-flag t) nil [246 276])
+            ("libxml/xmlerror.h" include (:system-flag t) nil [277 305])
+            ("libxml/tree.h" include (:system-flag t) nil [306 330])
+            ("libxml/list.h" include (:system-flag t) nil [331 355])
+            ("libxml/xmlautomata.h" include (:system-flag t) nil [356 387])
+            ("libxml/xmlregexp.h" include (:system-flag t) nil [388 417])
+            ("xmlGetDtdElementDesc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12295 12309])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12316 12336]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12263 12337])
+            ("xmlGetDtdQElementDesc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12167 12181])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12188 12208])
+                    ("prefix" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12215 12237]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12134 12238])
+            ("xmlGetDtdNotationDesc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12067 12081])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12088 12108]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12034 12109])
+            ("xmlGetDtdQAttrDesc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11910 11924])
+                    ("elem" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11931 11951])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11958 11978])
+                    ("prefix" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11985 12007]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11880 12008])
+            ("xmlGetDtdAttrDesc" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11784 11798])
+                    ("elem" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11805 11825])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11832 11852]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11755 11853])
+            ("xmlIsMixedElement" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11686 11700])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11707 11727]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11657 11728])
+            ("xmlGetRefs" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9116 9130])
+                    ("ID" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9136 9154]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9087 9155])
+            ("xmlRemoveRef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9028 9042])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9048 9064]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8997 9065])
+            ("xmlIsRef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8923 8937])
+                    ("elem" variable (:type ("xmlNodePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8943 8959])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8965 8981]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8896 8982])
+            ("xmlFreeRefTable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("table" variable (:type ("xmlRefTablePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8859 8880]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8825 8881])
+            ("xmlAddRef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ctxt" variable (:type ("xmlValidCtxtPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8718 8739])
+                    ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8745 8759])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8765 8786])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8792 8808]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8690 8809])
+            ("xmlRemoveID" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8618 8632])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8638 8654]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8588 8655])
+            ("xmlIsID" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8514 8528])
+                    ("elem" variable (:type ("xmlNodePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8534 8550])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8556 8572]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8487 8573])
+            ("xmlGetID" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8433 8447])
+                    ("ID" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8453 8471]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8406 8472])
+            ("xmlFreeIDTable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("table" variable (:type ("xmlIDTablePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8363 8383]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8330 8384])
+            ("xmlAddID" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ctxt" variable (:type ("xmlValidCtxtPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8223 8244])
+                    ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8250 8264])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8270 8291])
+                    ("attr" variable (:type ("xmlAttrPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8297 8313]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8196 8314])
+            ("xmlFreeAttributeTable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("table" variable (:type ("xmlAttributeTablePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7877 7904]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7843 7905])
+            ("xmlAddAttributeDecl" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ctxt" variable (:type ("xmlValidCtxtPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7426 7447])
+                    ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7454 7468])
+                    ("elem" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7475 7495])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7502 7522])
+                    ("ns" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7529 7547])
+                    ("type" variable (:type ("xmlAttributeType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7554 7576])
+                    ("def" variable (:type ("xmlAttributeDefault" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7583 7607])
+                    ("defaultValue" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7614 7642])
+                    ("tree" variable (:type ("xmlEnumerationPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7649 7672]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7395 7673])
+            ("xmlFreeEnumeration" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("cur" variable (:type ("xmlEnumerationPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7186 7208]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7156 7209])
+            ("xmlCreateEnumeration" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7119 7139]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7087 7140])
+            ("xmlFreeElementTable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("table" variable (:type ("xmlElementTablePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6762 6787]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6731 6788])
+            ("xmlAddElementDecl" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ctxt" variable (:type ("xmlValidCtxtPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6432 6453])
+                    ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6460 6474])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6481 6501])
+                    ("type" variable (:type ("xmlElementTypeVal" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6508 6531])
+                    ("content" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6538 6567]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6403 6568])
+            ("xmlSnprintfElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6012 6022])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [6029 6038])
+                    ("content" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6073 6102])
+                    ("englob" variable (:type "int") (reparse-symbol arg-sub-list) [6109 6120]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5976 6121])
+            ("xmlFreeDocElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5913 5927])
+                    ("cur" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5934 5959]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5878 5960])
+            ("xmlCopyDocElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5811 5825])
+                    ("content" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5832 5861]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5776 5862])
+            ("xmlNewDocElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5668 5682])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5689 5709])
+                    ("type" variable (:type ("xmlElementContentType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5716 5743]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5633 5744])
+            ("xmlFreeElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("cur" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5534 5559]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5501 5560])
+            ("xmlCopyElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("content" variable (:type ("xmlElementContentPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5455 5484]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5422 5485])
+            ("xmlNewElementContent" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5335 5355])
+                    ("type" variable (:type ("xmlElementContentType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5362 5389]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5303 5390])
+            ("xmlFreeNotationTable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("table" variable (:type ("xmlNotationTablePtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4919 4945]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4887 4946])
+            ("xmlAddNotationDecl" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("XMLCALL" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ctxt" variable (:type ("xmlValidCtxtPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4589 4610])
+                    ("dtd" variable (:type ("xmlDtdPtr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4617 4631])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4638 4658])
+                    ("PublicID" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4665 4689])
+                    ("SystemID" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("xmlChar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4696 4720]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4559 4721])
+            ("xmlRefTablePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlRefTable" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4481 4517])
+            ("xmlRefTable" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlHashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [4439 4480])
+            ("xmlIDTablePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlIDTable" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4313 4347])
+            ("xmlIDTable" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlHashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [4272 4312])
+            ("xmlAttributeTablePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlAttributeTable" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4133 4181])
+            ("xmlAttributeTable" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlHashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [4085 4132])
+            ("xmlElementTablePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlElementTable" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3947 3991])
+            ("xmlElementTable" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlHashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [3901 3946])
+            ("xmlNotationTablePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlNotationTable" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3763 3809])
+            ("xmlNotationTable" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlHashTable" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [3716 3762])
+            ("_xmlValidCtxt" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("userData" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [2296 2311])
+                    ("error" variable (:type ("xmlValidityErrorFunc" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2349 2376])
+                    ("warning" variable (:type ("xmlValidityWarningFunc" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2419 2450])
+                    ("node" variable (:type ("xmlNodePtr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2561 2585])
+                    ("nodeNr" variable (:type "int") (reparse-symbol classsubparts) [2625 2651])
+                    ("nodeMax" variable (:type "int") (reparse-symbol classsubparts) [2696 2723])
+                    ("nodeTab" variable
+                       (:pointer 1
+                        :type ("xmlNodePtr" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2771 2798])
+                    ("finishDtd" variable (:type "unsigned int") (reparse-symbol classsubparts) [2831 2858])
+                    ("doc" variable (:type ("xmlDocPtr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2905 2932])
+                    ("valid" variable (:type "int") (reparse-symbol classsubparts) [2962 2989])
+                    ("vstate" variable
+                       (:pointer 1
+                        :type ("xmlValidState" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3105 3131])
+                    ("vstateNr" variable (:type "int") (reparse-symbol classsubparts) [3163 3191])
+                    ("vstateMax" variable (:type "int") (reparse-symbol classsubparts) [3237 3266])
+                    ("vstateTab" variable
+                       (:pointer 1
+                        :type ("xmlValidState" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3315 3344])
+                    ("am" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [3550 3579])
+                    ("state" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [3584 3613]))                  )
+                (reparse-symbol extern-c-contents) [2269 3623])
+            ("xmlValidCtxtPtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlValidCtxt" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2230 2268])
+            ("xmlValidCtxt" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlValidCtxt" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [2187 2229])
+            ("LIBXML_ATTR_FORMAT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1750 1774])
+            ("LIBXML_ATTR_FORMAT" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1164 1188])
+            ("xmlValidStatePtr" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("xmlValidState" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [572 612])
+            ("xmlValidState" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_xmlValidState" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [527 571]))          
+      :file "valid.h"
+      :pointmax 13623
+      :fsize 13622
+      :lastmodtime '(23405 55743 0 0)
+      :unmatched-syntax '((symbol 12249 . 12262) (symbol 12239 . 12248) (symbol 12120 . 12133) (symbol 12110 . 12119) (symbol 12019 . 12033) (symbol 12009 . 12018) (symbol 11864 . 11879) (symbol 11854 . 11863) (symbol 11739 . 11754) (symbol 11729 . 11738) (INT 11653 . 11656) (symbol 11643 . 11652) (symbol 9076 . 9086) (symbol 9066 . 9075) (INT 8993 . 8996) (symbol 8983 . 8992) (INT 8892 . 8895) (symbol 8882 . 8891) (VOID 8820 . 8824) (symbol 8810 . 8819) (symbol 8680 . 8689) (symbol 8670 . 8679) (INT 8584 . 8587) (symbol 8574 . 8583) (INT 8483 . 8486) (symbol 8473 . 8482) (symbol 8395 . 8405) (symbol 8385 . 8394) (VOID 8325 . 8329) (symbol 8315 . 8324) (symbol 8187 . 8195) (symbol 8177 . 8186) (VOID 7838 . 7842) (symbol 7828 . 7837) (symbol 7379 . 7394) (symbol 7369 . 7378) (VOID 7151 . 7155) (symbol 7141 . 7150) (symbol 7069 . 7086) (symbol 7059 . 7068) (VOID 6726 . 6730) (symbol 6716 . 6725) (symbol 6389 . 6402) (symbol 6379 . 6388) (VOID 5971 . 5975) (symbol 5961 . 5970) (VOID 5873 . 5877) (symbol 5863 . 5872) (symbol 5755 . 5775) (symbol 5745 . 5754) (symbol 5612 . 5632) (symbol 5602 . 5611) (VOID 5496 . 5500) (symbol 5486 . 5495) (symbol 5401 . 5421) (symbol 5391 . 5400) (symbol 5282 . 5302) (symbol 5272 . 5281) (VOID 4882 . 4886) (symbol 4872 . 4881) (symbol 4544 . 4558) (symbol 4534 . 4543) (number 1771 . 1772) (number 1769 . 1770) (semantic-list 1696 . 1749) (semantic-list 1661 . 1695) (VOID 1656 . 1660) (TYPEDEF 1648 . 1655) (number 1185 . 1186) (number 1183 . 1184) (semantic-list 1114 . 1163) (semantic-list 1081 . 1113) (VOID 1076 . 1080) (TYPEDEF 1068 . 1075))
+      :lexical-table 
+        '(("__XML_VALID_H__")
+          )
+))
+  :file "!usr!include!libxml2!libxml!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

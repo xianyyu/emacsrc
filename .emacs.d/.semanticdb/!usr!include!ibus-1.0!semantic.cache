@@ -1,0 +1,206 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__IBUS_TEXT_H_" variable (:constant-flag t) nil [1121 1135])
+            ("ibusserializable.h" include nil nil [1444 1473])
+            ("ibusattrlist.h" include nil nil [1474 1499])
+            ("IBUS_TYPE_TEXT" variable (:constant-flag t) nil [1561 1575])
+            ("IBUS_TEXT" variable (:constant-flag t) nil [1626 1635])
+            ("IBUS_TEXT_CLASS" variable (:constant-flag t) nil [1730 1745])
+            ("IBUS_IS_TEXT" variable (:constant-flag t) nil [1838 1850])
+            ("IBUS_IS_TEXT_CLASS" variable (:constant-flag t) nil [1932 1950])
+            ("IBUS_TEXT_GET_CLASS" variable (:constant-flag t) nil [2025 2044])
+            ("IBusText" type
+               (:typedef ("_IBusText" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [2141 2175])
+            ("IBusTextClass" type
+               (:typedef ("_IBusTextClass" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [2176 2220])
+            ("_IBusText" type
+               (:members 
+                  ( ("parent" variable (:type ("IBusSerializable" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2533 2557])
+                    ("is_static" variable (:type ("gboolean" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2600 2619])
+                    ("text" variable
+                       (:pointer 1
+                        :type ("gchar" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2624 2637])
+                    ("attrs" variable
+                       (:pointer 1
+                        :type ("IBusAttrList" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2642 2662]))                  
+                :type "struct")
+                nil [2510 2665])
+            ("_IBusTextClass" type
+               (:members 
+                  ( ("parent" variable (:type ("IBusSerializableClass" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2695 2724]))                  
+                :type "struct")
+                nil [2667 2727])
+            ("ibus_text_get_type" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2782 2787]))                  
+                :type ("GType" type (:type "class") nil nil))
+                nil [2729 2788])
+            ("ibus_text_new_from_string" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("gchar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3096 3116]))                  
+                :type ("IBusText" type (:type "class") nil nil))
+                nil [3043 3117])
+            ("ibus_text_new_from_ucs4" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("gunichar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3437 3457]))                  
+                :type ("IBusText" type (:type "class") nil nil))
+                nil [3384 3458])
+            ("ibus_text_new_from_static_string" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("gchar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3796 3816]))                  
+                :type ("IBusText" type (:type "class") nil nil))
+                nil [3743 3817])
+            ("G_GNUC_PRINTF" function
+               (:prototype-flag t
+                :type "int")
+                nil [4227 4248])
+            ("ibus_text_new_from_unichar" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("c" variable (:type ("gunichar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4494 4512]))                  
+                :type ("IBusText" type (:type "class") nil nil))
+                nil [4441 4513])
+            ("ibus_text_append_attribute" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4835 4856])
+                    ("type" variable (:type ("guint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4910 4931])
+                    ("value" variable (:type ("guint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4985 5007])
+                    ("start_index" variable (:type ("guint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5061 5089])
+                    ("end_index" variable (:type ("gint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5143 5169]))                  
+                :type "void")
+                nil [4782 5170])
+            ("ibus_text_get_length" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5519 5540]))                  
+                :type ("guint" type (:type "class") nil nil))
+                nil [5466 5541])
+            ("ibus_text_get_is_static" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5746 5767]))                  
+                :type ("gboolean" type (:type "class") nil nil))
+                nil [5693 5768])
+            ("ibus_text_get_text" function
+               (:prototype-flag t
+                :pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5972 5993]))                  
+                :type ("gchar" type (:type "class") nil nil))
+                nil [5919 5994])
+            ("ibus_text_get_attributes" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6228 6249]))                  
+                :type ("IBusAttrList" type (:type "class") nil nil))
+                nil [6175 6250])
+            ("ibus_text_set_attributes" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("text" variable
+                       (:pointer 1
+                        :type ("IBusText" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6392 6413])
+                    ("attrs" variable
+                       (:pointer 1
+                        :type ("IBusAttrList" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6467 6489]))                  
+                :type "void")
+                nil [6339 6490]))          
+      :file "ibustext.h"
+      :pointmax 6513
+      :fsize 6512
+      :lastmodtime '(23945 13024 0 0)
+      :unmatched-syntax '((symbol 6493 . 6504) (number 4245 . 4246) (number 4242 . 4243) (semantic-list 4147 . 4226) (symbol 4112 . 4137) (punctuation 4111 . 4112) (symbol 4095 . 4103) (symbol 2126 . 2139) (string 1041 . 1081) (symbol 1035 . 1040) (punctuation 1034 . 1035))
+      :lexical-table 
+        '(("IBUS_TEXT_GET_CLASS" (spp-arg-list ("obj") 2044 . 2049) . ((semantic-list "(G_TYPE_INSTANCE_GET_CLASS ((obj), IBUS_TYPE_TEXT, IBusTextClass))" 2058 . 2124)))
+          ("IBUS_TEXT_CLASS" (spp-arg-list ("klass") 1745 . 1752) . ((semantic-list "(G_TYPE_CHECK_CLASS_CAST ((klass), IBUS_TYPE_TEXT, IBusTextClass))" 1763 . 1829)))
+          ("__IBUS_TEXT_H_")
+          ("IBUS_TEXT" (spp-arg-list ("obj") 1635 . 1640) . ((semantic-list "(G_TYPE_CHECK_INSTANCE_CAST ((obj), IBUS_TYPE_TEXT, IBusText))" 1659 . 1721)))
+          ("IBUS_IS_TEXT" (spp-arg-list ("obj") 1850 . 1855) . ((semantic-list "(G_TYPE_CHECK_INSTANCE_TYPE ((obj), IBUS_TYPE_TEXT))" 1871 . 1923)))
+          ("IBUS_IS_TEXT_CLASS" (spp-arg-list ("klass") 1950 . 1957) . ((semantic-list "(G_TYPE_CHECK_CLASS_TYPE ((klass), IBUS_TYPE_TEXT))" 1965 . 2016)))
+          ("IBUS_TYPE_TEXT" . ((semantic-list "(ibus_text_get_type ())" 1594 . 1617)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "ibusserializable.h"
+      :fsize 9868
+      :lastmodtime '(23945 13024 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "ibusattrlist.h"
+      :fsize 3566
+      :lastmodtime '(23945 13024 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__IBUS_DEBUG_H_" variable (:constant-flag t) nil [1122 1137])
+            ("ibus_warning" variable (:constant-flag t) nil [1583 1595]))          
+      :file "ibusdebug.h"
+      :pointmax 1678
+      :fsize 1677
+      :lastmodtime '(23945 13024 0 0)
+      :unmatched-syntax '((string 1041 . 1081) (symbol 1035 . 1040) (punctuation 1034 . 1035))
+      :lexical-table 
+        '(("__IBUS_DEBUG_H_")
+          ("ibus_warning" (spp-arg-list ("msg" "args...") 1595 . 1609) . ((symbol "g_warning" 1616 . 1625) (semantic-list "(\"%s:%d, \" msg, __FILE__, __LINE__, ##args)" 1625 . 1668)))
+          )
+))
+  :file "!usr!include!ibus-1.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("HELLO_VERSION_MAJOR" variable (:constant-flag t) nil [9 28])
+            ("HELLO_VERSION_MINOR" variable (:constant-flag t) nil [39 58]))          
+      :file "config.h"
+      :pointmax 61
+      :fsize 60
+      :lastmodtime '(24067 18073 313812 21000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HELLO_VERSION_MAJOR" . ((number "1" 29 . 30)))
+          ("HELLO_VERSION_MINOR" . ((number "0" 59 . 60)))
+          )
+))
+  :file "!home!longji!Documents!project!local!cpp!test!build!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

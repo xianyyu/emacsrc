@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MAGICKCORE_METHOD_H" variable (:constant-flag t) nil [940 959])
+            ("C" extern nil nil [1009 92697]))          
+      :file "methods.h"
+      :pointmax 92713
+      :fsize 92712
+      :lastmodtime '(24009 41441 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAGICKCORE_METHOD_H")
+          )
+))
+  :file "!usr!include!ImageMagick-6!magick!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

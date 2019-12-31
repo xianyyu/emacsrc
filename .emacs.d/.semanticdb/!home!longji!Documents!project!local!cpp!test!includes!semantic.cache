@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MATH_FUNCS" variable (:constant-flag t) nil [29 39])
+            ("sum" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [50 56])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [57 63]))                  
+                :type "int")
+                nil [42 64]))          
+      :file "math_funcs.h"
+      :pointmax 74
+      :fsize 73
+      :lastmodtime '(24067 22865 495608 493000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MATH_FUNCS")
+          )
+))
+  :file "!home!longji!Documents!project!local!cpp!test!includes!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

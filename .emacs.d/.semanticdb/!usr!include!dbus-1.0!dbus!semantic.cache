@@ -1,0 +1,66 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("DBUS_MACROS_H" variable (:constant-flag t) nil [1130 1143])
+            ("DBUS_BEGIN_DECLS" variable (:constant-flag t) nil [1175 1191])
+            ("DBUS_END_DECLS" variable (:constant-flag t) nil [1216 1230])
+            ("TRUE" variable (:constant-flag t) nil [1325 1329])
+            ("FALSE" variable (:constant-flag t) nil [1363 1368])
+            ("NULL" variable (:constant-flag t) nil [1425 1429])
+            ("DBUS_DEPRECATED" variable (:constant-flag t) nil [1611 1626])
+            ("DBUS_DEPRECATED" variable (:constant-flag t) nil [1771 1786])
+            ("_DBUS_GNUC_EXTENSION" variable (:constant-flag t) nil [1864 1884])
+            ("_DBUS_GNUC_PRINTF" variable (:constant-flag t) nil [2049 2066])
+            ("_DBUS_GNUC_NORETURN" variable (:constant-flag t) nil [2167 2186])
+            ("_DBUS_GNUC_UNUSED" variable (:constant-flag t) nil [2253 2270])
+            ("DBUS_MALLOC" variable (:constant-flag t) nil [2552 2563])
+            ("DBUS_ALLOC_SIZE" variable (:constant-flag t) nil [2703 2718])
+            ("DBUS_ALLOC_SIZE2" variable (:constant-flag t) nil [2765 2781])
+            ("_DBUS_GNUC_WARN_UNUSED_RESULT" variable (:constant-flag t) nil [2967 2996])
+            ("DBUS_EXPORT" variable (:constant-flag t) nil [5389 5400])
+            ("DBUS_PRIVATE_EXPORT" variable (:constant-flag t) nil [5890 5909])
+            ("_dbus_clear_pointer_impl" variable (:constant-flag t) nil [6420 6444]))          
+      :file "dbus-macros.h"
+      :pointmax 6758
+      :fsize 6757
+      :lastmodtime '(23806 39901 0 0)
+      :unmatched-syntax '((semantic-list 2029 . 2040) (symbol 2022 . 2029) (string 1001 . 1091) (symbol 995 . 1000) (punctuation 994 . 995))
+      :lexical-table 
+        '(("_DBUS_GNUC_EXTENSION" . ((symbol "__extension__" 1885 . 1898)))
+          ("_DBUS_GNUC_PRINTF" (spp-arg-list ("format_idx" "arg_idx") 2066 . 2089) . ((symbol "__attribute__" 2097 . 2110) (semantic-list "((__format__ (__printf__, format_idx, arg_idx)))" 2110 . 2158)))
+          ("DBUS_PRIVATE_EXPORT" . ((symbol "__attribute__" 5910 . 5923) (semantic-list "((__visibility__ (\"default\")))" 5924 . 5954)))
+          ("DBUS_END_DECLS" . ((close-paren "}" 1234 . 1235)))
+          ("TRUE" . ((number "1" 1330 . 1331)))
+          ("FALSE" . ((number "0" 1369 . 1370)))
+          ("NULL" . ((semantic-list "(0L)" 1437 . 1441)))
+          ("DBUS_MALLOC" . ((symbol "__attribute__" 2568 . 2581) (semantic-list "((__malloc__))" 2581 . 2595)))
+          ("_DBUS_GNUC_WARN_UNUSED_RESULT" . ((symbol "__attribute__" 2997 . 3010) (semantic-list "((warn_unused_result))" 3010 . 3032)))
+          ("_dbus_clear_pointer_impl" (spp-arg-list ("T" "pointer_to_pointer" "destroy") 6444 . 6476) . 
+              ((DO "do" 6481 . 6483) (semantic-list "{ \\
+    T **_pp = (pointer_to_pointer); \\
+    T *_value = *_pp; \\
+    \\
+    *_pp = NULL; \\
+    \\
+    if (_value != NULL) \\
+      destroy (_value); \\
+  }" 6484 . 6636) (WHILE "while" 6637 . 6642) (semantic-list "(0)" 6643 . 6646)))
+          ("_DBUS_GNUC_UNUSED" . ((symbol "__attribute__" 2301 . 2314) (semantic-list "((__unused__))" 2314 . 2328)))
+          ("DBUS_EXPORT" . ((symbol "__attribute__" 5401 . 5414) (semantic-list "((__visibility__ (\"default\")))" 5415 . 5445)))
+          ("DBUS_DEPRECATED")
+          ("DBUS_ALLOC_SIZE2" (spp-arg-list ("x" "y") 2781 . 2786) . ((symbol "__attribute__" 2787 . 2800) (semantic-list "((__alloc_size__(x,y)))" 2800 . 2823)))
+          ("DBUS_BEGIN_DECLS" . 
+              ((EXTERN "extern" 1193 . 1199) (string "\"C\"" 1200 . 1203) (open-paren "{" 1204 . 1205)))
+          ("_DBUS_GNUC_NORETURN" . ((symbol "__attribute__" 2215 . 2228) (semantic-list "((__noreturn__))" 2228 . 2244)))
+          ("DBUS_MACROS_H")
+          ("DBUS_ALLOC_SIZE" (spp-arg-list ("x") 2718 . 2721) . ((symbol "__attribute__" 2722 . 2735) (semantic-list "((__alloc_size__(x)))" 2735 . 2756)))
+          )
+))
+  :file "!usr!include!dbus-1.0!dbus!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

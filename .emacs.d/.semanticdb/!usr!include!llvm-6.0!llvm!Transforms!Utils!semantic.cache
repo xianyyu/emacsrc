@@ -1,0 +1,1035 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("LLVM_TRANSFORMS_UTILS_SIMPLIFYLIBCALLS_H" variable (:constant-flag t) nil [623 663])
+            ("llvm/ADT/STLExtras.h" include nil nil [665 696])
+            ("llvm/Analysis/TargetLibraryInfo.h" include nil nil [697 741])
+            ("llvm/IR/IRBuilder.h" include nil nil [742 772])
+            ("llvm" type
+               (:members 
+                  ( ("StringRef" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [791 807])
+                    ("Value" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [808 820])
+                    ("CallInst" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [821 836])
+                    ("DataLayout" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [837 854])
+                    ("Instruction" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [855 873])
+                    ("TargetLibraryInfo" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [874 898])
+                    ("BasicBlock" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [899 916])
+                    ("Function" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [917 932])
+                    ("OptimizationRemarkEmitter" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [933 965])
+                    ("FortifiedLibCallSimplifier" type
+                       (:members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [1445 1453])
+                            ("TLI" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("TargetLibraryInfo" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1456 1485])
+                            ("OnlyLowerUnknownSize" variable (:type "bool") (reparse-symbol classsubparts) [1488 1514])
+                            ("public" label nil (reparse-symbol classsubparts) [1516 1523])
+                            ("FortifiedLibCallSimplifier" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("TLI" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("TargetLibraryInfo" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1553 1582])
+                                    ("OnlyLowerUnknownSize" variable
+                                       (:default-value "false"
+                                        :type "bool")
+                                        (reparse-symbol arg-sub-list) [1612 1645]))                                  
+                                :type ("FortifiedLibCallSimplifier" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1526 1647])
+                            ("optimizeCall" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1881 1894]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1861 1895])
+                            ("private" label nil (reparse-symbol classsubparts) [1897 1905])
+                            ("optimizeMemCpyChk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1933 1946])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1947 1962]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1908 1963])
+                            ("optimizeMemMoveChk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1992 2005])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2006 2021]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1966 2022])
+                            ("optimizeMemSetChk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2050 2063])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2064 2079]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2025 2080])
+                            ("optimizeStrpCpyChk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2183 2196])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2197 2212])
+                                    ("Func" variable (:type ("LibFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2213 2226]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2157 2227])
+                            ("optimizeStrpNCpyChk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2257 2270])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2271 2286])
+                                    ("Func" variable (:type ("LibFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2287 2300]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2230 2301])
+                            ("isFortifiedCallFoldable" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2448 2461])
+                                    ("ObjSizeOp" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2462 2481])
+                                    ("SizeOp" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2513 2529])
+                                    ("isString" variable (:type "bool") (reparse-symbol arg-sub-list) [2530 2544]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [2419 2545]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1410 2548])
+                    ("LibCallSimplifier" type
+                       (:members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [2804 2812])
+                            ("FortifiedSimplifier" variable (:type ("FortifiedLibCallSimplifier" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2815 2862])
+                            ("DL" variable
+                               (:constant-flag t
+                                :type ("DataLayout" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2865 2886])
+                            ("TLI" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("TargetLibraryInfo" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2889 2918])
+                            ("ORE" variable (:type ("OptimizationRemarkEmitter" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2921 2952])
+                            ("UnsafeFPShrink" variable (:type "bool") (reparse-symbol classsubparts) [2955 2975])
+                            ("Replacer" variable (:type "int") (reparse-symbol classsubparts) [3021 3030])
+                            ("replaceAllUsesWithDefault" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("I" variable
+                                       (:pointer 1
+                                        :type ("Instruction" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3252 3267])
+                                    ("With" variable
+                                       (:pointer 1
+                                        :type ("Value" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3268 3280]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3214 3281])
+                            ("replaceAllUsesWith" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("I" variable
+                                       (:pointer 1
+                                        :type ("Instruction" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3385 3400])
+                                    ("With" variable
+                                       (:pointer 1
+                                        :type ("Value" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3401 3413]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3361 3414])
+                            ("public" label nil (reparse-symbol classsubparts) [3416 3423])
+                            ("LibCallSimplifier" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("DL" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("DataLayout" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3444 3465])
+                                    ("TLI" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("TargetLibraryInfo" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3466 3495])
+                                    ("ORE" variable
+                                       (:reference 1
+                                        :type ("OptimizationRemarkEmitter" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3516 3547])
+                                    ("" variable (:type ("function_ref" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3568 3581])
+                                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [3581 3609])
+                                    ("" variable (:type ("Replacer" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3611 3672]))                                  
+                                :type ("LibCallSimplifier" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3426 3674])
+                            ("optimizeCall" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4130 4143]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4110 4144])
+                            ("private" label nil (reparse-symbol classsubparts) [4146 4154])
+                            ("optimizeStrCat" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4229 4242])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4243 4258]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4207 4259])
+                            ("optimizeStrNCat" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4285 4298])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4299 4314]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4262 4315])
+                            ("optimizeStrChr" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4340 4353])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4354 4369]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4318 4370])
+                            ("optimizeStrRChr" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4396 4409])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4410 4425]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4373 4426])
+                            ("optimizeStrCmp" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4451 4464])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4465 4480]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4429 4481])
+                            ("optimizeStrNCmp" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4507 4520])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4521 4536]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4484 4537])
+                            ("optimizeStrCpy" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4562 4575])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4576 4591]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4540 4592])
+                            ("optimizeStpCpy" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4617 4630])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4631 4646]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4595 4647])
+                            ("optimizeStrNCpy" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4673 4686])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4687 4702]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4650 4703])
+                            ("optimizeStrLen" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4728 4741])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4742 4757]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4706 4758])
+                            ("optimizeStrPBrk" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4784 4797])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4798 4813]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4761 4814])
+                            ("optimizeStrTo" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4838 4851])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4852 4867]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4817 4868])
+                            ("optimizeStrSpn" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4893 4906])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4907 4922]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4871 4923])
+                            ("optimizeStrCSpn" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4949 4962])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4963 4978]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4926 4979])
+                            ("optimizeStrStr" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5004 5017])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5018 5033]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4982 5034])
+                            ("optimizeMemChr" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5059 5072])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5073 5088]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5037 5089])
+                            ("optimizeMemCmp" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5114 5127])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5128 5143]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5092 5144])
+                            ("optimizeMemCpy" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5169 5182])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5183 5198]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5147 5199])
+                            ("optimizeMemMove" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5225 5238])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5239 5254]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5202 5255])
+                            ("optimizeMemSet" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5280 5293])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5294 5309]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5258 5310])
+                            ("optimizeWcslen" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5335 5348])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5349 5364]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5313 5365])
+                            ("optimizeStringMemoryLibCall" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5465 5478])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5479 5494]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5430 5495])
+                            ("optimizeCAbs" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5551 5564])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5565 5580]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5531 5581])
+                            ("optimizeCos" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5603 5616])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5617 5632]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5584 5633])
+                            ("optimizePow" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5655 5668])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5669 5684]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5636 5685])
+                            ("replacePowWithSqrt" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("Pow" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5714 5728])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5729 5744]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5688 5745])
+                            ("optimizeExp2" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5768 5781])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5782 5797]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5748 5798])
+                            ("optimizeFMinFMax" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5825 5838])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5839 5854]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5801 5855])
+                            ("optimizeLog" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5877 5890])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5891 5906]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5858 5907])
+                            ("optimizeSqrt" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5930 5943])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5944 5959]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5910 5960])
+                            ("optimizeSinCosPi" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5987 6000])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6001 6016]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5963 6017])
+                            ("optimizeTan" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6039 6052])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6053 6068]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6020 6069])
+                            ("optimizeFloatingPointLibCall" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6171 6184])
+                                    ("Func" variable (:type ("LibFunc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6185 6198])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6237 6252]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6135 6253])
+                            ("optimizeFFS" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6316 6329])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6330 6345]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6297 6346])
+                            ("optimizeFls" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6368 6381])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6382 6397]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6349 6398])
+                            ("optimizeAbs" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6420 6433])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6434 6449]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6401 6450])
+                            ("optimizeIsDigit" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6476 6489])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6490 6505]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6453 6506])
+                            ("optimizeIsAscii" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6532 6545])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6546 6561]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6509 6562])
+                            ("optimizeToAscii" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6588 6601])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6602 6617]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6565 6618])
+                            ("optimizeErrorReporting" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6702 6715])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6716 6731])
+                                    ("StreamArg" variable
+                                       (:default-value "-1"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [6764 6782]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6672 6784])
+                            ("optimizePrintF" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6809 6822])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6823 6838]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6787 6839])
+                            ("optimizeSPrintF" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6865 6878])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6879 6894]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6842 6895])
+                            ("optimizeFPrintF" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6921 6934])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6935 6950]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6898 6951])
+                            ("optimizeFWrite" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6976 6989])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6990 7005]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6954 7006])
+                            ("optimizeFPuts" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7030 7043])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7044 7059]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7009 7060])
+                            ("optimizePuts" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7083 7096])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7097 7112]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7063 7113])
+                            ("emitStrLenMemCpy" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("Src" variable
+                                       (:pointer 1
+                                        :type ("Value" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7161 7172])
+                                    ("Dst" variable
+                                       (:pointer 1
+                                        :type ("Value" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7173 7184])
+                                    ("Len" variable (:type ("uint64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7185 7198])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7199 7214]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7137 7215])
+                            ("classifyArgUse" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("Val" variable
+                                       (:pointer 1
+                                        :type ("Value" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7238 7249])
+                                    ("F" variable
+                                       (:pointer 1
+                                        :type ("Function" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7250 7262])
+                                    ("IsFloat" variable (:type "bool") (reparse-symbol arg-sub-list) [7263 7276])
+                                    ("SinCalls" variable
+                                       (:reference 1
+                                        :type ("SmallVectorImpl" type
+                                             (:template-specifier 
+                                                ( ("CallInst" type (:pointer 1) nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7299 7337])
+                                    ("CosCalls" variable
+                                       (:reference 1
+                                        :type ("SmallVectorImpl" type
+                                             (:template-specifier 
+                                                ( ("CallInst" type (:pointer 1) nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7360 7398])
+                                    ("SinCosCalls" variable
+                                       (:reference 1
+                                        :type ("SmallVectorImpl" type
+                                             (:template-specifier 
+                                                ( ("CallInst" type (:pointer 1) nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7421 7462]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [7218 7463])
+                            ("optimizePrintFString" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7494 7507])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7508 7523]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7466 7524])
+                            ("optimizeSPrintFString" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7556 7569])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7570 7585]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7527 7586])
+                            ("optimizeFPrintFString" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7618 7631])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7632 7647]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7589 7648])
+                            ("hasFloatVersion" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("FuncName" variable (:type ("StringRef" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7824 7843]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [7803 7844])
+                            ("optimizeStringLength" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :arguments 
+                                  ( ("CI" variable
+                                       (:pointer 1
+                                        :type ("CallInst" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7921 7934])
+                                    ("B" variable
+                                       (:reference 1
+                                        :type ("IRBuilder" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7935 7950])
+                                    ("CharSize" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [7951 7969]))                                  
+                                :type ("Value" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7893 7970]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2778 7973]))                  
+                :type "namespace")
+                nil [774 7975]))          
+      :file "SimplifyLibCalls.h"
+      :pointmax 8006
+      :fsize 8005
+      :lastmodtime '(23193 16989 0 0)
+      :unmatched-syntax '((punctuation 3609 . 3610) (semantic-list 3585 . 3609) (punctuation 3580 . 3581) (punctuation 3019 . 3020) (semantic-list 2995 . 3019) (VOID 2991 . 2995) (punctuation 2990 . 2991) (symbol 2978 . 2990))
+      :lexical-table 
+        '(("LLVM_TRANSFORMS_UTILS_SIMPLIFYLIBCALLS_H")
+          )
+))
+  :file "!usr!include!llvm-6.0!llvm!Transforms!Utils!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
